@@ -1,0 +1,26 @@
+★ Polymorphism(다형성)
+	- 클래스마다 공통적인 행위정보가 존재 → 추상 메소드 구현 ▶ 추상 클래스 
+	- ★①상속★의 전제 조건에서 하위 클래스에서 반드시 메소드의 ★②재정의(Override)★가 필수
+	- 하위 클래스의 동작 방식을 몰라도 하위 클래스를 동작 시킬 수 있다 : ★③UpCasting 객체생성★
+	- 하위 클래스의 동작이 수정되더라도 상위클래스 쪽에서는 아무런 영향을 미치지 않는다.
+	- 상위 클래스가 동일한 메세지(명령)로 하위 클래스를 서로 다르게 동작시키는 객체지향 개념
+	- 유지보수, 확장성이 좋아진다! 그래서 요걸쓴다~
+	 
+
+★ Interface(인터페이스)
+	- JAVA는 단일 상속만 허용 → 다중 상속의 장점을 활용할 필요성이 있다 ▶ Interface 구현
+	- 모든 메소드는 추상 메소드로만 구성된다 : abstract 키워드 활용해서 메소드를 만들어라~
+	- abstract 키워드가 생략되어도 추상 메소드로 간주한다
+	- 상속받은 하위 클래스에서 반드시 재정의(Override)가 필수로 동작이 되어야 한다.(추상메소드implements는 Override를 무조건 해줘야해)
+	- Interface의 상속은 implements 키워드 사용 
+	- 객체를 생성할 수 없으며, 단순히 다형성을 보장하기 위한 부모의 역할을 수행 (추상클래스랑 개념은 같아~)
+	
+	public class A { ~~ body} ▶ 일반적인 클래스
+	
+	public class A extends B { ~~body ~~} ▶ A는  B를 상속받는다( A → B )
+	
+	public class A extends B implements C { ~~body ~~}
+		▶ A(하위)는 B(상위)를 상속받고, C(인터페이스)의 기능을 구현하였다 -extends 뒤에는 하나만 올수 있는데
+	
+	public class A extends B implements C, D, E { ~~body ~~} - implements의 뒤에는 여러개 받을 수 있어!
+		▶ A(하위)는 B(상위)를 상속받고, C와 D와 E(인터페이스)의 기능을 구현하였다

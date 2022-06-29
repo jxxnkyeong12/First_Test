@@ -1,0 +1,22 @@
+○FruitMain.java ▶ default package 에 만들고
+	- 과일정보(과일명, 단가, 수량 ▶ FruitDTO.java)를 저장할
+	  컬렉션 구조의 무한배열(ArrayList<>)을 선언 및 생성하고 값을 할당하자
+	- 포도, 18000, 2  		- 망고, 3000, 12개  - 참다래, 900, 33
+	- 파인애플, 7000, 5		- 토마토, 1500, 15개 
+	- FruitDAO 객체를 생성하고 메소드 호출 : 객체 생성 시 컬렉션 배열(fruit<>)을 매개변수로 전달하자
+	- 가격을 계산하는 메소드 호출 : getPrice() 
+	- 가격의 내림차순으로 정렬하는 메소드 호출 : priceDescSort()
+	- 출력메소드 호출해라 : display()
+
+○FruitDTO.java ▶ com.hanul.fruit package
+	- 멤버변수 선언 : name, cost, qty, price
+	- 디폴트 생성자 메소드
+	- 생성자 메소드 초기화 : 멤버변수 3개로 초기화
+	- getters & setters 메소드
+
+○FruitDAO.java ▶ com.hanul.fruit package
+	- 컬렉션 배열(fruti<>)을 매개변수로 전달받는 생성자 메소드 구현
+	- 가격을 계산하는 메소드 정의 : getPrice() 
+	- 가격의 내림차순으로 정렬하는 메소드 정의 : priceDescSort()
+	- 출력메소드 정의하자 : display() → 금액의 경우 통화기호와 천당위 구분기호를 표시
+	
