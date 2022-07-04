@@ -3,21 +3,18 @@ package student;
 public class StudentDTO {
 	private String  student_name, user_id, user_pw, first_name, last_name, create_ymd, update_ymd, admin_yn;
 	private int student_no, money;
+
+	public StudentDTO() {}
 	
 	
-	
-	
-	
-	
-	public StudentDTO(String student_name, String user_id, String user_pw, int student_no) {
+	public StudentDTO(int student_no, String student_name, String user_id, String first_name, String last_name) {
 		super();
+		this.student_no = student_no;
 		this.student_name = student_name;
 		this.user_id = user_id;
-		this.user_pw = user_pw;
-		this.student_no = student_no;
+		this.first_name = first_name;
+		this.last_name = last_name;
 	}
-	
-	
 	
 	
 	
