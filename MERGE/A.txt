@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 A
 BB
 C
+=======
+A 
+B
+CC
+>>>>>>> 9405705fe3c32f9d77a650d5b1cf1d21d6c29ccc
 D
