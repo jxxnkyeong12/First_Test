@@ -47,6 +47,7 @@ td {
 	
 	
 	<h1>학생정보를 보여 줍니다.</h1>
+	<%-- <%response.setIntHeader("Refresh", 3); %>  --%> <!--  3초에 한번씩 새로고침이 되서 다른사람이 삭제한게 실시간으로 확인가능!-->
 	<table class="styled-table">
 		<thead>
 	<tr>

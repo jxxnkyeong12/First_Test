@@ -74,14 +74,44 @@ public class StudentController extends HttpServlet {
 			
 			 
 		}else if(req.getServletPath().equals("/update.st")) {
-			System.out.println("업데이트 성공 확인용");
+			//System.out.println("업데이트 성공 확인용");
 		
 			 StudentDTO dto = dao.getStudentInfo(req.getParameter("student_no"), req.getParameter("user_id"));
-			 System.out.println(req.getParameter("student_no"));
-			 System.out.println(req.getParameter("user_id"));
 			 req.setAttribute("dto", dto);
 			rd = req.getRequestDispatcher("Student/update.jsp");
 			 
+		}else if(req.getServletPath().equals("/modify.st")) {
+			//(int student_no, String student_name, String user_id, String first_name, String last_name
+			StudentDTO dto = new StudentDTO(Integer.parseInt(req.getParameter("student_no")), 
+					req.getParameter("student_name"), 
+					req.getParameter("user_id"), 
+					req.getParameter("first_name"), 
+					req.getParameter("last_name"));
+					
+					dao.getModify(dto); // select x , int(return)		
+			
+			//수정하는 로직을 작성하기
+			//name <= x, first_name , last_name 만 수정되게끔 처리
+			//업데이트 쿼리를 실행하고 0보다 큰 숫자가 return 되는지를 체크해보기
+			//DAO이용한 업데이트 처리 ? (from 태그 또는 url(get)방식으로 Servlet에 왔을때 파라메터가 어디있는지?)
+			
+			int result = dao.getModify(dto); // select x , int(return)	
+		
+			resp.sendRedirect("list.st"); //<페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
+			return;
+			//rd = req.getRequestDispatcher("Student/modify.jsp");
+			 
+		}else if(req.getServletPath().equals("/delete.st")) {
+			StudentDTO dto = new StudentDTO(Integer.parseInt(req.getParameter("student_no")), 
+					req.getParameter("student_name"), 
+					req.getParameter("user_id"), 
+					req.getParameter("first_name"), 
+					req.getParameter("last_name"));
+					
+					dao.delete(dto);
+					
+					resp.sendRedirect("list.st"); //<링크니까 바로가 - 페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
+					return;
 		}
 		
 		rd.forward(req, resp);
