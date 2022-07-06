@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 A 
 B
 CC
 D
+=======
+<<<<<<< HEAD
+A
+B
+C
+DD
+=======
+AA
+B
+C
+D
+>>>>>>> 46bb651157b2fd33e8ceb184818757215c6dec2c
+>>>>>>> f950d635b0608069018d63ba7df1dc727eb5ccb6
