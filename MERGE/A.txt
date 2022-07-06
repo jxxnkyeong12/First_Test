@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 A
 BB
+=======
+AA
+B
+>>>>>>> 6949812abb03a5f9fb139bad6e23588c0ce3b52d
 C
 D
