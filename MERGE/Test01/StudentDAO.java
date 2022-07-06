@@ -10,10 +10,17 @@ import java.util.ArrayList;
 import javax.servlet.http.HttpServletRequest;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class StudentDAO {
 	Connection conn; //연결선택
 	PreparedStatement ps; //질의문객체, 어디에연결할지 통로
 	ResultSet rs ;//가져온결과
+=======
+public class StudentDAO {
+	Connection conn;
+	PreparedStatement ps; //질의문객체
+	ResultSet rs ;
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 	public Connection getConn() {
 		String url = "jdbc:oracle:thin:@221.144.89.105:3301:XE";
 		String user = "hanul";
@@ -50,9 +57,15 @@ public class StudentDAO {
 		getConn();
 		String sql = " select 1 as num1 from dual ";
 		try {
+<<<<<<< HEAD
 			ps = conn.prepareStatement(sql);//어디에 연결 - SQL에 연결
 			rs = ps.executeQuery();  //요청해서 rs에할당
 			while(rs.next()) {//여기서는 다음행에 값이 있냐없냐T/F
+=======
+			ps = conn.prepareStatement(sql);
+			rs = ps.executeQuery();
+			while(rs.next()) {
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 				System.out.println(rs.getInt("num1"));
 			}
 		} catch (Exception e) {
@@ -76,14 +89,23 @@ public class StudentDAO {
 	
 	public ArrayList<StudentDTO> getLIst(){
 		ArrayList<StudentDTO> list = new ArrayList<StudentDTO>();
+<<<<<<< HEAD
 		getConn();//연결
+=======
+		getConn();
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 		String sql = "SELECT u.* , s.student_name "
 				+ " FROM USER_INFO u left outer join STUDENT s on u.STUDENT_NO = s.STUDENT_NO";
 		try {
 			ps = conn.prepareStatement(sql);
 			rs = ps.executeQuery(); 
+<<<<<<< HEAD
 			while(rs.next()) {//rs는 통체로가져와 입력값검사
 				list.add(new StudentDTO(//생성자메소드
+=======
+			while(rs.next()) {
+				list.add(new StudentDTO(
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 						rs.getString("student_name"), 
 						rs.getString("user_id"), 
 						rs.getString("user_pw"), 
@@ -100,10 +122,16 @@ public class StudentDAO {
 		
 		return list;
 	}
+<<<<<<< HEAD
+=======
+	
+	
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 	// HttpServletRequest req = Controller.req;
 	// String abc = Controller."";
 	// 1 .String student_no , user_id ; ☆☆☆★★★★★
 	public StudentDTO getStudentInfo(String student_no , String user_id) {// 해당하는 메소드가 실행될때 필요한 변수를 어떤곳에 입력받아서 사용하기.
+<<<<<<< HEAD
 		StudentDTO dto = null;//class타입은 선언만해놓기 어려워 널값을넣는다
 		getConn();
 		String sql = " SELECT u.* , s.student_name  FROM USER_INFO u left outer join STUDENT s on u.STUDENT_NO = s.STUDENT_NO "
@@ -231,12 +259,26 @@ public class StudentDAO {
 		
 		try {
 >>>>>>> 84d3a69ade1cfcbf9a17281e4d57b761b1f78cc3
+=======
+		StudentDTO dto = null;
+		getConn();
+		String sql = " SELECT u.* , s.student_name  "
+				+ "FROM USER_INFO u left outer join STUDENT s "
+				+ "on u.STUDENT_NO = s.STUDENT_NO "
+				+ " where  u.STUDENT_NO= ? AND u.USER_ID=? ";
+		try {
+			
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 			ps = conn.prepareStatement(sql);
 			ps.setString(1, student_no);
 			ps.setString(2, user_id);
 			
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//	ps.setString(1, req.getParameter("student_no")); req를 이용하면 항상 req.getparamter가 있는경우에만 이용이가능
+=======
+		//	ps.setString(1, req.getParameter("studentno")); req를 이용하면 항상 req.getparamter가 있는경우에만 이용이가능
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 														  //재활용이나 여러 플랫폼에서 활용하기엔 불편함
 		//	ps.setString(2, req.getParameter("user_id"));
 			rs = ps.executeQuery();
@@ -256,7 +298,10 @@ public class StudentDAO {
 			}
 			
 		} catch (Exception e) {
+<<<<<<< HEAD
 			// TODO Auto-generated catch block
+=======
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 			e.printStackTrace();
 		}
 		//데이터베이스에 접근해서 학생 한명의 정보를 얻어오는 비지니스로직을 구현(데이터 한건 얻어오기)
@@ -264,6 +309,7 @@ public class StudentDAO {
 		return dto;
 	}
 	
+<<<<<<< HEAD
 
 	public int modifyInfo(StudentDTO dto) {
 		getConn();
@@ -281,12 +327,32 @@ public class StudentDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}finally {
+=======
+	//수정 메소드
+	public int updateInfo(String first_name, String last_name, String student_no, String user_id) {
+		getConn();
+		String sql = "UPDATE  user_info "
+				+ "SET     first_name = ? , last_name =? "
+				+ "WHERE   user_id = ?  AND student_no = ?";
+		try {
+			ps = conn.prepareStatement(sql);
+			ps.setString(1, first_name);
+			ps.setString(2, last_name);
+			ps.setString(3, user_id);
+			ps.setString(4, student_no);
+			return ps.executeUpdate();
+		
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 			dbClose();
 		}
 		
 		return 0;
 	}
 	
+<<<<<<< HEAD
 	public int deleteInfo(StudentDTO dto) {
 		getConn();
 		String sql = " delete USER_INFO "+
@@ -303,6 +369,23 @@ public class StudentDAO {
 			dbClose();
 		}
 		
+=======
+	//아이디 삭제 메소드
+	public int deleteInfo(String student_no, String user_id) {
+		getConn();
+		String sql = "DELETE  FROM    user_info "
+				+ "WHERE   user_id = ? AND student_no = ? ";
+		try {
+			ps = conn.prepareStatement(sql);
+			ps.setString(1, user_id);
+			ps.setString(2, student_no);
+			return ps.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			dbClose();
+		}
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
 		return 0;
 	}
 	
@@ -319,6 +402,7 @@ public class StudentDAO {
 	
 	
 	
+<<<<<<< HEAD
 	
 }
 =======
@@ -429,3 +513,6 @@ public class StudentDAO {
    
 }//class
 >>>>>>> 84d3a69ade1cfcbf9a17281e4d57b761b1f78cc3
+=======
+}
+>>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
