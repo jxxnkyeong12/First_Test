@@ -161,25 +161,80 @@ public class StudentDAO {
 		return dto;
 	}//getStudentInfo
 	
-   public StudentDTO getUpdate() {
+//   public StudentDTO getUpdate() {
+//	   
+//	   getConn();
+//	   String sql = " UPDATE user_info "
+//	   		+ " set user_pw = ? "
+//	   		+ " where user_id = ? "; 
+//	   
+//	   try {
+//		ps =conn.prepareStatement(sql);
+//		ps.setString(1, "user_pw");
+//		ps.setString(2, "user_id");
+//		
+//		ps.executeUpdate();
+//	} catch (SQLException e) {
+//		e.printStackTrace();
+//	} finally {
+//		
+//	}
+//	   
+//	   
+//	   return dto;
+//   }//getUpdate
+//   
+   public int getModify(StudentDTO dto) { //() 안에 
 	   
 	   getConn();
 	   String sql = " UPDATE user_info "
-	   		+ " set user_pw = ? "
-	   		+ " where user_id = ? "; 
+	   		+ " SET FIRST_NAME = ?, Last_NAME = ? "
+	   		+ " WHERE student_no = ? AND user_id = ?"; 
+	  
+	   try {
+		   ps =conn.prepareStatement(sql);
+		   ps.setString(1, dto.getFirst_name());
+		   ps.setString(2, dto.getLast_name());
+		   ps.setInt(3, dto.getStudent_no());
+		   ps.setString(4, dto.getUser_id());
+		   
+//		   ps.setString(1, first_name);  이건 내가 매개변수를 직접 넣어주면 그냥 써도 되는거고  바로 dto를 데려온거면 dto.get~이걸로 데려와야하고!
+//		   ps.setString(2, last_name);
+//		   ps.setString(3, student_no);
+//		   ps.setString(4, user_id);
+//		   
+		 return ps.executeUpdate();
+		   
+		   
+	   } catch (SQLException e) {
+		   System.out.println("수정쪽 오류");
+		   e.printStackTrace();
+	   }finally {
+		dbClose();
+	   }
+	   
+	 return -1;
+   }//
+
+   
+   public StudentDTO delete(StudentDTO dto) {
+	   getConn();
+	   String sql = "DELETE FROM user_info WHERE user_id = ? ";
 	   
 	   try {
-		ps =conn.prepareStatement(sql);
-		ps.setString(1, "user_pw");
-		ps.setString(2, "user_id");
-		
+		ps= conn.prepareStatement(sql);
+		ps.setString(1, dto.getUser_id());
 		ps.executeUpdate();
+		
 	} catch (SQLException e) {
 		e.printStackTrace();
+	}finally {
+		dbClose();
 	}
 	   
 	   
-	   return dto;
-   }//getUpdate
-
+	return dto;   
+   }
+   
+   
 }//class
