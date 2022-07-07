@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cus"><!-- 외부에서 접근할때 어떤 이름으로 접근을 할건지를 지정해놓은 부분 -->
+  <!-- ; <-selecet 조회쿼리 작성시 (jdbc ; <=생략가능) 여기서도 ; 이거 생략가능  -->
+  
+  <select id="listselect" resultType="customer.CustomerDTO"> <!-- 클래스 타입을 넣어줘! 패키지customer에 있는 CustomerDTO.java 인데 .java는 지워져-->
+	select * from customer
+  </select>
+<!--   다른 쿼리가 필요하다면 select 태그를 이용해서 추가 !
+ex! ) <select id="listselect2" resultType=""></select> -->
+	<insert id="insert">
+	insert into customer (name, email, phone, gender)
+	values (#{name}, #{email}, #{phone}, #{gender})
+
+	</insert>
+
+</mapper>
