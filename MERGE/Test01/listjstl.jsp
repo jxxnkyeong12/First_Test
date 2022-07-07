@@ -24,7 +24,11 @@
   -->
 	<%@ include file="/include/header.jsp"%>
 	<h1>고객관리 모듈(JSTL)</h1>
+<<<<<<< HEAD
 	<button type="button"  id="new_btn" class="btn btn-primary" onclick="showModal();" >신규 고객 추가</button>
+=======
+	<button type="button"  id="new_btn" class="btn btn-primary" onclick="showModalInsert();" >신규 고객 추가</button>
+>>>>>>> 8cd60e1640e1ca09a56ddaa71ceebad185a195f1
 	
 	<table class="styled-table">
 		<thead>
@@ -95,7 +99,11 @@
 	<%@ include file="/include/footer.jsp"%>
 	
 	<script type="text/javascript">
+<<<<<<< HEAD
 		function showModal() {
+=======
+		function showModalInsert() {
+>>>>>>> 8cd60e1640e1ca09a56ddaa71ceebad185a195f1
 			$('#exampleModal').modal('show');//hide 숨김
 			$('[name=submit]').attr('onclick' ,'addCustomer()');
 		}
