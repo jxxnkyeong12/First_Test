@@ -5,6 +5,7 @@ import java.io.InputStream;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.ArrayList;
 =======
 >>>>>>> e0bf5e1971ebb3b8f3a93d5ba38eeb0263355af3
@@ -12,6 +13,9 @@ import java.util.ArrayList;
 >>>>>>> fade54f522d8ec12196254625b9335ff4da1d122
 =======
 >>>>>>> 84d3a69ade1cfcbf9a17281e4d57b761b1f78cc3
+=======
+import java.util.ArrayList;
+>>>>>>> 94d82453e8632396615a4683d8aef2aa50f3c72e
 import java.util.List;
 
 import org.apache.ibatis.io.Resources;
@@ -24,6 +28,9 @@ public class CustomerDAO {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 94d82453e8632396615a4683d8aef2aa50f3c72e
 	//JDBC api(lib)사용해서 Connection 초기화, statement(전송)초기화 쿼리 넣기 => 전송 => resultset(결과), int(결과)
 	
 	//Mybatis(이용, 관리, 가독성 등등의 장점을 추가한 api)
@@ -60,6 +67,7 @@ public class CustomerDAO {
 		return list;
 	}
 	
+<<<<<<< HEAD
 }//class
 =======
 	//JDBC api(lib) 사용 -> Connection초기화, Statement(전송)초기화 쿼리 넣기 => 넣기 => 전송 => ResultSet(결과) , int(결과)
@@ -203,3 +211,6 @@ public class CustomerDAO {
 =======
 }
 >>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
+=======
+}//class
+>>>>>>> 94d82453e8632396615a4683d8aef2aa50f3c72e
