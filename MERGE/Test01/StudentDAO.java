@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
 public class StudentDAO {
 	Connection conn; //연결선택
 	PreparedStatement ps; //질의문객체, 어디에연결할지 통로
@@ -138,6 +141,7 @@ public class StudentDAO {
 				+ " where  u.STUDENT_NO= ? AND u.USER_ID=? ";
 		try {
 			
+<<<<<<< HEAD
 =======
 
 
@@ -269,12 +273,17 @@ public class StudentDAO {
 		try {
 			
 >>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
+=======
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
 			ps = conn.prepareStatement(sql);
 			ps.setString(1, student_no);
 			ps.setString(2, user_id);
 			
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
 		//	ps.setString(1, req.getParameter("student_no")); req를 이용하면 항상 req.getparamter가 있는경우에만 이용이가능
 =======
 		//	ps.setString(1, req.getParameter("studentno")); req를 이용하면 항상 req.getparamter가 있는경우에만 이용이가능
@@ -404,6 +413,7 @@ public class StudentDAO {
 	
 <<<<<<< HEAD
 	
+<<<<<<< HEAD
 }
 =======
 			//여기가 오라클 0번 부분! 우리는 1부터 사용한다. 이말이야! 
@@ -516,3 +526,6 @@ public class StudentDAO {
 =======
 }
 >>>>>>> 3aedcef7bba295e17b2b7df30e61fe5fdacf165a
+=======
+}
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6

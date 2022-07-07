@@ -23,6 +23,7 @@ public class CustomerDAO {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	//JDBC api(lib)사용해서 Connection 초기화, statement(전송)초기화 쿼리 넣기 => 전송 => resultset(결과), int(결과)
 	
 	//Mybatis(이용, 관리, 가독성 등등의 장점을 추가한 api)
@@ -83,6 +84,8 @@ public class CustomerDAO {
 			sql = sqlSessionFactory.openSession(); // Connection객체 이용해서 통신열기랑 같은 처리
 		} catch (IOException e) {
 =======
+=======
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
 	//기존-JDBC api(lib)사용 -> Connection초기화,Statement(전송)초기화 쿼리 넣기 =>전송 => ResultSet(결과) , int(결과)
 	
 	//Mybatis↑(이용 , 관리 , 가독성 등등의 장점을 추가한 API )
@@ -127,6 +130,7 @@ public class CustomerDAO {
 		// sql.update , sql.delete , sql.selectone , seclectlist (return타입이 List)
 		List<CustomerDTO> list = sql.selectList("cus.listselect");
 		System.out.println(list.size());
+<<<<<<< HEAD
 >>>>>>> fade54f522d8ec12196254625b9335ff4da1d122
 =======
 	//JDBC api(lib) 사용 -> Connection초기화, Statement(전송) 초기화 쿼리 넣기 - > 전송 -> ResultSet(결과), int(결과)
@@ -175,10 +179,13 @@ public class CustomerDAO {
 	
 		
 >>>>>>> 84d3a69ade1cfcbf9a17281e4d57b761b1f78cc3
+=======
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
 		return list;
 	}
 	
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 	
@@ -193,3 +200,6 @@ public class CustomerDAO {
 	
 }//class
 >>>>>>> 84d3a69ade1cfcbf9a17281e4d57b761b1f78cc3
+=======
+}
+>>>>>>> 20e6f3f2389c819d703c3426d42bcbacf231bdf6
