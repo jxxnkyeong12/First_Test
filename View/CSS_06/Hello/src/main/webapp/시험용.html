@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<style type="text/css">
+#mouseslider {
+	width: 1000px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	margin: 5px auto;
+	width: 1000px;
+	background: url("img/backimg.jpg");
+}
+
+.animation_canvas1 {
+	overflow: hidden;
+	position: absolute;
+	width: 450px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.left_slider {
+	width: 2250px;
+	position: relative;
+}
+
+.slider_image1 {
+	float: left;
+	width: 450px;
+	height: 600px;
+}
+
+.animation_canvas2 {
+	overflow: hidden;
+	position: absolute;
+	width: 450px;
+	height: 600px;
+	margin: 0 auto;
+	right: 0;
+}
+
+.right_slider {
+	width: 2250px;
+	position: relative;
+	right: 0;
+}
+
+.slider_image2 {
+	float: left;
+	width: 450px;
+	height: 600px;
+}
+
+.control_panel1, .control_panel2 {
+	position: absolute;
+	top: 550px;
+	left: 200px;
+	height: 13px;
+	overflow: hidden;
+}
+
+.control_button1, .control_button2 {
+	width: 12px;
+	height: 46px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	background: url("img/point_button.png");
+}
+
+.control_button1:hover, .control_button2:hover {
+	top: -16px;
+}
+
+.control_button1.active, .control_button2.active {
+	top: -31px;
+}
+
+
+</style>
+<title></title>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+
+$(document).ready(function() {
+	var imgCnt = $(".left_slider").children().length;
+	var imgIdx = 1;
+	var refreshInterval = null;
+	var timer = null;
+
+	function moveSlider(index) {
+		var willMoveLeft = -(index * 450);
+		$(".left_slider").animate({
+			left : willMoveLeft
+		}, "slow");
+
+		$(".control_button1[data-index=" + index + "]").addClass("active");
+		$(".control_button1[data-index!=" + index + "]").removeClass("active");
+	}
+
+	timer = function() {
+		moveSlider(imgIdx);
+
+		if (imgIdx < imgCnt - 1) {
+			imgIdx++;
+		} else {
+			imgIdx = 0;
+		}
+	};
+
+	$(".animation_canvas1").on({
+		mouseenter : function() {
+			clearInterval(refreshInterval);
+		},
+		mouseleave : function() {
+			refreshInterval = setInterval(timer, 3000);
+		}
+
+	});
+
+	$(".control_button1").each(function(index) {
+		$(this).attr("data-index", index);
+	}).click(function() {
+		var index = $(this).attr("data-index");
+		imgIdx = index;
+		moveSlider(index);
+	});
+
+	$(".control_button1[data-index=" + 0 + "]").addClass("active");
+
+	refreshInterval = setInterval(timer, 3000);
+	
+
+});
+
+</script>
+</head>
+<body>
+	<div id="wrap">
+	<div id="header">
+		<div id="header_in">
+			<div class="header_text">
+				<span>라이트노벨 인기 소설</span>
+			</div>
+			<div class="login">
+				<input type="button" id="signupUi" name="signupUi" value="회원가입" 
+							 onclick="location.href='signup.html';" />
+				<input type="button" id="loginUi"  name="loginUi"  value="로그인" />
+			</div>
+		</div>
+	</div>
+	
+	<div id="mouseslider">
+		<div class="animation_canvas1">
+			<div class="left_slider">
+				<a href="#"><img src="img/전생슬1.jpg" class="slider_image1" /></a> 
+				<a href="#"><img src="img/전생슬2.jpg" class="slider_image1" /></a> 
+				<a href="#"><img src="img/전생슬3.jpg" class="slider_image1" /></a> 
+				<a href="#"><img src="img/전생슬4.jpg" class="slider_image1" /></a> 
+				<a href="#"><img src="img/전생슬5.jpg" class="slider_image1" /></a>
+			</div>
+			<div class="control_panel1">
+				<div class="control_button1"></div>
+				<div class="control_button1"></div>
+				<div class="control_button1"></div>
+				<div class="control_button1"></div>
+				<div class="control_button1"></div>
+			</div>
+
+		</div>
+		<div class="animation_canvas2">
+			<div class="right_slider">
+
+				<a href="#"><img src="img/던만추1.jpg" class="slider_image2" /></a> 
+				<a href="#"><img src="img/던만추2.jpg" class="slider_image2" /></a> 
+				<a href="#"><img src="img/던만추3.jpg" class="slider_image2" /></a> 
+				<a href="#"><img src="img/던만추4.jpg" class="slider_image2" /></a> 
+				<a href="#"><img src="img/던만추5.jpg" class="slider_image2" /></a>
+				<a href="#"><img src="img/던만추5.jpg" class="slider_image2" /></a>
+			</div>
+			<div class="control_panel2">
+				<div class="control_button2"></div>
+				<div class="control_button2"></div>
+				<div class="control_button2"></div>
+				<div class="control_button2"></div>
+				<div class="control_button2"></div>
+				<div class="control_button2"></div>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
+</html>
