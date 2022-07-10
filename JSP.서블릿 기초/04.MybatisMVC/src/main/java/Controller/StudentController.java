@@ -113,6 +113,7 @@ public class StudentController extends HttpServlet {
 					resp.sendRedirect("list.st"); //<링크니까 바로가 - 페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
 					return;
 		}
+		
 		rd.forward(req, resp);
 
 	}
