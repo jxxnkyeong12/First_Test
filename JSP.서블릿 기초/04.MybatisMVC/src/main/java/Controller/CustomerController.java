@@ -1,6 +1,7 @@
 package Controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -21,7 +22,7 @@ public class CustomerController extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		req.getServletPath().equals("/list.cu");
+		 req.getServletPath().equals("/list.cu");
 			System.out.println("고객관리 눌림");
 			//dao.test(); 10이 찍혀 콘솔에
 			
@@ -50,7 +51,24 @@ public class CustomerController extends HttpServlet {
 				 * System.out.println(req.getParameter("phone"));
 				 */
 				return;
+			}else if (req.getServletPath().equals("/update.cu")) {
+				System.out.println("update확인용"); 
+				
+				CustomerDTO dto = new CustomerDTO();
+			
+				dto.setId(Integer.parseInt(req.getParameter("id")));
+				dto.setName(req.getParameter("name"));
+				dto.setGender(req.getParameter("gender"));
+				dto.setEmail(req.getParameter("email"));
+				dto.setPhone(req.getParameter("phone"));
+				int result=	dao.update(dto);
+				PrintWriter out = resp.getWriter(); //응답 response
+				out.println(result); //결과를 리턴하기 위해
+				
+				
+				return;
 			}
+			
 			rd.forward(req, resp);
 			
 	}

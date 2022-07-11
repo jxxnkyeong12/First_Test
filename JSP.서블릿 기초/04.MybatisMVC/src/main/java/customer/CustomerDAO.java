@@ -68,6 +68,9 @@ public class CustomerDAO {
 	
 	}
 	
-	
+	public int update(CustomerDTO dto) {
+		int result = sql.update("cus.update",dto);
+		return result;
+	}//update
 	
 }//class
