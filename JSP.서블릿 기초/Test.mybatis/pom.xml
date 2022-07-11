@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>04.MybatisMVC</groupId>
+  <artifactId>04.MybatisMVC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  <!-- 자바랑 오라클 연동 2022.07.01-->
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc11</artifactId>
+    <version>21.1.0.0</version>
+</dependency>
+<!-- https://2022.07.06 JDB이용 mybatis KJK가 추가! -->
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis</artifactId>
+    <version>3.5.6</version>
+</dependency>
+<!-- 2022.07.06 jsp에서 편하게 표현하기 위해서 추가했다  (EL) 이건 jsp에서 확인이 가능해-->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId> 
+    <version>1.2</version>
+</dependency>
+
+
+	
+  </dependencies>
+  
+  </project>

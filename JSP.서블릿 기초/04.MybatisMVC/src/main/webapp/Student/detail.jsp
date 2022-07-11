@@ -12,17 +12,17 @@
 		
 	}
 </style>
-
 </head>
 <body>
+<%@ include file="../include/header.jsp" %>
 
-	<%@ include file="/include/header.jsp"%>
-	
-	<h1 style="text-align: center;"> 상세 정보 </h1>
-	<% StudentDTO dto =(StudentDTO) request.getAttribute("dto"); //Object , %>
-	<table class="styled-table" border="1">
-		<thead>
-			<tr>
+<h1 style="text-align: center;"> 상세 정보 </h1>
+	<%
+		StudentDTO dto = (StudentDTO)request.getAttribute("dto");
+	%>
+<table class = "styled-table">
+	 <thead>
+	 	<tr>
 				<th>학생번호</th>
 				<td><a> <%=dto.getStudent_no()%></a> </td>
 			</tr>
@@ -45,19 +45,8 @@
 				<th>이름</th>
 					<td><%=dto.getLast_name()%></td>
 			</tr>
-			<tr>
-				<th>요청</th>
-					<td>
-				<form  action="detail.st" method="get" >
-					<input type="hidden" name="studentno" value="<%=dto.getStudent_no()%>">
-					<input type="hidden" name="user_id" value="<%=dto.getUser_id()%>">
-					<input type="submit" value="detail.st로 요청">
-				</form>
-				</td>
-			</tr>
-		
-		</thead>
-		<tbody>
+	 	
+	 	<tbody>
 				<tr>
 					<td><a href="update.st?student_no=<%=dto.getStudent_no()%>&user_id=<%=dto.getUser_id()%>">수정하기</a>
 					</td>
@@ -66,8 +55,9 @@
 			
 				</tr>
 		</tbody>
-	</table>
-	<script type="text/javascript">
+</table>
+
+<script type="text/javascript">
 		function deleteInfo(student_no , user_id){
 			if(confirm('정말 삭제하시겠습니까??')){
 				location.href='delete.st?student_no=' + student_no + '&user_id=' + user_id;
@@ -77,8 +67,6 @@
 			}
 		}
 	</script>
-	
-	<%@ include file="/include/footer.jsp"%>
-	
+<%@ include file="../include/footer.jsp" %>
 </body>
 </html>
