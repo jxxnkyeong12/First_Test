@@ -11699,3 +11699,73 @@ body {
   font-size: 0.75rem;
   border-radius: 0.25rem !important;
 }
+
+
+/*=======================================================  */
+
+.w-px60 { width: 60px }
+.w-px80 { width: 80px }
+.w-px100 { width: 100px }
+.w-px120 { width: 120px }
+.w-px140 { width: 140px }
+.w-px160 { width: 160px }
+.w-px180 { width: 180px }
+.w-px200 { width: 200px }
+.w-px250 { width: 250px }
+.w-px300 { width: 300px }
+.w-px400 { width: 400px }
+.w-px500 { width: 500px }
+.w-px600 { width: 600px }
+.w-px700 { width: 700px }
+.w-px800 { width: 800px }
+.w-px900 { width: 900px }
+.w-px1000 { width: 1000px }
+.w-px1100 { width: 1100px }
+.w-px1200 { width: 1200px }
+	
+.list-top {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-top ul { display: flex; }
+.list-top ul li:not(:first-child) { margin-left: 5px; }
+ul {
+	list-style-type: none;
+	align-items: center;
+	padding: 0;
+}
+
+a, a:link { cursor:pointer; text-decoration: none; }
+
+a.btn-fill, a.btn-empty {
+	height: 28px;
+	padding: 3px 15px;
+	border: 1px solid #3367d6;
+	border-radius: 3px;
+}
+
+a.btn-fill {
+	background-color: #3367d6;
+	color: #fff;
+}
+
+
+
+table tr th:first-child{ border-right:  2px solid #333}
+
+
+table tr td { padding:  6px 10px}
+table tr { border-bottom: 1px solid #ccc}
+label:not(:last-child) { margin-right: 20px}
+
+input {
+	height: 30px;
+	padding: 0 10px;
+}
+
+input[name=address] { 
+	width: 100% }
+
+	

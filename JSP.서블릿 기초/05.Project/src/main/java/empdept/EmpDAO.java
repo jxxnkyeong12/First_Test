@@ -16,12 +16,12 @@ public class EmpDAO {
 
 	public static	SqlSession sql;   
 	static {   //제일먼저 실행되게 하는거
-		String resource = "mybatis/configD.xml";
+		String resource = "mybatis/configD.xml";  //■여기 주의해... 경로가 어딘지 확인하고 ■
 		InputStream inputStream;
 		try {
 			inputStream = Resources.getResourceAsStream(resource);
 			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-			sql = sqlSessionFactory.openSession(true); //AutoCommit 설정을 true로 줌
+			sql = sqlSessionFactory.openSession(true); //AutoCommit 설정을 true로 줌 커밋!!!!
 		} catch (IOException e) {
 			System.out.println("mybat오류!");
 			e.printStackTrace();

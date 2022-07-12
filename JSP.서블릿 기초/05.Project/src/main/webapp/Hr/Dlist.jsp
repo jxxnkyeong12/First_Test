@@ -16,7 +16,7 @@
 
 		<div class="card-body">
 			<table class = "table table-hover">  <!-- 테이블 id에서 class로 바꿔주고 부트스트랩에서 맘에 드는걸로 바꿔넣어줘! 
-																	그리고 <tfoot>지워줘! -->
+																	그리고 <tfoot>지워줘! 대신 페이징 처리가 사라진다! -->
 				<thead>
 					<tr>
 						<th>부서코드</th>
