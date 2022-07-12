@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	table{
+		border: 1px solid black;  
+		width: 500px;
+		text-align: center;
+		border-collapse: collapse;
+	}
+
+	th, td{
+			border: 1px solid black;
+	}
+	
+</style>
+</head>
+<body>
+	<table>
+			<caption>제목</caption>
+		<colgroup>
+			<col span="2" style="background-color: red;"/> 
+			<col span="1" style="background-color: green;"/> 
+			<col span="1" style="background-color: blue;"/> 
+		</colgroup>
+		<tr style="background-color: green;">
+			<th colspan="2">table header1</th>
+			<th colspan="2">table header2</th>
+				<!-- 
+ 					colsapn : 칸병합
+ 					rowsapn : 줄병합
+ 				 -->
+		</tr>
+		<tr>
+			<td colspan="2">table data1</td>
+			<td>table date2</td>
+			<td rowspan="3">table date3</td>
+		</tr>
+		<tr>
+			<td>table date4</td>
+			<td rowspan="2">table date5</td>
+			<td>table date6</td>
+		</tr>
+		<tr>
+			<td>table date7</td>
+			<td>table date8</td>
+		</tr>
+		<tr style="background-color: yellow;">
+			<td>table date9</td>
+			<td>table date10</td>
+			<td>table date11</td>
+			<td>table date12</td>
+		</tr>
+	
+	
+	
+	
+	
+	
+	</table>
+</body>
+</html>
