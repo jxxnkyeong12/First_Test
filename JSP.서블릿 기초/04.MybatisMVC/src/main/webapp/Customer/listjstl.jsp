@@ -92,7 +92,7 @@
             <input type="text" name ="phone" class="form-control" id="recipient-name">
             
           </div>
-      
+      	 <input type="hidden" name ="id" > <!-- ajax를 통해서 전송하기 위한 태그 -->
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
@@ -114,6 +114,14 @@
 			 //  alert(id);
 				$('[name=submit]').attr('onclick', 'modifyCustomer()');
 			    $('[name=name]').val(name);
+			    $('[name=id]').val(id); //수정시 id정보가 필요함!
+			   	
+			    $("[name=gender]").attr('checked',false);
+				 if(gender == '남'){
+					 $("input:radio[name=gender]:input[value='남']").attr('checked',true);
+				 }else{
+					 $("input:radio[name=gender]:input[value='여']").attr('checked',true);
+				 }
 			   /* 일단보류! jquery로 나중에 처리  
 			   if(gender =='남') {
 			    	 $('[name=gender]')[0].attr('checkde' , false);  //false가 해제야
@@ -136,11 +144,49 @@
 					url: 'insert.cu',
 					data: {/*request.getParameter로 받아줄것(name) : <- 넣어줄 실제값   */
 						  name:$('[name=name]').val(),
-						  gender:$('[name=gender]:checked').val(),
+						  gender:gender,
 						  email:$('[name=email]').val(),
 						  phone:$('[name=phone]').val()
 						  },
 					success: function ( response) {
+						  $('[name=name]').val('');
+						  $('[name=gender]').val('');
+						  $('[name=email]').val('');
+						  $('[name=phone]').val('');
+						/*  페이지전환이 아니라  out 객체를 통해서 값을 바로 써주면 그값을 가지고옴 */
+					},error: function (req,msg) {
+						alert(msg + " : ");
+					}	  
+				});
+				location.reload(); // 바뀐 내용으로 새로고침
+				$('#exampleModal').modal('hide');  //창 닫아지게 하는거
+			
+			}
+			
+			
+			/* addCustomer를 재활용(복붙) modifyCustomer
+				바뀌어야할 부분 insert=> update정보추가x, 정보수정
+				url <= x
+				insert.cu => update.cu
+				정보추가시 트리거를 이용해서 id가 자동채번되고있음
+				정보수정시 이미 생성된 ↑ id를 키값으로 어떤 행이 수정될지를 지정해줘야함. (안그러면 전체행이 수정되버려 -where조건이 필요함)
+			*/
+			
+			function modifyCustomer() {
+				/* alert( $('[name=name]').val() );  jquery를 이용해서 name속성이 name의 값을 가져옴*/
+				/* ajax<-통신 이용해서 insert.cu를 만들고 해당하는 Servlet까지 값을 전송해보기  */
+			var gender=$('[name=gender]:checked').val();//자꾸 남자만 나와서 확인할려고 하는거 그리고 그 변수를 담아!
+				$.ajax({
+					url: 'update.cu',
+					data: {/*request.getParameter로 받아줄것(name) : <- 넣어줄 실제값   */
+						  id:$('[name=id]').val(),
+						  name:$('[name=name]').val(),
+						  gender:gender,
+						  email:$('[name=email]').val(),
+						  phone:$('[name=phone]').val()
+						  },
+					success: function (response) {
+						alert(response); /* 창에 1이 뜨면 수정완료!  */
 						  $('[name=name]').val('');
 						  $('[name=gender]').val('');
 						  $('[name=email]').val('');

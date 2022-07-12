@@ -16,4 +16,10 @@ ex! ) <select id="listselect2" resultType=""></select> -->
 
 	</insert>
 
+	<update id="update">
+	 update  customer
+	 set  name =#{name}, email= #{email}, phone= #{phone}, gender= #{gender}
+	 where  id= #{id}
+	
+	</update>
 </mapper>
