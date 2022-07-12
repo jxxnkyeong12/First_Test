@@ -6,10 +6,17 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <style>
 	table tr:last-child td input[name=address] { margin-top: 5px } 
 	.ui-datepicker table tr th:first-child { border-right:none; }
 	.ui-datepicker table tr { border-bottom: none; }
+=======
+<style>
+	table tr:last-child td input[name=address] { margin-top: 5px } 
+	.ui-datepicker table tr th:first-child {border-right: none; } 
+	.ui-datepicker table tr {border-bottom: none;}
+>>>>>>> 57a9eb5c78aa2303e258d9754fd419ef6de8adad
 </style>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
 </head>
@@ -63,7 +70,11 @@
 <script>
 
 $( "[name=birth]" ).datepicker({ 
+<<<<<<< HEAD
 	dateFormat: 'yy-mm-dd',
+=======
+	dateFormat:'yy-mm-dd',
+>>>>>>> 57a9eb5c78aa2303e258d9754fd419ef6de8adad
 	dayNamesMin: [ '일', '월', '화', '수', '목', '금', '토' ],
 });
 
@@ -84,6 +95,7 @@ $('#post').on('click', function(){
 
 </script>
 <jsp:include page="/include/footer.jsp"/>
+<<<<<<< HEAD
 =======
 <style type="text/css">
 	table tr:last-child td input[name=address] {
@@ -177,5 +189,7 @@ $('#post').on('click', function(){
 	
 	<jsp:include page="/include/footer.jsp" />
 >>>>>>> 110036bf97481f0e78d51b6b4dcf66d3bc66ad34
+=======
+>>>>>>> 57a9eb5c78aa2303e258d9754fd419ef6de8adad
 </body>
 </html>
