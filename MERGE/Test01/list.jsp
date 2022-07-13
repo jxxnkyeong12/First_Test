@@ -13,6 +13,7 @@
 
 <div class='list-top'>
 	<ul>
+<<<<<<< HEAD
 		<!-- 관리자회원으로 로그인한 경우만 글쓰기 가능 -->
 		<li><a class='btn-fill' href='new.no'>글쓰기</a></li>
 	</ul>
