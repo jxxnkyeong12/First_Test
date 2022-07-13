@@ -96,6 +96,26 @@ public class StudentController extends HttpServlet {
 			//DAO이용한 업데이트 처리 ? (from 태그 또는 url(get)방식으로 Servlet에 왔을때 파라메터가 어디있는지?)
 			
 			int result = dao.getModify(dto); // select x , int(return)	
+<<<<<<< HEAD
+=======
+		
+			resp.sendRedirect("list.st"); //<페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
+			return;
+			//rd = req.getRequestDispatcher("Student/modify.jsp");
+			 
+		}else if(req.getServletPath().equals("/delete.st")) {
+			StudentDTO dto = new StudentDTO(Integer.parseInt(req.getParameter("student_no")), 
+					req.getParameter("student_name"), 
+					req.getParameter("user_id"), 
+					req.getParameter("first_name"), 
+					req.getParameter("last_name"));
+					
+					dao.delete(dto);
+					
+					resp.sendRedirect("list.st"); //<링크니까 바로가 - 페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
+					return;
+		}
+>>>>>>> 297b4db (JSP 서블릿 기초 0705)
 		
 			resp.sendRedirect("list.st"); //<페이지를 바로 요청을 해버리면 list가 없기 때문에 에러발생
 			return;
