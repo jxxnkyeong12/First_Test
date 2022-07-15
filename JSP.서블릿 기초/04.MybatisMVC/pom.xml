@@ -27,6 +27,7 @@
     <artifactId>ojdbc11</artifactId>
     <version>21.1.0.0</version>
 </dependency>
+<<<<<<< HEAD
 <!-- https://2022.07.06 JDB이용 mybatis KJK가 추가! -->
 <dependency>
     <groupId>org.mybatis</groupId>
@@ -39,6 +40,8 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+=======
+>>>>>>> 297b4db (JSP 서블릿 기초 0705)
 
 
 	
