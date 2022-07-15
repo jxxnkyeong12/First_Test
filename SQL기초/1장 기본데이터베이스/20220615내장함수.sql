@@ -65,6 +65,7 @@ CREATE TABLE tblpanme(
 
 DROP  TABLE tblpname; -- 삭제하지 말고 필드의 이름을 변경해야지!!!! 200명 데이터가 있으면 어케 ㅠ 다 날릴꺼야 ㅠ? 
 --'ALTER TABLE' tblpan 'TO' tblpname; 이게 변경!
+
 --'ALTER TABLE' tblpan 'rename to' tblpname; 이게 변경!
 
 
