@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dept">
+  
+  <select id="deptlist" resultType="empdept.DeptDTO"> <!--클래스 접근이니까 . !!!!이야!! -->
+  select * from departments order by  department_id Asc
+  </select>
+  
+   <!-- ED_mapper랑 합쳐서 해도 돼 ㅎㅎ -->
+</mapper>

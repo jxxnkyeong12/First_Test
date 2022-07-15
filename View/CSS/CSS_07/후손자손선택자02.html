@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+<!-- 동위선택자 : 동위 관계에서 뒤에 위치한 태그 선택 
++ 바로밑에 태그 하나만 선택, ~ 아래에 있는 동등한 위치 모든 태그 선택  
+	+ : 바로 아래 동생 h3+div ☞ h3에서 바로 아래동생 div
+	~ : 모든 동생들 중 h3~p	       ☞ h3에서 모든동생들 중 p 
+-->
+<style type="text/css">
+/* 	div {
+		color:orange;
+		background-color: yellow;
+	}
+
+ */
+ 
+  h3~div{
+  	color: orange;
+  	background-color: yellow;
+  
+  }
+ 
+  h3+div{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  }
+  
+  h3~p{
+  color: red;
+  
+  }
+  
+</style>
+</head>
+<body>
+
+<h3>동위 선택자(+, ~)</h3>
+<div>div_01</div>
+<div>div_02</div>
+<div>div_03</div>
+<p>p_04</p>
+<div>div_05</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="myb"> <!-- 외부에서 접근할때 클래스의 이름을 주듯이 접근할 이름을 지정 test.selectTest--> 
+  <select id="selectmyb" resultType="mybsaone.MybsaoneDTO"><!-- 클래스 타입(Integer)을 리턴하겠다! -->
+	 select     e.employee_id, 
+                  e.FIRST_NAME || ' ' || LAST_NAME name, 
+                  e.email, 
+                  e.DEPARTMENT_ID did,
+                  e.PHONE_NUMBER phone, 
+                  NVL(d.DEPARTMENT_NAME,'정보없음') dname,
+                  NVL(c.COUNTRY_NAME,'정보없음')  || ' ' || STATE_PROVINCE || ' ' || CITY || ' '||STREET_ADDRESS || ' ' ||POSTAL_CODE addr,
+                  NVL(TO_Char(sal.max_sal), '정보없음') max_sal,
+                  NVL(TO_Char(sal.min_sal), '정보없음') min_sal,
+                  NVL(TO_Char(sal.avg_sal), '정보없음') avg_sal
+      From employees e LEFT OUTER JOIN DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+                     left outer join LOCATIONS l ON d.LOCATION_ID= l.LOCATION_ID
+                     left outer join COUNTRIES c ON l.COUNTRY_ID = c.COUNTRY_ID
+                     left outer join JOBS j ON e.JOB_ID = j.JOB_ID    
+                     left outer join (SELECT MAX(salary) max_sal, min(salary) min_sal, ROUND( avg(salary),2) avg_sal, department_id 
+                                    		  FROM employees e GROUP BY department_id) sal
+              ON e.department_id = sal.department_id
+             
+                      
+  </select>
+</mapper>
