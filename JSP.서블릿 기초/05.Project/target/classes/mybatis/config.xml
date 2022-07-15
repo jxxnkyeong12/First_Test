@@ -22,8 +22,15 @@
     </environment>
   </environments>
   <mappers>
-    <mapper resource="mapper/test-mapper.xml"/> 
-    <mapper resource="mapper/Cus-mapper.xml"/> 
-    <!-- 추후 mapeer/*-mapper.xml (전체인식함) -->
+  
+  
+  <mapper resource="mapper/test-mapper.xml"/> 
+  <mapper resource="mapper/Cus-mapper.xml"/> 
+  <mapper resource="mapper/member-mapper.xml"/> 
+  
+   <!-- 추후 mapeer/*-mapper.xml (전체인식함) -->
+  
+  
+  
   </mappers>
 </configuration>

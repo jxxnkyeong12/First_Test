@@ -45,7 +45,7 @@
                            <li><a class="dropdown-item" href="join.mb">회원가입</a></li>
                            </c:if>
                            <c:if test="${!empty userInfo }">
-                       	 	<li><a class="dropdown-item" href="logout">Logout</a></li>
+                       	 	<li><a class="dropdown-item" href="logout">로그아웃</a></li>
                        	 	 <li><hr class="dropdown-divider" /></li>
                         	<li><a class="dropdown-item" href="info">내정보</a></li>
                            </c:if>

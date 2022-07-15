@@ -39,5 +39,14 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+	<!--2022.07.15 email로 회원가입을 위해 추가함 KJK-->
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-email</artifactId>
+		<version>1.5</version>
+	</dependency>
+
+
+
   </dependencies>
 </project>
