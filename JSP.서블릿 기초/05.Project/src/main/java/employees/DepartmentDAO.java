@@ -1,4 +1,4 @@
-package customer;
+package employees;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,12 +9,12 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-public class CustomerDAO {
-
+public class DepartmentDAO {
+	
 	private static SqlSession sql;
 	static {
 		
-		String resource = "config/config.xml";
+		String resource = "config/test.xml";
 		InputStream inputStream;
 		try {
 			inputStream = Resources.getResourceAsStream(resource);
@@ -26,18 +26,13 @@ public class CustomerDAO {
 		}//try
 	}//static
 	
-	
-	public List<CustomerDTO> getList() {
-		List<CustomerDTO> list = sql.selectList("cus.cuslist");
-		//System.out.println("고객사이즈 잘 넘어오나 확인용 : "+list.size()); //20 잘넘어옴
-		
+	public List<DepartmentDTO> getList() {
+		System.out.println("부서목록 지났어~");
+		List<DepartmentDTO> list = sql.selectList("dept.deptlist");
 		return list;
-	}//getList
-	
-	
-	public int deleteInfo(String id) {
-		System.out.println("삭제DAO거치니");
-		return sql.delete("cus.cusdelete", id); //delete는 int타입이라서 int로 받는거야!
 	}
+	
+	
+	
 	
 }//class

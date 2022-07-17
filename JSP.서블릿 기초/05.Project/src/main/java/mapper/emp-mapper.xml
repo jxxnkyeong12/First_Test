@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="emp">
+  <select id="emplist" resultType="employees.EmployeeDTO">
+    select employee_id, first_name || ' ' || last_name name, email, phone_number,
+       	   job_id, department_id
+	from employees
+  </select>
+</mapper>

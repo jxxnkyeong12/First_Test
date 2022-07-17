@@ -21,9 +21,9 @@
                             <div class="col-lg-6">
                                 <div class="text-center mt-4">
                                     <img class="mb-4 img-error" src="assets/img/error-404-monochrome.svg" />
-                                    <p class="lead">요청하신 페이지를 찾을수없거나 없는페이지 입니다!</p>
-                                    <p class="lead">해당하는 페이지에서 작업이 필요하다면 개발자에게 연락!</p>
-                                    <a href="/pj">
+                                    <p class="lead">요청하신 페이지를 찾을수 없거나 없는 페이지 입니다</p>
+                                    <p class="lead">해당하는 페이지에서 작업이 필요하다면 개발자에게 연락</p>
+                                    <a href="index.jsp">
                                         <i class="fas fa-arrow-left me-1"></i>
                                         홈으로 다시 돌아가기
                                     </a>

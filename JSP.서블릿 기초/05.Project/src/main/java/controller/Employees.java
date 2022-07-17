@@ -9,24 +9,32 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import testtable.TestTableDAO;
+import employees.EmployeeDAO;
+import employees.EmployeeDTO;
 
-@WebServlet("*.ts")
-public class TestController extends HttpServlet {
+@WebServlet("*.emp")
+public class Employees extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+       
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		TestTableDAO dao = new TestTableDAO();
+
 	String uri = request.getServletPath();
 	String view = "";
+	EmployeeDAO dao = new EmployeeDAO();
 	
-	  if(uri.equals("/list.ts")) {
-	System.out.println( dao.testList());
-		
-		view = "testfolder/test.jsp";
-	  }//if
-	  	request.getRequestDispatcher(view).forward(request, response);
-	  
-	}
+		if(uri.equals("/list.emp")) {
+			System.out.println("사원목록에 잘 오나 확인");
 
-}
+			request.setAttribute("list", dao.getList());
+			
+			view = "employees/elist.jsp";
+			
+			request.getRequestDispatcher(view).forward(request, response);
+		}
+	
+	
+	
+	}//service
+
+}//class

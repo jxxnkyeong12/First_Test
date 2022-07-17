@@ -11,7 +11,7 @@
         <meta name="author" content="" />
         <title>Dashboard - SB Admin</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="css/styles.css?<%=new java.util.Date() %>" rel="stylesheet" />
+        <link href="css/styles.css?<%=new java.util.Date() %>" rel="stylesheet" /> <!-- 변경사항을 위해 자바코드 넣어서 자동으로 !  -->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
   	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
