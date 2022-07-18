@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	table{
+		border: 1px solid black;  
+		width: 500px;
+		text-align: center;
+		border-collapse: collapse;
+	}
+
+	th, td{
+			border: 1px solid black;
+	}
+	
+</style>
+</head>
+<body>
+	<table>
+		<caption>테이블 제목</caption>
+		<colgroup>
+			<col span="2" style="background-color: red;"/> 
+						<!--span: 연장,폭 -->
+			<col span="1" style="background-color: blue;"/> 
+		</colgroup><!-- colgroup : 열을 그룹으로 
+													묶을수 있도록 해주는 태그  -->
+		<tr style="background-color: green;">
+			<th>table header1</th>
+			<th>table header2</th>
+			<th>table header3</th>
+		</tr>
+		<tr>
+			<td>table data1</td>
+			<td>table data2</td>
+			<td>table data3</td>
+		</tr>
+		<tr>
+			<td>table data4</td>
+			<td>table data5</td>
+			<td>table data6</td>
+		</tr>
+		<tr>
+			<td>table data7</td>
+			<td>table data8</td>
+			<td>table data9</td>
+		</tr>
+		<tr style="background-color: yellow;">
+			<td>table data10</td>
+			<td>table data11</td>
+			<td>table data12</td>
+		</tr>
+	</table>	  
+</body>
+</html>
