@@ -13,19 +13,21 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    TextView tv_text ; // = findViewById(R.id.tv_text); // setContentView가 이루어지고나서 그다음에 사용할수있음(디자인 연결 후 찾기 )
-    Button btn_text , btn_num;
-    EditText edt_text , edt_num;
-    RadioButton rdo_man, rdo_woman;
-    RadioGroup rdo_group;
 
+public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "숫자";
+    TextView tv_txt;  //setContentView가 이러어지고나서 그 다음에 사용할수 있음 (디자인 연결 후 찾기)
+    Button btn, btn_num;
+    EditText edt_text, edt_num;
+    RadioButton rdo_man, rdo_woman;
+    RadioGroup rdog_group;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         tv_text = findViewById(R.id.tv_text);
         btn_text = findViewById(R.id.btn_txt);
         edt_text = findViewById(R.id.edt_text);
@@ -71,11 +73,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 Log.d("체크상태", "onCheckedChanged: man" + isChecked);
                 if(isChecked){
+
                     rdo_woman.setChecked(false);
                 }
 
             }
         });
+
 
         rdo_woman.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -87,10 +91,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
 
                
+
             }
         });
 
     }
+
 
     @Override
     public void onClick(View v) {
@@ -117,11 +123,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean rtnInt(String inputData){ // => int형태로 바뀌고 그리고나서 0이상이면 OK를 리턴하는 메소드
         try{
             if(Integer.parseInt(inputData) >= 0 ) return true;//바뀌는게 오류가 안나고 0이상이면 true가 리턴됨
+
         }catch (Exception e){
             e.getStackTrace();
         }
         return false;
     }
+
+
+
 
 
 
