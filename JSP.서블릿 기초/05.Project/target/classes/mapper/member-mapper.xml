@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+
+<!-- 회원가입처리 -->
+<insert id='join'>
+insert into member(userid, userpw, name, gender, email, post, address, phone, birth, salt, salt_pw )
+values (#{userid}, #{userpw}, #{name}, #{gender}, #{email}
+		, #{post}, #{address}, #{phone}, #{birth}, #{salt}, #{salt_pw})
+</insert>
+
+<!-- 아이디 중복확인 -->
+<select id="id_check" resultType="integer">
+select count(*) from member where userid = #{userid}
+</select>
+
+<!-- 로그인 처리! -->
+<select id="login" resultType="member.MemberDTO">
+select * from member where userid=#{id} and userpw=#{pw}
+</select>
+</mapper>  

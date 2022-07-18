@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+  <select id="id_ckeck" resultType="integer">
+    select count(*) from memberTest where userid = #{userid}  <!-- 조건문에 ? 가 아니라 #{userid} 를 넣어야 한다 
+    															안그러면 '인덱스에서 누락된 in 또는 out 매개변수 1' 오류가 뜬다-->
+  </select>
+  
+  <insert id="join">
+  insert into memberTest(userid, userpw, name, gender, email, birth, post, address, phone) 
+  values (#{userid}, #{userpw}, #{name}, #{gender}, #{email}, #{birth}, #{post}, #{address}, #{phone})  
+  
+  </insert>
+</mapper>

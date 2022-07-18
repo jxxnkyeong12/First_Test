@@ -2,13 +2,6 @@
 <!DOCTYPE configuration
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
-  
-  <!-- 	String url = "jdbc:oracle:thin:@221.144.89.105:3301:XE";
-		String user = "hanul";
-		String password = "0000";
-		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-		 -->
 <configuration>
   <environments default="development">
     <environment id="development">
@@ -22,15 +15,9 @@
     </environment>
   </environments>
   <mappers>
-  
-  
-  <mapper resource="mapper/test-mapper.xml"/> 
-  <mapper resource="mapper/Cus-mapper.xml"/> 
-  <mapper resource="mapper/member-mapper.xml"/> 
-  
-   <!-- 추후 mapeer/*-mapper.xml (전체인식함) -->
-  
-  
-  
+    <mapper resource="customer/cus-mapper.xml"/>  <!-- mapper추가해주기 -->
+    <mapper resource="mapper/member-mapper.xml"/>  <!-- mapper추가해주기 -->
+    <!--<mappter resource = "mapper/*-mapper.xml"/> 전체 인식하게 하는 mapper다 -->
+    
   </mappers>
 </configuration>
