@@ -1,10 +1,12 @@
 package customer;
 
 public class CustomerDTO {
-	//id, name, gender, email, phone
-	
+
+//	ID, NAME, GENDER, EMAIL, PHONE
+
 	private int id;
 	private String name, gender, email, phone;
+	
 	
 	//getter setter
 	public int getId() {

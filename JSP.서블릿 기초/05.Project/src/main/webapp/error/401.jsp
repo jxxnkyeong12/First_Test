@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>401 Error - Hanul404</title>
+        <title>404 Error - SB Admin</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
@@ -21,11 +21,12 @@
                             <div class="col-lg-6">
                                 <div class="text-center mt-4">
                                     <h1 class="display-1">401</h1>
-                                    <p class="lead">Unauthorized</p>
-                                    <p>이 리소스에 대한 액세스가 거부되었습니다.</p>
-                                    <a href="index.jsp">
+                                    <p class="lead">거부됨</p>
+                                    <p class="lead">요청하신 페이지를 찾을수없거나 없는페이지 입니다!</p>
+                                    <p class="lead">해당하는 페이지에서 작업이 필요하다면 개발자에게 연락!</p>
+                                    <a href="/pj">
                                         <i class="fas fa-arrow-left me-1"></i>
-                                        홈으로 돌아가기
+                                        홈으로 다시 돌아가기
                                     </a>
                                 </div>
                             </div>
