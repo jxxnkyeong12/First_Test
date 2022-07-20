@@ -11701,28 +11701,27 @@ body {
 }
 
 
-/*=======================================================  */
 
-.w-px60 { width: 60px }
-.w-px80 { width: 80px }
-.w-px100 { width: 100px }
-.w-px120 { width: 120px }
-.w-px140 { width: 140px }
-.w-px160 { width: 160px }
-.w-px180 { width: 180px }
-.w-px200 { width: 200px }
-.w-px250 { width: 250px }
-.w-px300 { width: 300px }
-.w-px400 { width: 400px }
-.w-px500 { width: 500px }
-.w-px600 { width: 600px }
-.w-px700 { width: 700px }
-.w-px800 { width: 800px }
-.w-px900 { width: 900px }
-.w-px1000 { width: 1000px }
-.w-px1100 { width: 1100px }
-.w-px1200 { width: 1200px }
-	
+.w-px60 { width:60px }
+.w-px80 { width:80px }
+.w-px100 { width:100px }
+.w-px120 { width:120px }
+.w-px140 { width:140px }
+.w-px160 { width:160px }
+.w-px180 { width:180px }
+.w-px200 { width:200px }
+.w-px250 { width:250px }
+.w-px300 { width:300px }
+.w-px400 { width:400px }
+.w-px500 { width:500px }
+.w-px600 { width:600px }
+.w-px700 { width:700px }
+.w-px800 { width:800px }
+.w-px900 { width:900px }
+.w-px1000 { width:1000px }
+.w-px1100 { width:1100px }
+.w-px1200 { width:1200px }
+
 .list-top {
 	margin: 0 auto;
 	display: flex;
@@ -11737,7 +11736,7 @@ ul {
 	padding: 0;
 }
 
-a, a:link { cursor:pointer; text-decoration: none; }
+a, a:link { cursor:pointer;  text-decoration: none; }
 
 a.btn-fill, a.btn-empty {
 	height: 28px;
@@ -11748,23 +11747,22 @@ a.btn-fill, a.btn-empty {
 
 a.btn-fill {
 	background-color: #3367d6;
-	color: #fff;
+	color: #fff
 }
 
-.btnSet {margin:  20px auto}
+.btnSet { margin: 20px auto; }
 
-table tr th:first-child{ border-right:  2px solid #333}
-
-
-table tr td { padding:  6px 10px}
-table tr { border-bottom: 1px solid #ccc}
-label:not(:last-child) { margin-right: 20px}
+table tr th:first-child { 
+	border-right: 2px solid #333 }
+table tr td { padding: 6px 10px }
+table tr { border-bottom: 1px solid #ccc }
+table tr th { background-color: #eee !important }
+label:not(:last-child) { margin-right: 20px }
 
 input {
 	height: 30px;
 	padding: 0 10px;
 }
-
 input[name=address] { 
 	width: 100% }
 
@@ -11772,23 +11770,39 @@ select {
 	height: 32px;
 	cursor: pointer;
 	padding-left: 10px;
-	
+}
+.font-b { font-size: 20px; color: #3367d6; }
+.font-r { font-size: 20px; color: #d10a06; }
+
+.valid { font-size:14px; color:#068704; font-weight: bold;  }
+.invalid { font-size:14px; color:#d10a06; font-weight: bold;  }
+
+
+textarea {
+	resize: none;
+	padding: 10px;
 }
 
+input {
+	height: 30px;
+	padding: 0 10px;
+}
 
-.font-b { font-size: 20px; color :#4287f5; }
-.font-r { font-size: 20px; color :red;}
-
-
-.valid { font-size : 14px; color :#5493f7 ; font-weight: bold;}
-.invalid { font-size : 14px; color :red; font-weight: bold; }
-
-
+input[name=title], textarea[name=content] {
+	width:  calc(100% - 24px)
+}
 
 input[type=radio] {
-	width: 18px;
+	width:18px;
 	vertical-align: middle;
 }
+
+#delete-file {display: none}
+
+
+
+
+
 
 
 

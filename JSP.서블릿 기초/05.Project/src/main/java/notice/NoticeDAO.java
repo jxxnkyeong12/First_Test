@@ -14,7 +14,7 @@ public class NoticeDAO {
 	
 	//공지글 신규저장
 	public void notice_insert(NoticeDTO dto) {
-		
+		sql.insert("notice.insert", dto);
 	}
 	
 	
@@ -25,12 +25,12 @@ public class NoticeDAO {
 	
 	//공지글 상세조회
 	public NoticeDTO notice_detail(int id) { //한건에 대한 정보
-		return null;
+		return sql.selectOne("notice.detail", id); //조건절에 사용할 두번째 파라메터 id!
 	}
 	
 	//공지글 조회수 증가처리
 	public void notice_read(int id) {
-		
+		sql.update("notice.read", id);
 	}
 	
 	//공지글 변경저장
