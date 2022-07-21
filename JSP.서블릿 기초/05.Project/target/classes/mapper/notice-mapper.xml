@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="notice">
+  <!-- 공지글 신규저장처리 -->
+  <insert id="insert">
+  	insert into notice(title, content, writer)
+  	values (#{title}, #{content}, #{writer})
+  </insert>
+  
+  
+  <!-- 공지글목록조회  -->
+  <select id="list" resultType="notice.NoticeDTO">
+<!-- 1. 	select name, n.*
+	from notice n Left outer join member m
+	on n.writer = m.userid
+	order by id -->
+<!-- 2. -->	
+	select rownum no, n.* 
+	from(select name, n.*
+    	from notice n inner join member m
+    	on n.writer= m.userid
+    	order by id) N 
+	order by no desc
+	
+	<!--3.  
+	select row_number() over(order by id) no, name, n.* 
+	from member m, notice n
+	Where n.writer = m.userid
+	order by no desc
+	-->
+  </select>
+  
+  <!-- 공지글조회수 증가처리 -->
+  <update id="read" >
+  	update notice set readcnt = readcnt +1 where id = #{id}
+  </update>
+  
+  <!--공지글 정보조회  -->
+  <select id="detail" resultType="notice.NoticeDTO">
+  select name, notice.* 
+  from notice inner join member m
+  on notice.writer = m.userid 
+  where id = #{id}
+  </select>
+  
+  </mapper>
+  <!--
+  -ANSI조인
+select  m.name, n.WRITERDATE, n.TITLE
+from notice n Left outer join member m
+on n.writer = m.userid ;
+
+-선생님 ANSI조인
+select name, n.*
+from notice n inner join member m
+on n.writer= m.userid;
+
+-스칼라 서브쿼리
+select (select name from member  where n.writer = userid)name, n.*
+from notice n;
+  
+    -->
+  

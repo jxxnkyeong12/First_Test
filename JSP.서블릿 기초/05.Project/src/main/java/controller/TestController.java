@@ -1,32 +1,33 @@
 package controller;
 
 import java.io.IOException;
-import java.util.List;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import testtable.TestTableDAO;
+import common.CommonDAO;
 
-@WebServlet("*.ts")
+@WebServlet("*.te")
 public class TestController extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		TestTableDAO dao = new TestTableDAO();
-	String uri = request.getServletPath();
-	String view = "";
 	
-	  if(uri.equals("/list.ts")) {
-	System.out.println( dao.testList());
+	RequestDispatcher rd;
+	@Override
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	//	req.getSession().setAttribute("userInfo", "a");
 		
-		view = "testfolder/test.jsp";
-	  }//if
-	  	request.getRequestDispatcher(view).forward(request, response);
-	  
+		
+		CommonDAO dao = new CommonDAO();
+
+		System.out.println("조회 잘됐나 확인용");
+		rd =req.getRequestDispatcher("index.jsp");
+		
+		dao.getTest();
+		
+		rd.forward(req, resp);
 	}
 
 }

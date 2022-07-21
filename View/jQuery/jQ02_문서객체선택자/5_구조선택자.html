@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+	div {
+		padding: 20px;
+		float: left;
+	}
+	
+
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+
+$(document).ready(function() {
+	//1. nth-child(n) : n번째 자손 선택, 1번 부터 시작
+	$("div:nth-child(1)").css("background-color","red");
+	$("div:nth-child(2)").css("background-color","orange");
+	$("div:nth-child(3)").css("background-color","yellow");
+	$("div:nth-child(4)").css("background-color","green");
+	$("div:nth-child(5)").css("background-color","blue");
+	$("div:nth-child(6)").css("background-color","navy");
+	$("div:nth-child(7)").css("background-color","purple");
+	
+	
+	//2. 첫번째와 마지막 자손 선택
+	$("div:first-child").css("border-radius","10px 0px 0px 10px");
+	$("div:last-child").css("border-radius","0px 10px 10px 0px");
+	
+	//3. 홀수 짝수 선택
+	$("div:nth-child(odd)").css("color","white");
+	$("div:nth-child(even)").css("color","gray");
+}); //ready
+
+</script>
+</head>
+<body>
+	<div>레드</div>
+	<div>오렌지</div>
+	<div>옐로우</div>
+	<div>그린</div>
+	<div>블루</div>
+	<div>네이비</div>
+	<div>퍼플</div>
+</body>
+</html>

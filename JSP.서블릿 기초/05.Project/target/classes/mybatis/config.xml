@@ -27,6 +27,7 @@
   <mapper resource="mapper/test-mapper.xml"/> 
   <mapper resource="mapper/Cus-mapper.xml"/> 
   <mapper resource="mapper/member-mapper.xml"/> 
+  <mapper resource="mapper/notice-mapper.xml"/> 
   
    <!-- 추후 mapeer/*-mapper.xml (전체인식함) -->
   

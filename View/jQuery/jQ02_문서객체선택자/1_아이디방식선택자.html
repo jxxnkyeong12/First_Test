@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+
+/* 
+window.onload = function() { 
+	var text = document.getElementById("text"); //변수할당해서 아이디만 가져온거야
+	text.style.color ="red";
+	document.getElementById("text").style.color="red";
+}//onload는 자바스크립트 준비구문 
+ */
+ 
+
+
+$(document).ready(function() {
+//$("선택자").메서드();
+	$("#text").css("color","red"); //style은 css()로 바꿔줘!
+
+}); //ready
+
+
+ 
+</script>
+</head>
+<body>
+	<h1 id="text">제목태그</h1>
+	
+</body>
+</html>

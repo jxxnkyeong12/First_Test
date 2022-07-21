@@ -1,11 +1,21 @@
 package common;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
+import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.Part;
 
 import org.apache.commons.mail.EmailAttachment;
 import org.apache.commons.mail.EmailException;
@@ -14,6 +24,105 @@ import org.apache.commons.mail.MultiPartEmail;
 import org.apache.commons.mail.SimpleEmail;
 
 public class CommonUtil {
+	//2022.07.20 파일 업로드처리
+	public HashMap<String, String> fileUpload(HttpServletRequest request, String category) {
+		//웹서버에 프로젝트의 물리적인 위치
+		String app = request.getServletContext().getRealPath("/");
+		//D:\Study_JspServlet\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\05.Project
+		// /upload/notice/2022/07/20/abc.txt
+		String upload = "upload/" + category + 
+				 new SimpleDateFormat("/yyyy/MM/dd").format(new Date());
+		String filepath = app + upload;
+		File dir = new File( filepath );
+		if( ! dir.exists() )	dir.mkdirs();
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		try {
+			Collection<Part> files = request.getParts();
+			for(Part file : files) {
+				System.out.println(file);
+				if(file.getName().contains("file") 
+						&& !file.getSubmittedFileName().isEmpty() ) { //submit된 이름이 있으면!
+					String filename	= file.getSubmittedFileName();
+					String uuid = UUID.randomUUID().toString()+ "_" +  filename;
+					//shelkfjadkj_abc.txt
+					file.write(filepath + "/" + uuid );
+					map.put("filename", filename);
+					map.put("filepath", upload + "/" + uuid);
+				}
+			}
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+			return map;
+	}
+	
+	
+	
+	//2022.07.18 2)Http 요청결과를 받는 처리
+	public String requestAPI(String apiURL, String property ) { //메소드 오버로딩!
+		String result = "";
+		
+		 try {
+		      URL url = new URL(apiURL); //요청 url에 대한 부분
+		      HttpURLConnection con = (HttpURLConnection)url.openConnection();
+		      con.setRequestMethod("GET");
+		      con.setRequestProperty("Authorization", property);
+		      int responseCode = con.getResponseCode();
+		      BufferedReader br;
+		      System.out.print("responseCode="+responseCode);
+		      if(responseCode==200) { // 정상 호출
+		        br = new BufferedReader(new InputStreamReader(con.getInputStream(), "utf-8"));
+		      } else {  // 에러 발생
+		        br = new BufferedReader(new InputStreamReader(con.getErrorStream(), "utf-8"));
+		      }
+		      String inputLine;
+		      StringBuffer res = new StringBuffer();
+		      while ((inputLine = br.readLine()) != null) {
+		        res.append(inputLine);
+		      }
+		      br.close();
+		      if(responseCode==200) {
+		       result = res.toString();
+		      }
+		    } catch (Exception e) {
+		      System.out.println(e);
+		    }
+		 return result;
+	}
+	
+	//2022.07.18 1)Http 요청결과를 받는 처리
+		public String requestAPI(String apiURL ) {
+			String result = "";
+			
+			 try {
+			      URL url = new URL(apiURL); //요청 url에 대한 부분
+			      HttpURLConnection con = (HttpURLConnection)url.openConnection();
+			      con.setRequestMethod("GET");
+			      int responseCode = con.getResponseCode();
+			      BufferedReader br;
+			      System.out.print("responseCode="+responseCode);
+			      if(responseCode==200) { // 정상 호출
+			        br = new BufferedReader(new InputStreamReader(con.getInputStream(), "utf-8"));
+			      } else {  // 에러 발생
+			        br = new BufferedReader(new InputStreamReader(con.getErrorStream(), "utf-8"));
+			      }
+			      String inputLine;
+			      StringBuffer res = new StringBuffer();
+			      while ((inputLine = br.readLine()) != null) {
+			        res.append(inputLine);
+			      }
+			      br.close();
+			      if(responseCode==200) {
+			       result = res.toString();
+			      }
+			    } catch (Exception e) {
+			      System.out.println(e);
+			    }
+			 return result;
+		}
+		
 	
 	
 	//비밀번호 암호화에 사용할 솔트만들기
