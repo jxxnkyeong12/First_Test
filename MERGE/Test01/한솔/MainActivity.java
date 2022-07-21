@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     TextView txt_main, txt_shin, txt_jin, txt_yeol, txt_hc;
     int cost = 0;
 
+    public static final int max = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         txt_main = findViewById(R.id.txt_main);
         btn_shin = findViewById(R.id.btn_shin);
         btn_result = findViewById(R.id.btn_result);
+        txt_shin = findViewById(R.id.txt_shin);
 
         Intent intent = new Intent(MainActivity.this, ResultActivity.class);
 
@@ -64,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 int money = Integer.parseInt(ed_txt.getText().toString());
                 intent.putExtra("dto", dto);
 
+                txt_shin.setText((max-cnt1) + "개 남음");
                 txt_main.setText("금액 : " + (money - (cost * cnt1)) + "원");
-
 
             }
 
