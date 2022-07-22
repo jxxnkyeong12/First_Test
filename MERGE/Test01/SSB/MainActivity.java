@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -13,9 +14,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn_shin, btn_jin, btn_yeol, btn_hc, btn_result, btn_price;
+    Button btn_shin, btn_jin, btn_yeol, btn_hc, btn_result, btn_price, btn_rn;
     EditText ed_txt;
-    TextView txt_main, txt_shin, txt_jin, txt_yeol, txt_hc;
+    TextView txt_main, txt_shin, txt_jin, txt_yeol, txt_hc, txt_rn;
     int money = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,19 +35,28 @@ public class MainActivity extends AppCompatActivity {
         txt_jin = findViewById(R.id.txt_jin);
         txt_yeol = findViewById(R.id.txt_yeol);
         txt_hc = findViewById(R.id.txt_hc);
+        btn_rn = findViewById(R.id.btn_rn);
+        txt_rn = findViewById(R.id.txt_rn);
+
         ArrayList<RamenDTO> list = new ArrayList<>();
         list.add(new RamenDTO("신라면", 10,900, 0));
         list.add(new RamenDTO("진라면", 10,800, 0));
         list.add(new RamenDTO("열라면", 10,700, 0));
         list.add(new RamenDTO("불닭", 10,1100, 0));
+        list.add(new RamenDTO("랜덤", 1, 1000, 0));
 
-        Intent intent = new Intent(MainActivity.this, ResultActivity.class);
+
+        final InputMethodManager manager = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE) ;
+
         //금액입력 버튼 클릭시!!
         btn_price.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                money += Integer.parseInt(ed_txt.getText() + "");
+
+                money += Integer.parseInt(ed_txt.getText().toString());
                 txt_main.setText("금액" + money + "원");
+                manager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+
             }
         });
 
@@ -56,9 +66,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(money < list.get(0).price){
-                    Toast.makeText(MainActivity.this, "잔액이 부족합니다", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "잔액이 부족합니다", Toast.LENGTH_LONG).show();
                 }else{
-
                     if(list.get(0).cnt > 0) {
                         //금액차감
                         money -= list.get(0).price;
@@ -181,6 +190,37 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+//랜덤 눌렀을때
+        btn_rn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(money < list.get(4).price){
+                    Toast.makeText(MainActivity.this, "잔액이 부족합니다", Toast.LENGTH_SHORT).show();
+                }else{
+
+                    if(list.get(4).cnt > 0) {
+                        //금액차감
+                        money -= list.get(4).price;
+                        //상품갯수 빼기
+                        list.get(4).cnt--;
+
+                        //차감금액 띄우기
+                        txt_main.setText("금액" + money + "원");
+
+
+                        //버튼 누른 횟수
+                        list.get(4).count++;
+
+                        //현재 남은 갯수
+                        txt_rn.setText(list.get(4).cnt + "개 남음");
+
+                    }else{
+                        Toast.makeText(MainActivity.this, "품절 되었습니다", Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+            }
+        });
 
 
 
@@ -195,6 +235,7 @@ public class MainActivity extends AppCompatActivity {
         btn_result.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                 intent.putExtra("list", list);
                 intent.putExtra("money", money);
                 startActivity(intent);
