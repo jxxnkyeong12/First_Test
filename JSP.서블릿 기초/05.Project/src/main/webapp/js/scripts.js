@@ -8,11 +8,13 @@
 // 
 //$(function(){
 	
+	//첨부파일 선택시
 	$('#attach-file').on('change', function(){
 		//console.log(this.files[0]);
 		var attached = this.files[0];
 		if( attached ){
 			$('#delete-file').css('display', 'inline');
+			$('#filename').text(attached.name );
 		}else {
 			$('#delete-file').css('display', 'none');
 		}
@@ -23,6 +25,7 @@
 		alert('삭제되었습니다')
 		$('#attach-file').val('');
 		$('#delete-file').css('display','none');
+		$('#filename').text('');
 		
 	});
 	

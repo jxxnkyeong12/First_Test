@@ -12,13 +12,27 @@ public class NoticeDAO {
 	
 	private SqlSession sql = CommonDAO.sql;
 	
+	//공지글 답글저장
+	public void notice_relpy_insert(NoticeDTO dto) {
+		sql.insert("notice.rely_insert", dto);
+	}
+	
+	
 	//공지글 신규저장
 	public void notice_insert(NoticeDTO dto) {
 		sql.insert("notice.insert", dto);
 	}
 	
 	
-	//공지글 목록조회
+	//공지글 목록조회 : 페이지 처리된 형태
+	public NoticePageDTO notice_page(NoticePageDTO page) {
+		//총공지글 목록수를 조회
+		page.setTotalList(sql.selectOne("notice.total", page));
+		page.setList( sql.selectList("notice.list", page) ) ; //기존의 목록을 처리하도록 하자 이제 page는!
+		return page;
+	}
+	
+	//공지글 목록조회 : 페이지 처리 없는 형태
 	public List<NoticeDTO> notice_list() {
 		return sql.selectList("notice.list");
 	}
@@ -35,7 +49,7 @@ public class NoticeDAO {
 	
 	//공지글 변경저장
 	public void notice_update(NoticeDTO dto) {
-		
+		sql.update("notice.update", dto);
 	}
 	
 	//공지글 삭제

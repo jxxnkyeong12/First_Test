@@ -11759,9 +11759,17 @@ table tr { border-bottom: 1px solid #ccc }
 table tr th { background-color: #eee !important }
 label:not(:last-child) { margin-right: 20px }
 
+textarea {
+	resize: none;
+	padding: 10px;
+	height: 250px;
+}
 input {
 	height: 30px;
 	padding: 0 10px;
+}
+input[name=title], textarea[name=content] {
+	width: calc(100% - 24px)
 }
 input[name=address] { 
 	width: 100% }
@@ -11777,35 +11785,39 @@ select {
 .valid { font-size:14px; color:#068704; font-weight: bold;  }
 .invalid { font-size:14px; color:#d10a06; font-weight: bold;  }
 
-
-textarea {
-	resize: none;
-	padding: 10px;
-}
-
-input {
-	height: 30px;
-	padding: 0 10px;
-}
-
-input[name=title], textarea[name=content] {
-	width:  calc(100% - 24px)
-}
-
 input[type=radio] {
 	width:18px;
 	vertical-align: middle;
 }
 
-#delete-file {display: none}
+#delete-file { display: none }
 
 
 
+.page-list {
+	display:  flex;
+	justify-content: center;
+	line-height: 36px;
+}
 
 
+.page-list span, .page-list a {
+	width: 38px;
+	height: 38px;
+	border: 1px solid transparent;
+	margin: 1px;
+	text-align: center;
+}
 
+.page-list span {
+	border: 1px solid #0040ff;
+	color : #0040ff;
+}
 
-
+.page-list a:hover {
+	background-color: rgba(3, 173, 252, 0.1);
+	color : #0040ff !important; /* 우선순위! !important */
+}
 
 
 

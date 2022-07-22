@@ -16,7 +16,7 @@
 		  2. 파일첨부형식을 지정 : enctype="multipart/form-data"
 	 -->
 	<form method="post" enctype="multipart/form-data" action="insert.no">
-	<input type= 'hidden' name = 'writer' value='${userInfo.userid}' >
+	<input type='hidden' name='writer' value='${userInfo.userid}'>
 		<table class ='table'>
 			<tr><th>제목</th>
 				<td><input type ="text" name ="title" class= 'chk' title ='제목'></td>

@@ -1,10 +1,14 @@
 package common;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -14,7 +18,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.UUID;
 
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
 import org.apache.commons.mail.EmailAttachment;
@@ -24,6 +30,42 @@ import org.apache.commons.mail.MultiPartEmail;
 import org.apache.commons.mail.SimpleEmail;
 
 public class CommonUtil {
+	
+	//2022.07.21  파일 다운로드처리
+	
+	public void fileDownload(HttpServletRequest request, HttpServletResponse response, String filename, String filepath) {
+		
+		//다운로드할 파일 찾기
+		filepath =request.getServletContext().getRealPath("/" + filepath); //디렉토리 구분자! 슬레쉬!
+		File file =new File(filepath);
+		//첨부된 파일의 마임타입을 지정한다
+		String mime=request.getServletContext().getMimeType(filename);
+		
+		try {
+			filename = URLEncoder.encode(filename, "utf-8");
+			response.setContentType(mime);
+			response.setHeader("content-disposition", "attachment; filename=" + filename);
+		
+		
+			//Reader/Writer InputStream/OutputStream
+			ServletOutputStream out =response.getOutputStream();
+			BufferedInputStream in =new BufferedInputStream( new FileInputStream(file));
+			byte buff[] = new byte[1024];  //1024 -> 962 1986
+			int read = 0;
+			while( (read = in.read(buff) ) != -1) {  //1024만큼씩 읽어들인다
+				out.write(buff, 0, read); //0부터 읽어들인(read) 갯수만큼! 
+				
+			}
+			in.close(); //버퍼 닫아주기
+		} catch (IOException e) {
+
+		}
+		
+		
+	}
+	
+	
+	
 	//2022.07.20 파일 업로드처리
 	public HashMap<String, String> fileUpload(HttpServletRequest request, String category) {
 		//웹서버에 프로젝트의 물리적인 위치
