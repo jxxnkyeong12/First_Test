@@ -36,9 +36,9 @@ public class MemberController extends HttpServlet {
 		CommonUtil util = new CommonUtil();
 		
 		
-		String NAVER_ID = "3C0gJleDZlNATaqQYI8p";  //네이버 개발자 들어가서 네이버 client_id 받은거 넣어줘!!
-		String NAVER_SECRET = "xi5pg8jxMY";  //네이버 client_secret
-		String KAKAO_ID = "9d6908da78be87da98861da31fded1f2";// 카카오 RestAPI 키
+		String NAVER_ID = "";  //네이버 개발자 들어가서 네이버 client_id 받은거 넣어줘!!
+		String NAVER_SECRET = "";  //네이버 client_secret
+		String KAKAO_ID = "";// 카카오 RestAPI 키
 		
 		
 		
@@ -338,9 +338,9 @@ public class MemberController extends HttpServlet {
 		dto.setPost(request.getParameter("post"));
 		
 		String address [] = request.getParameterValues("address");
-		//address[0] : 부산 상서구 르노삼성대로 14
+		//address[0] : ㅇㅇ ㅇㅇ구 ㅇㅇ대로 14
 		//address[1] : 101호
-		//부산강서구 르노삼성대로 14<br>101호
+		//ㅇㅇ ㅇㅇ구 ㅇㅇ대로 14<br>호
 		//String.join("<br>", address);
 		/* dto.setAddress(request.getParameter("address")); */
 		dto.setAddress(String.join("<br>", request.getParameterValues("address") ) ); 
