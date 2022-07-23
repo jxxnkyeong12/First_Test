@@ -231,7 +231,7 @@ public class CommonUtil {
 		mail.setCharset("utf-8");
 		mail.setDebug(true);
 		mail.setHostName("smtp.naver.com");
-		mail.setAuthentication("jxxnkyeong12", "wlsrud12");
+		mail.setAuthentication("아이디", "비번");
 		mail.setSSLOnConnect(true);
 		
 		
@@ -275,7 +275,7 @@ public class CommonUtil {
 		mail.setCharset("utf-8");
 		mail.setDebug(true); 
 		
-		mail.setAuthentication("jxxnkyeong12", "wlsrud12");  //"관리자의 이메일 아이디", "해당 아이디의 비밀번호"
+		mail.setAuthentication("관리자의 이메일(ex:jxxnkyeon12)", "해당 아이디의 비밀번호");  //"관리자의 이메일 아이디", "해당 아이디의 비밀번호"
 		mail.setSSLOnConnect(true);
 		
 		try {
@@ -327,8 +327,8 @@ public class CommonUtil {
 		
 		mail.setHostName("smtp.naver.com");//이메일서버지정
 		//1.아이디, 비번 입력해서 로그인하기
-		//■ mail.setAuthentication("관리자의 이메일 아이디", "해당 아이디의 비밀번호");
-		mail.setAuthentication("jxxnkyeong12", "wlsrud12");
+		■ mail.setAuthentication("관리자의 이메일 아이디", "해당 아이디의 비밀번호");
+		
 		mail.setSSLOnConnect(true);   //2.로그인하기!
 		
 		//mail.setFrom("관리자 이메일 주소")  abc@naver.com
