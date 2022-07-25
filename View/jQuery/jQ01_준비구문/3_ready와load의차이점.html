@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script src="jquery-1.12.4.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+	var h =	$("img").height(); //1.태그니까 img를 가져오고
+	
+	
+	$(".ready").html(h); //2.html의 형태로 h에 쓸란다  ->6.html()메서드는 JS의 innerHTML = ""와 같다!
+
+}); //ready
+
+	$(window).load(function() {//3.
+		var h =	$("img").height();	//4.
+		
+		$(".load").html(h);//5.
+	}); //load
+
+</script>
+</head>
+<body>
+	
+	<img alt="이미지" src="http://picsum.photos/200/200">
+	<h3>ready시 이미지 인식 높이 : <span class ="ready"></span></h3>
+	<h3>load시 이미지 인식 높이 : <span class ="load"></span></h3>
+	
+</body>
+</html>
