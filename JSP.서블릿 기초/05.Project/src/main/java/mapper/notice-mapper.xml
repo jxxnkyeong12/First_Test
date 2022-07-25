@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="notice">
+  
+  
+  
+  
+  <!-- 공지글 답글 저장 처리 -->
+  
+  <insert id="rely_insert">
+  
+  <![CDATA[   
+  {
+  call declare 
+  begin
+	  update notice set step = step + 1
+	  where root = #{root} and step > #{step};  
+	  
+	  insert into notice(title, content, writer, filename, filepath, root, step, indent)
+	  values (#{title},#{content}, #{writer}, #{filename, jdbcType=VARCHAR}
+	  			, #{filepath, jdbcType= VARCHAR}, #{root}, #{step}+1, #{indent}+1);
+  end
+  }
+   ]]>
+  <!--  
+  답글저장시
+  원글과 root가 같고, 원글의 step보다 더 큰 step을 가진 글에 대해 step+1 ->step
+  
+  답글의 root  : 원글의 root
+  답글의 step : 원글의 step +1
+  답글의 indent : 원글의 indent +1
+  
+  -->
+  </insert>
+  
+  
+  <!-- 공지글 변경저장처리 -->
+  <update id="update">
+update notice set title = #{title}, content = #{content}
+							, filename = #{filename, jdbcType=VARCHAR}
+							, filepath = #{filepath, jdbcType=VARCHAR}
+where id = #{id}
+  </update>
+  
+  <!-- 공지글 신규저장처리 -->
+  <!-- jdbcType=VARCHAR 이건 null도 처리할수 있게 -->
+  <insert id="insert">
+  	insert into notice(title, content, writer, filename, filepath)
+  	values (#{title}, #{content}, #{writer}, #{filename, jdbcType=VARCHAR}, #{filepath, jdbcType=VARCHAR})
+  </insert>
+  
+  
+    <!-- 공지글목록수 조회  -->
+  <select id="total" resultType="integer">
+  select count(*) from notice
+  </select>
+  
+  <!-- 공지글목록조회  -->
+  <select id="list" resultType="notice.NoticeDTO">
+<!-- 1. 	select name, n.*
+	from notice n Left outer join member m
+	on n.writer = m.userid
+	order by id -->
+<!-- 2. -->	
+
+<!-- 페이지 처리한 해당 페이지 글목록 -->
+ select *
+	from (select row_number() over(order by root, step desc) no, name, n.* 
+			from notice n, member m
+			where n.writer = m.userid
+			order by no desc) n
+where no between #{beginList} and #{endList}		<!-- 번호가 11~20까지 조회하려면 -->
+	
+	
+<!-- 페이지 처리 하지 않은 전체 글목록 -->
+  
+<!-- select row_number() over(order by root, step desc) no, name, n.* 
+from notice n, member m
+where n.writer = m.userid
+order by no desc
+ -->
+
+		
+	<!--3.  
+	select row_number() over(order by id) no, name, n.* 
+	from member m, notice n
+	Where n.writer = m.userid
+	order by no desc
+	-->
+  </select>
+  
+  <!-- 공지글조회수 증가처리 -->
+  <update id="read" >
+  	update notice set readcnt = readcnt +1 where id = #{id}
+  </update>
+  
+  <!--공지글 정보조회  -->
+  <select id="detail" resultType="notice.NoticeDTO">
+  select name, notice.* 
+  from notice inner join member m
+  on notice.writer = m.userid 
+  where id = #{id}
+  </select>
+  
+  </mapper>
+  <!--
+  -ANSI조인
+select  m.name, n.WRITERDATE, n.TITLE
+from notice n Left outer join member m
+on n.writer = m.userid ;
+
+-선생님 ANSI조인
+select name, n.*
+from notice n inner join member m
+on n.writer= m.userid;
+
+-스칼라 서브쿼리
+select (select name from member  where n.writer = userid)name, n.*
+from notice n;
+  
+    -->
+  
