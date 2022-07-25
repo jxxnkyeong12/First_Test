@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <style type="text/css">
+		#header, #footer {
+		width: 700px;
+		background-color: orange;
+		border: 1px solid gray; /* 속기법 */
+		text-align: center;
+	/* 	height: 100px;
+		line-height: 100px;  */
+		/*한줄 세로 가운데 정렬 : height높이와 line-height 높이가 같아야 함 */
+		
+		}
+		#wrap{
+		 border : 1px solid gray;
+		 width: 700px;
+		 background-color: #66dbf6;
+		 overflow: hidden; /* 하위태그에 float를 하면 상위태그에 overflow:hidden;을 적용한다.  */
+		}
+		
+		#content{
+			float: left; /* float : left; -왼쪽으로 띄우기 */
+			border: 1px solid #808080;
+		}
+		#banner{
+		 float: left; /* float : right; - 오른쪽으로 띄우기 */
+			border: 1px solid #808080;
+		}
+		#footer{
+		clear: both;
+		}
+		
+ </style>
+</head>
+<body>
+ <div id="header">
+		<h1>HEADER</h1>
+		</div>
+		<div id="wrap">
+		 <div id="content">
+		  <h1>CONTENT</h1>
+				 <ul>
+					 <li class="menu1">menu1</li>
+					 <li class="menu2">menu2</li>
+					 <li class="menu3">menu3</li>
+					 <li class="menu4">menu4</li>
+					 <li class="menu5">menu5</li>
+				 </ul>
+	   </div>
+	  <div id="banner">
+		  <h1>BANNER</h1>
+		  <img src="logo.png" alt="loge" />
+	 </div>
+	</div>
+	<div id="footer">
+	 <h1>FOOTER</h1>
+	</div>
+</body>
+</html>
