@@ -25,8 +25,7 @@ public class HrDAO implements HrService { //쿼리문 실행~!
 
 	@Override
 	public EmployeeVO employee_detail(int employee_id) {
-		// TODO Auto-generated method stub
-		return null;
+		return sql.selectOne("hr.detail", employee_id); //조건절에 사용할 사원정보 파라메터로 보내기 위해 employee_id
 	}
 
 	@Override
@@ -37,8 +36,22 @@ public class HrDAO implements HrService { //쿼리문 실행~!
 
 	@Override
 	public int employee_delete(int employee_id) {
-		// TODO Auto-generated method stub
-		return 0;
+		return sql.delete("hr.delete", employee_id);
+	}
+
+	@Override
+	public List<DepartmentVO> employee_department_list() {
+		return sql.selectList("hr.employee_department_list");
+	}
+
+	@Override
+	public List<EmployeeVO> employee_list(int department_id) {
+		return sql.selectList("hr.department_employee_list", department_id);
+	}
+
+	@Override
+	public List<DepartmentVO> department_list() {
+		return sql.selectList("hr.department_list");
 	}
 
 }

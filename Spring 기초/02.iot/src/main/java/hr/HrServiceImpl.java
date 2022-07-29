@@ -25,8 +25,7 @@ public class HrServiceImpl implements HrService {
 
 	@Override
 	public EmployeeVO employee_detail(int employee_id) {
-		// TODO Auto-generated method stub
-		return null;
+		return dao.employee_detail(employee_id);
 	}
 
 	@Override
@@ -37,8 +36,22 @@ public class HrServiceImpl implements HrService {
 
 	@Override
 	public int employee_delete(int employee_id) {
-		// TODO Auto-generated method stub
-		return 0;
+		return dao.employee_delete(employee_id);
+	}
+
+	@Override
+	public List<DepartmentVO> employee_department_list() {
+		return dao.employee_department_list(); //dao에 있는 메소드 호출
+	}
+
+	@Override
+	public List<EmployeeVO> employee_list(int department_id) {
+		return dao.employee_list(department_id);
+	}
+
+	@Override
+	public List<DepartmentVO> department_list() {
+		return dao.department_list();
 	}
 
 }
