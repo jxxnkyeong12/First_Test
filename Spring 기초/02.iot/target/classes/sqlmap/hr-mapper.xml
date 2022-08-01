@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hr">
+<select id="list" resultType="hr.EmployeeVO">
+<!-- 사원목록 조회 -->
+select e.employee_id, e.first_name || ' ' || last_name name, d.department_name, j.job_title, e.hire_date
+from employees e LEFT OUTER JOIN departments d
+ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT OUTER JOIN jobs j
+On e.job_id = j.JOB_ID
+order by 1
+</select>
+
+<!--특정사번의 사원 한명 조회 -->
+
+<select id="detail" resultType="hr.EmployeeVO">
+select e.*, j.job_title, d.department_name, e.first_name || ' ' || e.last_name name
+from employees e LEFT OUTER JOIN departments d
+ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT OUTER JOIN jobs j
+ON e.job_id = j.JOB_ID
+where e.employee_id = #{id}
+</select>
+
+<!-- 사원이 속한 부서목록 조회 -->
+<select id='employee_department_list' resultType='hr.DepartmentVO'>
+select distinct department_id
+		, nvl(department_name, '소속없음') department_name
+from employees e left outer join departments d using(department_id)
+</select>
+
+<!-- 특정부서에 속한 사원목록조회 -->
+
+<select id="department_employee_list" resultType='hr.EmployeeVO'>
+select e.*, department_name, job_title, first_name|| ' ' || last_name name
+from employees e left outer join departments d on d.department_id=e.department_id
+	 inner join jobs j on j.job_id = e.job_id
+	 <if test ='department_id==0'>
+	WHERE e.department_id IS NULL
+	</if>
+ 	<if test ='department_id!=0'>
+	where e.department_id = #{department_id}
+	</if>
+
+order by employee_id	 
+
+
+</select>
+<!-- 사원정보 삭제 -->
+<delete id='delete'>
+delete from employees where employee_id=#{employee_id}
+</delete>
+
+
+<!-- 회사의 전체 부서 목록 조회 -->
+<select id="department_list" resultType="hr.DepartmentVO">
+select department_id, department_name
+from departments	
+
+</select>
+
+
+</mapper>
