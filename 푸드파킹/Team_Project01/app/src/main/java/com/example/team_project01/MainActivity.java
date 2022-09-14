@@ -8,8 +8,12 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.example.team_project01.home.HomeFragment;
+<<<<<<< HEAD
+import com.example.team_project01.more.MoreFragment;
+=======
 import com.example.team_project01.myinfo.MyinfoFragment;
 import com.example.team_project01.order.OrderFragment;
+>>>>>>> 95cbb656e26a6320a9a4847078cf46ddcbbb13c4
 import com.example.team_project01.search.SearchFragment;
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
@@ -57,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if(itemIndex == 2) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, new MyinfoFragment()).commit();
                 }else {
-                    Toast.makeText(MainActivity.this, "더보기", Toast.LENGTH_SHORT).show();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new MoreFragment()).commit();
                 }
             }
 

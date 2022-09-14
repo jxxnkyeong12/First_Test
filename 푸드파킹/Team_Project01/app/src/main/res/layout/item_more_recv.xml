@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_more"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_shopping_cart_24"/>
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공지사항"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EAEAEA"/>
+
+
+</LinearLayout>
