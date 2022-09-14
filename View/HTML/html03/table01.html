@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	table{
+		border: 1px solid black;  /* CSS에서는 단위를 사용 */
+		width: 500px;
+		text-align: center;
+		border-collapse: collapse;
+	}
+
+	th, td{
+			border: 1px solid black;
+	}
+	
+</style>
+</head>
+<body>
+	<!--
+	테이블 요소 태그 : 
+	table : 표 전체를 구성하는 태그
+	caption : 표의 제목 태그, table 태그의 자손으로 존재
+	tr : table row(테이블 행)
+	th : table head(제목행), tr의 자손의 존재, 진하고 가운데 정렬
+	td : table data(데이터 행) tr의 자손으로 존재
+	border : 표의 테두리, HTML5에서는 border 속성 하나만 가짐
+	  -->
+
+	<table> <!--border="1" HTML에서는 단위 안씀-->
+		<tr>
+			<th>table header1</th>
+			<th>table header2</th>
+		</tr>
+		<tr>
+			<td>table data1</td>
+			<td>table data2</td>
+		</tr>
+		<tr>
+			<td>table data3</td>
+			<td>table data4</td>
+		</tr>
+	</table>	  
+	  
+</body>
+</html>
