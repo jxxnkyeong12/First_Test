@@ -1,6 +1,7 @@
 package com.example.team_project01.search;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.widget.SearchView;
@@ -8,20 +9,16 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.team_project01.MainActivity;
 import com.example.team_project01.R;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class SearchFragment extends Fragment {
 
@@ -46,10 +43,11 @@ public class SearchFragment extends Fragment {
 
         search();
         searching();
+
         return v;
     }
 
-    //기본 검색창
+    //기본 검색페이지 화면
     public void search() {
         ArrayList<CategoryDTO> list = new ArrayList<>();
         list.add(new CategoryDTO("한식", "양식", R.drawable.black, R.drawable.black));
@@ -81,6 +79,7 @@ public class SearchFragment extends Fragment {
             public void onClick(View v) {
                 tv_search_cancel.setVisibility(View.VISIBLE);
 
+                //취소 글자 눌렀을 때
                 tv_search_cancel.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -90,8 +89,9 @@ public class SearchFragment extends Fragment {
                     }
                 });
 
-                searchview.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
+                //검색어 입력 중
+                searchview.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                     @Override
                     public boolean onQueryTextSubmit(String query) {
                         return false;
@@ -102,28 +102,32 @@ public class SearchFragment extends Fragment {
                         ArrayList<SearchDTO> filterSearch = new ArrayList<>();
                         for (int i = 0; i < searchList.size(); i++) {
                             SearchDTO dto = searchList. get(i);
-
                             if (dto.getString().toLowerCase().contains(newText.toLowerCase())) {
                                 filterSearch.add(dto);
                             }
                         }//for
 
+                        layout_category.setVisibility(View.GONE);
                         search_listview.setVisibility(View.VISIBLE);
 
                         SearchAdapter adapter = new SearchAdapter(filterSearch, getLayoutInflater(), newText);
                         search_listview.setAdapter(adapter);
-
-                        layout_category.setVisibility(View.GONE);
                         return false;
                     }
                 });
+
             }
         });
 
-
-
+        searchview.setOnCloseListener(new SearchView.OnCloseListener() {
+            @Override
+            public boolean onClose() {
+                search_listview.setVisibility(View.GONE);
+                layout_category.setVisibility(View.VISIBLE);
+                search();
+                return false;
+            }
+        });
 
     }
-
-
 }

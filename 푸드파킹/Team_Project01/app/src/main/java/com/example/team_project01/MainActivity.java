@@ -2,6 +2,7 @@ package com.example.team_project01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.widget.FrameLayout;
@@ -11,13 +12,14 @@ import com.example.team_project01.home.HomeFragment;
 import com.example.team_project01.myinfo.MyinfoFragment;
 import com.example.team_project01.order.OrderFragment;
 import com.example.team_project01.search.SearchFragment;
+import com.example.team_project01.store.StoreActivity;
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
 import com.luseen.spacenavigation.SpaceOnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    FrameLayout container;
+    FrameLayout main_container;
     SpaceNavigationView bottom_nav;
 
     @Override
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        container = findViewById(R.id.container);
+        main_container = findViewById(R.id.main_container);
         bottom_nav = (SpaceNavigationView) findViewById(R.id.bottom_nav);
 
         //하단 네비게이션 버튼 아이디 찾아주기
@@ -39,23 +41,23 @@ public class MainActivity extends AppCompatActivity {
         bottom_nav.requestLayout();
 
         //어플 메인화면
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new HomeFragment()).commit();
 
         //하단네비바 클릭시
         bottom_nav.setSpaceOnClickListener(new SpaceOnClickListener() {
             @Override
             public void onCentreButtonClick() {
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, new OrderFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new OrderFragment()).commit();
             }
 
             @Override
             public void onItemClick(int itemIndex, String itemName) {
                 if(itemIndex == 0) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new HomeFragment()).commit();
                 }else if(itemIndex == 1) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new SearchFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new SearchFragment()).commit();
                 }else if(itemIndex == 2) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new MyinfoFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new MyinfoFragment()).commit();
                 }else {
                     Toast.makeText(MainActivity.this, "더보기", Toast.LENGTH_SHORT).show();
                 }
