@@ -3,14 +3,58 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_baseline_campaign_24.xml" value="0.22083333333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2171875" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_nav_home.xml" value="0.22395833333333334" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_nav_order.xml" value="0.22395833333333334" />
+<<<<<<< HEAD
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_star.xml" value="0.22395833333333334" />
+=======
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_nav_search.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.22083333333333333" />
+>>>>>>> dd1e94c41c0b49cad66aa0741ca12c8476f24a7a
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/drawable/shape.xml" value="0.22395833333333334" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/activity_store.xml" value="0.25" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_category.xml" value="0.3692708333333333" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+<<<<<<< HEAD
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_keyword.xml" value="0.18958333333333333" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_more.xml" value="0.3605072463768116" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_search.xml" value="0.4684147794994041" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_more_recv.xml" value="0.3605072463768116" />
+=======
+>>>>>>> dd1e94c41c0b49cad66aa0741ca12c8476f24a7a
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_myinfo.xml" value="0.5" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_result.xml" value="0.1875" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_store__menu.xml" value="0.3692708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_stroe_menu.xml" value="0.3692708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_sub_search.xml" value="0.3692708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_subsearch.xml" value="0.33" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/fragment_subsearch_.xml" value="0.5" />
+<<<<<<< HEAD
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_category.xml" value="0.2078125" />
+=======
+>>>>>>> 95cbb656e26a6320a9a4847078cf46ddcbbb13c4
+>>>>>>> dd1e94c41c0b49cad66aa0741ca12c8476f24a7a
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_searach.xml" value="0.33" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_search.xml" value="0.5" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_store_info.xml" value="0.18958333333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/layout/item_store_menu.xml" value="0.3692708333333333" />
         <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/menu/bottom_nav.xml" value="0.3692708333333333" />
+        <entry key="..\:/Study_Android/WorkSpace/Team_Project01/app/src/main/res/menu/menu_store.xml" value="0.18958333333333333" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/drawable/gradient.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/drawable/trans_shap.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/layout/fragment_myinfo.xml" value="0.5" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/layout/fragment_order.xml" value="0.33" />
+        <entry key="..\:/Study_Android/workspace/Team_Project01/app/src/main/res/layout/fragment_search.xml" value="0.20104166666666667" />
       </map>
     </option>
   </component>

@@ -12,7 +12,10 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.example.team_project01.home.HomeFragment;
+<<<<<<< HEAD
 import com.example.team_project01.myinfo.MyinfoFragment;
+=======
+>>>>>>> a6468d33a1b1e84bd45553a4cd36703b42ea3646
 import com.example.team_project01.search.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.luseen.spacenavigation.SpaceItem;
@@ -60,7 +63,10 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, new SearchFragment()).commit();
                 }else if(itemIndex == 2) {
                     Toast.makeText(MainActivity.this, "내정보", Toast.LENGTH_SHORT).show();
+<<<<<<< HEAD
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, new MyinfoFragment()).commit();
+=======
+>>>>>>> a6468d33a1b1e84bd45553a4cd36703b42ea3646
                 }else {
                     Toast.makeText(MainActivity.this, "더보기", Toast.LENGTH_SHORT).show();
                 }

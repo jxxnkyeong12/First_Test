@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
+<<<<<<< HEAD
             android:name=".myinfo.Order_history2Activity"
             android:exported="true" />
         <activity
@@ -17,6 +18,18 @@
             android:exported="true" />
         <activity
             android:name=".My_reviewActivity"
+=======
+            android:name=".login.JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.Pw_setting2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.Pw_settingActivity"
+>>>>>>> a6468d33a1b1e84bd45553a4cd36703b42ea3646
             android:exported="true" />
         <activity
             android:name=".MainActivity"

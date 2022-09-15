@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper
-  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="test"><!-- 외부에서 접근할때 클래스의 이름을 주듯이 접근할 이름을 지정! 외부에서 접근할때! test.selectTest를 적어줘야 마이밧이 인식해 이제 -->
-  <select id="selectTest" resultType="Integer"> <!-- 숫자조회를 위해 integer타입을 줘 -->
-	select 10 as num1 from dual
-  </select>
-</mapper>
