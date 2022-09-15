@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shopping_cart.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_shopping_cart.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_search.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_search.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_naver_button.JPG.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\naver_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google_button.JPG.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\google_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_kakao_button.JPG.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\kakao_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_black.png.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\black.png"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_location.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_item_searach.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\layout\\item_searach.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_more.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_more.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo.JPG.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\logo.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mail_button.JPG.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\mail_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_order.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_order.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_myinfo.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_myinfo.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_home.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    }
+]
