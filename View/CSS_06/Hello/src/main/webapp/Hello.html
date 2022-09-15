@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>회원가입</title>
+
+<style type="text/css">
+ 	@import url("css/signup.css");
+ 	
+ 	*{
+ 		margin: 0px auto;
+ 		padding: 0px;
+ 		box-sizing: border-box;
+ 	}
+ 	
+ 	.wrap {
+ 	 	position: absolute;	
+  	top: 50%;		
+  	left: 50%;	
+  	transform: translate(-50%,-50%);	
+  	
+ 	}
+ 	
+/*  	body {
+ 		background-color: #EFFBFB;
+
+ 	} */
+ 	
+ 	
+ 	ul li {
+ 		list-style: none;
+ 	}
+ 	
+ 	li {
+ 		text-align: left;
+ 		margin-bottom: 10px;
+ 	}
+ 	
+ 	.box {
+ 		width: 450px;
+ 		height: 35px;
+ 		border: 1px solid #848484;
+ 		padding: 8px;
+ 		outline-color: #58ACFA;
+ 		background-repeat: no-repeat;
+ 		/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ 	}
+ 	.phonebox{
+ 		width: 138px;
+ 		height: 35px;
+ 		border: 1px solid #848484;
+ 		padding: 8px;
+ 		outline-color: #58ACFA;
+ 	/* 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ 	}
+ 	
+ 	button.idCheckBtn, .mailCheckBtn{
+ 		border: 0px;
+ 	/* 	background-color:#81BEF7; */
+ 		background:linear-gradient(to bottom left, #0098FF, #81BEF7);
+		color: white;
+		height: 20px;
+		padding: 5px 20px;
+		border-radius: 4px;
+		text-align: center;
+		cursor: pointer;
+		display: inline-block;
+		text-decoration: none;
+		font-size: small;
+	
+ 	}
+ 	button.idCheckBtn {
+ 		position: absolute;
+ 		right: 8px;
+ 		top: 30px;
+ 	}
+ 	button.mailCheckBtn {
+ 		position: relative;
+ 		left: 320px;
+ 		top: -37px;
+ 	}
+ 	
+
+ 	button.reset, .submit{
+  	font-weight: bold;
+  	font-size: large;
+  	text-align: center;
+  	text-decoration: none;
+ 		border: none;
+ 	  border-radius: 4px;
+	  display: inline-block;
+  	width: 221px;
+  	height: 50px;
+  	cursor: pointer;
+  	color: white;
+  /* 	background-color: #81BEF7; */
+  	margin-right: 5px;
+  	background:linear-gradient(to bottom left, #0098FF, #81BEF7);
+  	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ 	}
+ 	
+ 	
+ 	button.reset {
+ 	 	position: absolute;
+  
+  	 
+ 	} 
+ 	
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/signup.js"></script>
+<script type="text/javascript">
+
+window.onload = function() {  
+	
+
+} //window.onload
+	
+	$(document).ready(function() {  
+	 var userId = document.getElementById("userId");
+	 var userPw = document.getElementById("userPw");
+	 var userName = document.getElementById("userName");
+	 var userTel = document.getElementById("userTel");
+	 var userEmail = document.getElementById("userEmail");
+
+	 var regUesId = /^[a-z]\w{4,11}$/;  
+	 var regUesPw = /^[a-z]\w{4,11}$/;  
+	 var regUesName = /^[가-힣]{2,5}$/;  
+	 var regUesTel = /^010\d{8}$/;  		
+	 var regUesEmail = /^[a-z]\w{4,11}@[a-z]{2,10}[\.][a-zA-Z]{2,3}[\.]?[a-z]{0,2}$/; 
+
+	 
+	 document.getElementById("myForm").onsubmit = function () {  
+			
+			 if (!userId.value) {  //값이 없다면! 
+				alert("아이디를 입력하세요");
+			  userId.focuse(); 
+			  return false; 
+			} else if(!regUesId.test(userId.value)) {		
+								
+				alert("아이디 형식이 잘못 작성되었습니다."+  
+						"\n아이디는 영문자로 시작하고 5~12자입니다.");
+				userId.vale = "";
+				userId.focus(); 
+				return false; 
+			}// userId if
+			 
+			 
+				
+			 if (!userPw.value) {
+				alert("패스워드를 입력하세요");
+			  userPw.focuse(); 
+			  return false; 
+			} else if(!regUesPw.test(userPw.value)) {		
+				alert("비밀번호 형식이 잘못 작성되었습니다."+ 
+						"\n비밀번호는 영문자로 시작하고 5~12자입니다.");
+				userPw.vale = ""; 
+				userPw.focus(); 
+				return false;
+			}// userPw if 
+			
+			
+			
+			 if (!userName.value) { //이름 형식이 잘못됐다면!
+				alert("이름를 입력하세요");
+			  userName.focuse(); 
+			  return false; 
+			} else if(!regUesName.test(userName.value)) {		
+				alert("이름 형식이 잘못 작성되었습니다."+ 
+						"\n이름 영문자로 시작하고 5~12자입니다.");
+				userName.vale = ""; 
+				userName.focus(); 
+				return false;
+			}// userName if 
+				
+		
+			 if (!userTel.value) {
+				alert("전화번호를 입력하세요");
+			  userTel.focuse(); 
+			  return false; 
+			} else if(!regUesTel.test(userTel.value)) {		
+				alert("전화번호 형식이 잘못 작성되었습니다.");
+				userTel.vale = ""; 
+				userTel.focus(); 
+				return false;
+			}// userTel if 
+			 
+			 if (!userEmail.value) {
+				alert("이메일을 입력하세요");
+			  userEmail.focuse(); 
+			  return false; 
+			} else if(!regUesrEmail.test(userEmail.value)) {		
+				alert("이메일 형식이 잘못 작성되었습니다.");
+				userEmail.vale = ""; 
+				userEmail.focus(); 
+				return false;
+			}// userEmail if 
+		}//onsubmit
+		
+		
+	 document.getElementById("myForm").onreset = function () {
+			var result =confirm("정말 회원가입을 취소하겠습니까?"); //25.confirm은 확인 취소 창 뜨게 하는거야! 
+			if (result) { 
+				alert("회원가입이 취소 되었습니다."); 
+				userId.value =""; 
+				userPw.value =""; 
+				userName.value =""; 
+				userTel.value =""; 
+				userEmail.value =""; 
+				userId.focus();
+				return false;
+			} else {
+				userId.focus();
+				return false;
+			}
+		}//onreset
+
+
+	}); //ready
+		
+</script>
+
+</head>
+<body>
+	<form method ="get" name="myform" id="myform" autocomplete="on">
+		 <div class ="wrap">
+			<ul>
+				<li>
+					<label for ="userId" >아이디 </label><br /> 
+					<input type="text" id = "userId"  name= "userId" placeholder="아이디를 입력하세요" class='box' 
+								 autofocus="autofocus" onclick="this.placeholder" maxlength="12" />
+				</li>
+				  <button class ="idCheckBtn" >id중복확인</button>
+				<li>
+					<label for = "userPw">비밀번호 </label><br /> 
+					<input type="text" id= "userPw" name = "userPw" placeholder="비밀번호를 입력하세요" class='box' onclick="this.placeholder" maxlength="20" autocomplete="on"/> <br /> 
+				
+				</li>
+				<li>
+					<label for = "userPword">비밀번호 확인 </label><br /> 
+					<input type="text" id = "userPword" name = "userPwor" placeholder="다시 비밀번호를 입력하세요" class='box' onclick="this.placeholder" maxlength="20"/> <br /> 
+					
+				</li>
+				<li>
+					<label for ="userName" >이름 </label><br /> 
+					<input type="text" id = "userName"  name= "userName" placeholder="이름를 입력하세요" class='box' onclick="this.placeholder" maxlength="10" />
+				</li>
+				<li>
+					<label for = "date">생년월일</label><br /> 
+					<input type="date" id = "date" name = "date" placeholder="연도-월-일" class='box' /> <br /> 
+				</li>
+				<li>
+					<label for = "userTel">전화번호</label><br /> 
+					<input type="text" class='phonebox' id = "userTel" name ="userTel" maxlength="3"/> - 
+					<input type="text" class='phonebox' maxlength="4" /> - 
+					<input type="text" class='phonebox' maxlength="4" /> <br />
+				  
+				</li>
+				<li>
+					<label for ="userEmail" >이메일 </label><br /> 
+					<input type="text" id = "userEmail"  name= "userEmail" placeholder="이메일을 입력하세요" class='box' onclick="this.placeholder" maxlength="40" />
+				</li>
+				<button class ="mailCheckBtn" >email중복확인</button>		
+			</ul>
+			 <button class ="submit">회원가입</button>
+			 <button class ="reset">취소</button>
+		</div>
+	</form>
+</body>
+</html>
+
+
+
+

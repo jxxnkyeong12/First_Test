@@ -1,18 +1,43 @@
 com/example/team_project01/BuildConfig.java
  com.example.team_project01.BuildConfig
+<<<<<<< HEAD
+=======
+com/example/team_project01/myinfo/Order_history2Activity.java
+ com.example.team_project01.myinfo.Order_history2Activity
+com/example/team_project01/login/Pw_settingActivity.java
+ com.example.team_project01.login.Pw_settingActivity
+com/example/team_project01/myinfo/MyinfoFragment.java
+ com.example.team_project01.myinfo.MyinfoFragment
+com/example/team_project01/order/OrderFragment.java
+ com.example.team_project01.order.OrderFragment
+ com.example.team_project01.order.OrderFragment$1
+com/example/team_project01/search/CategoryDTO.java
+ com.example.team_project01.search.CategoryDTO
+com/example/team_project01/login/LoginmainActivity.java
+ com.example.team_project01.login.LoginmainActivity
+com/example/team_project01/search/SearchDTO.java
+ com.example.team_project01.search.SearchDTO
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com/example/team_project01/search/SearchFragment.java
  com.example.team_project01.search.SearchFragment
  com.example.team_project01.search.SearchFragment$1
  com.example.team_project01.search.SearchFragment$1$1
  com.example.team_project01.search.SearchFragment$1$2
  com.example.team_project01.search.SearchFragment$2
+<<<<<<< HEAD
 com/example/team_project01/myinfo/MyinfoFragment.java
  com.example.team_project01.myinfo.MyinfoFragment
+=======
+com/example/team_project01/more/MoreAdapter.java
+ com.example.team_project01.more.MoreAdapter
+ com.example.team_project01.more.MoreAdapter$ViewHolder
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com/example/team_project01/store/StoreMenuDTO.java
  com.example.team_project01.store.StoreMenuDTO
 com/example/team_project01/search/CategoryAdapter.java
  com.example.team_project01.search.CategoryAdapter
  com.example.team_project01.search.CategoryAdapter$ViewHolder
+<<<<<<< HEAD
 com/example/team_project01/order/OrderFragment.java
  com.example.team_project01.order.OrderFragment
 com/example/team_project01/search/CategoryDTO.java
@@ -27,6 +52,32 @@ com/example/team_project01/search/SearchAdapter.java
  com.example.team_project01.search.SearchAdapter
 com/example/team_project01/search/SearchDTO.java
  com.example.team_project01.search.SearchDTO
+=======
+com/example/team_project01/login/JoinActivity.java
+ com.example.team_project01.login.JoinActivity
+com/example/team_project01/login/LoginActivity.java
+ com.example.team_project01.login.LoginActivity
+com/example/team_project01/ListActivity.java
+ com.example.team_project01.ListActivity
+com/example/team_project01/store/StoreMenuAdapter.java
+ com.example.team_project01.store.StoreMenuAdapter
+ com.example.team_project01.store.StoreMenuAdapter$ViewHolder
+com/example/team_project01/more/MoreFragment.java
+ com.example.team_project01.more.MoreFragment
+com/example/team_project01/MainActivity.java
+ com.example.team_project01.MainActivity
+ com.example.team_project01.MainActivity$1
+com/example/team_project01/login/Pw_setting2Activity.java
+ com.example.team_project01.login.Pw_setting2Activity
+com/example/team_project01/myinfo/Order_historyActivity.java
+ com.example.team_project01.myinfo.Order_historyActivity
+com/example/team_project01/search/SearchAdapter.java
+ com.example.team_project01.search.SearchAdapter
+com/example/team_project01/My_reviewActivity.java
+ com.example.team_project01.My_reviewActivity
+com/example/team_project01/more/MoreCategoryDTO.java
+ com.example.team_project01.more.MoreCategoryDTO
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com/example/team_project01/store/StoreActivity.java
  com.example.team_project01.store.StoreActivity
  com.example.team_project01.store.StoreActivity$1

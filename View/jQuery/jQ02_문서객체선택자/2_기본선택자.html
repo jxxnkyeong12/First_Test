@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<!-- <script src="jquery-1.12.4.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+
+$(document).ready(function() {
+	//1. 전체선택자
+	$("*").css("font-size","40px"); //40px) . ->메소드 체인!(연결)
+	
+	
+	//2.태그선택자
+//	$("h3").css("text-decoration","underline").css("background-color","red");
+	
+	$("h3").css({
+		"text-decoration":"underline", //객체는 ; 세미콜론 안쓰고! 
+		"background-color":"red"
+	});
+			
+	//3. 아이디 선택자
+	/* $("선택자").메서드(); */
+	$("#text01").css("color","red");
+	$("#text02").css("color","blue");
+	
+	//4. 클래스 선택자
+	$(".odd").css("color","pink");
+	$(".even").css("color","green");
+	
+	
+	
+}); //ready
+
+</script>
+</head>
+<body>
+	<h3>제목태그</h3>
+	<p id="text01">문단태그</p>
+	<p id="text02">문단태그</p>
+	
+	<ul>
+		<li class ="odd">리스트태그</li>
+		<li class ="even">리스트태그</li>
+		<li class ="odd">리스트태그</li>
+		<li class ="even">리스트태그</li>
+		
+	</ul>
+	
+</body>
+</html>

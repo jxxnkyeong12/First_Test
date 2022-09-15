@@ -2486,6 +2486,10 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable arror
+<<<<<<< HEAD
+=======
+drawable arrow
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable avd_hide_password
 drawable avd_show_password
 drawable black
@@ -2498,14 +2502,27 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+<<<<<<< HEAD
+=======
+drawable call_agent
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable gift
+<<<<<<< HEAD
 drawable gradient
 drawable gray
+=======
+drawable google_button
+drawable gradient
+drawable gray
+drawable ic_baseline_arrow_forward_ios_24
+drawable ic_baseline_campaign_24
+drawable ic_baseline_shopping_cart_24
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable ic_before_24
 drawable ic_clock_black_24dp
 drawable ic_close
@@ -2529,8 +2546,16 @@ drawable ic_nav_search
 drawable ic_share
 drawable ic_shopping_cart
 drawable ic_star
+<<<<<<< HEAD
 drawable like
 drawable list
+=======
+drawable kakao_button
+drawable like
+drawable list
+drawable logo
+drawable loudspeaker
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2539,6 +2564,11 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+<<<<<<< HEAD
+=======
+drawable mail_button
+drawable mail_img
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2560,6 +2590,10 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
+<<<<<<< HEAD
+=======
+drawable naver_button
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable navigation_empty_icon
 drawable near_me
 drawable notification_action_background
@@ -2576,8 +2610,20 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable one
 drawable pack
+<<<<<<< HEAD
 drawable shop
 drawable shopping
+=======
+drawable page
+drawable pw_img
+drawable settings
+drawable shape_gray
+drawable shape_orange
+drawable shape_profile
+drawable shop
+drawable shopping
+drawable star
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2815,6 +2861,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+<<<<<<< HEAD
+=======
+id img_more
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 id imgv_banner
 id imgv_category1
 id imgv_category2
@@ -2845,7 +2895,10 @@ id line3
 id linear
 id listMode
 id list_item
+<<<<<<< HEAD
 id main_container
+=======
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 id main_content
 id masked
 id match_constraint
@@ -2880,6 +2933,10 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+<<<<<<< HEAD
+=======
+id more_recv
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2956,6 +3013,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+<<<<<<< HEAD
+=======
+id recv_list
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 id recv_search
 id recv_store_menu
 id reverseSawtooth
@@ -3091,6 +3152,10 @@ id tv_category1
 id tv_category2
 id tv_menu_name
 id tv_menu_price
+<<<<<<< HEAD
+=======
+id tv_more
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 id tv_search
 id tv_search_cancel
 id unchecked
@@ -3207,7 +3272,20 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+<<<<<<< HEAD
 layout activity_main
+=======
+layout activity_join
+layout activity_list
+layout activity_login
+layout activity_loginmain
+layout activity_main
+layout activity_my_review
+layout activity_order_history
+layout activity_order_history2
+layout activity_pw_setting
+layout activity_pw_setting2
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 layout activity_store
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3226,11 +3304,24 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+<<<<<<< HEAD
 layout fragment_myinfo
 layout fragment_order
 layout fragment_search
 layout item_category
 layout item_search
+=======
+layout fragment_more
+layout fragment_myinfo
+layout fragment_order
+layout fragment_order_history
+layout fragment_order_history2
+layout fragment_search
+layout item_category
+layout item_more_recv
+layout item_search
+layout item_search_list
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 layout item_store_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

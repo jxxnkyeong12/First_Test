@@ -1,21 +1,75 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pw_setting.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_pw_setting.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_arrow.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\arrow.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google_button.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\google_button.JPG"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_share.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_settings.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\gradient.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_gift.png.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\gift.png"
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_review.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_my_review.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_more.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_more.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pw_setting2.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_pw_setting2.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_orange.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\shape_orange.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_history.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_order_history.xml"
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
     },
     {
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_star.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_star.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_gift.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\gift.png"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_location.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_location.xml"
     },
@@ -40,6 +94,21 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\shopping.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mail_img.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\mail_img.png"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_join.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_join.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_gray.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\shape_gray.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -48,6 +117,13 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_item_search_list.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\item_search_list.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_bookmark.png.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\bookmark.png"
     },
@@ -76,6 +152,13 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\item_store_menu.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pw_img.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\pw_img.JPG"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -88,6 +171,21 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_item_more_recv.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\item_more_recv.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mail_button.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\mail_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_loginmain.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_loginmain.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_shop.png.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\shop.png"
     },
@@ -96,10 +194,28 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_before_24.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_order_history.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_order_history.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shopping_cart.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_shopping_cart.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_naver_button.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\naver_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_profile.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\shape_profile.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -116,6 +232,13 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_campaign_24.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_baseline_campaign_24.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_more.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_more.xml"
     },
@@ -148,6 +271,21 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\pack.png"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_list.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_kakao_button.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\kakao_button.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_list.png.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\list.png"
     },
@@ -168,10 +306,24 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_favorite.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_history2.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_order_history2.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_nav_search.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\ic_nav_search.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_page.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\page.png"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_myinfo.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_myinfo.xml"
     },
@@ -188,11 +340,41 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_star.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\star.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_loudspeaker.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\loudspeaker.png"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_logo.JPG.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable-v24\\logo.JPG"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_call_agent.png.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\call_agent.png"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_order_history2.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\fragment_order_history2.xml"
+    },
+    {
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_arror.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\drawable\\arror.xml"
     },
     {
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_login.xml"
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
     }
 ]

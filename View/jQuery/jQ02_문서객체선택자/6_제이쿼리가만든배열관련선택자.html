@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+	div {
+		padding: 20px;
+		float: left;
+	}
+	
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script>
+
+$(document).ready(function() {
+	//:eq(n) : n번째 요소 선택 : 0번부터 시작 배열방식
+	$("div:eq(0)").css("background-color","red"); //"div:nth-child(1)" 이게 편하긴 하지 ㅎㅎ...
+	$("div:eq(1)").css("background-color","orange");
+	$("div:eq(2)").css("background-color","yellow");
+	$("div:eq(3)").css("background-color","green");
+	$("div:eq(4)").css("background-color","blue");
+	$("div:eq(5)").css("background-color","navy");
+	$("div:eq(6)").css("background-color","purple");
+	
+	//:first : 배열된 요소에서 첫번째 선택 first child랑 똑같!
+	//:last : 배열된 요소에서 마지막번째 선택 last child랑 똑같아
+	
+	$("div:first").css("border-radius","20px 0px 0px 20px");
+	$("div:last").css("border-radius","0px 20px 20px 0px");
+	
+	//:odd :배열된 요소에서 홀수번째 선택
+	//:even : 배열된 요소에서 짝수번째 선택
+	$("div:odd").css("color","white");
+	$("div:even").css("color","gray");
+	
+	
+	//gt(n) : greater than ->
+	//lt(n) : less than(작은) ->
+	
+	$("div:gt(3)").css("text-decoration","underline");
+	$("div:lt(3)").css("font-style","italic");
+	
+}); //ready
+
+</script>
+</head>
+<body>
+	<div>레드</div>
+	<div>오렌지</div>
+	<div>옐로우</div>
+	<div>그린</div>
+	<div>블루</div>
+	<div>네이비</div>
+	<div>퍼플</div>
+</body>
+</html>
