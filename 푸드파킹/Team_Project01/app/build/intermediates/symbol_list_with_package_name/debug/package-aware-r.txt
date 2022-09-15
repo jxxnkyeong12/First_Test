@@ -260,6 +260,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1761,6 +1765,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2480,9 +2485,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arror
+drawable arrow
 drawable avd_hide_password
 drawable avd_show_password
 drawable black
+drawable bookmark
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2491,13 +2499,23 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable call_agent
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gift
 drawable google_button
+drawable gradient
+drawable gray
+drawable ic_baseline_arrow_forward_ios_24
+drawable ic_baseline_campaign_24
+drawable ic_baseline_shopping_cart_24
+drawable ic_before_24
 drawable ic_clock_black_24dp
+drawable ic_close
+drawable ic_favorite
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2514,9 +2532,14 @@ drawable ic_nav_more
 drawable ic_nav_myinfo
 drawable ic_nav_order
 drawable ic_nav_search
+drawable ic_share
 drawable ic_shopping_cart
+drawable ic_star
 drawable kakao_button
+drawable like
+drawable list
 drawable logo
+drawable loudspeaker
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2526,6 +2549,7 @@ drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
 drawable mail_button
+drawable mail_img
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2536,6 +2560,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable messenger
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2561,6 +2586,17 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable one
+drawable pack
+drawable page
+drawable pw_img
+drawable settings
+drawable shape_gray
+drawable shape_orange
+drawable shape_profile
+drawable shop
+drawable shopping
+drawable star
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2674,6 +2710,7 @@ id callMeasure
 id cancel_action
 id cancel_button
 id carryVelocity
+id category_korean
 id center
 id centerCrop
 id centerInside
@@ -2797,9 +2834,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_more
 id imgv_banner
 id imgv_category1
 id imgv_category2
+id imgv_menu_image
+id imgv_test
 id immediateStop
 id included
 id info
@@ -2815,6 +2855,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_category
+id layout_store_info
 id left
 id leftToRight
 id legacy
@@ -2857,6 +2899,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id more_recv
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2882,6 +2925,11 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myinfo_bookmark
+id myinfo_cardview
+id myinfo_liner
+id myinfo_orderhistory
+id myinfo_review
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2903,6 +2951,8 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id order
+id order_pack
 id outline
 id outward
 id overshoot
@@ -2920,12 +2970,15 @@ id percent
 id pin
 id position
 id postLayout
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recv_list
 id recv_search
+id recv_store_menu
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2953,9 +3006,11 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchview
 id select_dialog_listview
 id selected
 id selection_type
+id setting
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2993,11 +3048,16 @@ id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
 id stop
+id store_toolbar
 id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tab_info
+id tab_menu
+id tab_review
+id tab_store
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3049,6 +3109,11 @@ id transition_transform
 id triangle
 id tv_category1
 id tv_category2
+id tv_menu_name
+id tv_menu_price
+id tv_more
+id tv_search
+id tv_search_cancel
 id unchecked
 id uniform
 id unlabeled
@@ -3163,8 +3228,17 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_join
+layout activity_list
 layout activity_login
+layout activity_loginmain
 layout activity_main
+layout activity_my_review
+layout activity_order_history
+layout activity_order_history2
+layout activity_pw_setting
+layout activity_pw_setting2
+layout activity_store
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3182,8 +3256,17 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_more
+layout fragment_myinfo
+layout fragment_order
+layout fragment_order_history
+layout fragment_order_history2
 layout fragment_search
+layout item_category
+layout item_more_recv
 layout item_searach
+layout item_search
+layout item_store_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3270,6 +3353,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu menu_store
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -4488,6 +4572,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
