@@ -1,19 +1,16 @@
-package com.example.team_project01.login;
+package com.example.team_project01.myinfo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-<<<<<<< HEAD
 import com.example.team_project01.R;
 
-=======
->>>>>>> a6468d33a1b1e84bd45553a4cd36703b42ea3646
-public class Pw_setting2Activity extends AppCompatActivity {
+public class Order_historyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pw_setting2);
+        setContentView(R.layout.activity_order_history);
     }
 }

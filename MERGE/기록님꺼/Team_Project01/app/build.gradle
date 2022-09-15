@@ -40,4 +40,9 @@ dependencies {
     //하단바
     implementation 'com.github.armcha:SpaceNavigationView:1.6.0'
 
+<<<<<<< HEAD
+    //내정보 동그라미 프로필 위해 추가 - jk 2022/9/6
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+=======
+>>>>>>> a6468d33a1b1e84bd45553a4cd36703b42ea3646
 }
