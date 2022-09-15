@@ -2,25 +2,25 @@ package com.example.team_project01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.example.team_project01.home.HomeFragment;
-<<<<<<< HEAD
+
 import com.example.team_project01.more.MoreFragment;
-=======
+
 import com.example.team_project01.myinfo.MyinfoFragment;
 import com.example.team_project01.order.OrderFragment;
->>>>>>> 95cbb656e26a6320a9a4847078cf46ddcbbb13c4
+
 import com.example.team_project01.search.SearchFragment;
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
 import com.luseen.spacenavigation.SpaceOnClickListener;
 
 public class MainActivity extends AppCompatActivity {
-
     FrameLayout container;
     SpaceNavigationView bottom_nav;
 
