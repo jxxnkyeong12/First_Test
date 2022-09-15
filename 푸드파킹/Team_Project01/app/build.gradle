@@ -41,6 +41,5 @@ dependencies {
     implementation 'com.github.armcha:SpaceNavigationView:1.6.0'
 
     //내정보 동그라미 프로필 위해 추가 - jk 2022/9/6
-
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
