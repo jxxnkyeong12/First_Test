@@ -47,7 +47,7 @@
                 android:textSize="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="테이블 예약"/>
+                android:text="현장 주문"/>
             <TextView
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"

@@ -1,67 +1,64 @@
 package com.example.team_project01.search;
 
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.text.Spannable;
-import android.text.SpannableString;
-import android.text.SpannableStringBuilder;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.team_project01.R;
 
 import java.util.ArrayList;
 
-public class SearchAdapter extends BaseAdapter {
+public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder>{
 
-    ArrayList<SearchDTO> sample;
     LayoutInflater inflater;
-    String newText;
+    ArrayList<CategoryDTO> list;
 
-    public SearchAdapter(ArrayList<SearchDTO> sample, LayoutInflater inflater, String newText) {
-        this.sample = sample;
+    public SearchAdapter(LayoutInflater inflater, ArrayList<CategoryDTO> list) {
         this.inflater = inflater;
-        this.newText = newText;
+        this.list = list;
+    }
+
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new ViewHolder(inflater.inflate(R.layout.item_searach, parent, false));
     }
 
     @Override
-    public int getCount() {
-        return sample.size();
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        holder.bind(holder, position);
     }
 
     @Override
-    public Object getItem(int i) {
-        return sample.get(i);
+    public int getItemCount() {
+        return list.size();
     }
 
-    @Override
-    public long getItemId(int i) {
-        return i;
-    }
+    public class ViewHolder extends RecyclerView.ViewHolder{
 
-    @Override
-    public View getView(int i, View convertView, ViewGroup parent) {
-        convertView = inflater.inflate(R.layout.item_search, parent, false);
+        ImageView imgv_category1, imgv_category2;
+        TextView tv_category1, tv_category2;
 
-        TextView tv_search = convertView.findViewById(R.id.tv_search);
+        public ViewHolder(@NonNull View v) {
+            super(v);
 
-        //검색어와 일치한 문자열만 색 바꾸기
-        String content = sample.get(i).getString();
-        SpannableString spannableString = new SpannableString(content);
+            imgv_category1 = v.findViewById(R.id.imgv_category1);
+            imgv_category2 = v.findViewById(R.id.imgv_category2);
+            tv_category1 = v.findViewById(R.id.tv_category1);
+            tv_category2 = v.findViewById(R.id.tv_category2);
 
-        int begin = content.indexOf(newText);
-        int end = begin + newText.length();
+        }
 
-        spannableString.setSpan(new ForegroundColorSpan(Color.parseColor("#F25C05")), begin, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        spannableString.setSpan(new StyleSpan(Typeface.BOLD), begin, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-        tv_search.setText(spannableString);
-
-        return convertView;
+        public void bind(@NonNull ViewHolder vh, int i) {
+            vh.imgv_category1.setImageResource(list.get(i).getImgv_category1());
+            vh.imgv_category2.setImageResource(list.get(i).getImgv_category2());
+            vh.tv_category1.setText(list.get(i).getTv_category1());
+            vh.tv_category2.setText(list.get(i).getTv_category2());
+        }
     }
 }
