@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
+<<<<<<< HEAD
             android:name=".store.StoreActivity"
+=======
+            android:name=".ListActivity"
+>>>>>>> e09d6ba7f057dee0ec439d76535cbec06f7f398a
             android:exported="true" />
         <activity
             android:name=".MainActivity"
