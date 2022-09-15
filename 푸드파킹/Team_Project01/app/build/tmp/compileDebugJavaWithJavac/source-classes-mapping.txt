@@ -6,8 +6,9 @@ com/example/team_project01/login/Pw_settingActivity.java
  com.example.team_project01.login.Pw_settingActivity
 com/example/team_project01/myinfo/MyinfoFragment.java
  com.example.team_project01.myinfo.MyinfoFragment
-com/example/team_project01/search/SearchFragment.java
- com.example.team_project01.search.SearchFragment
+com/example/team_project01/order/OrderFragment.java
+ com.example.team_project01.order.OrderFragment
+ com.example.team_project01.order.OrderFragment$1
 com/example/team_project01/search/CategoryDTO.java
  com.example.team_project01.search.CategoryDTO
 com/example/team_project01/login/LoginmainActivity.java
@@ -36,9 +37,9 @@ com/example/team_project01/store/StoreMenuAdapter.java
  com.example.team_project01.store.StoreMenuAdapter$ViewHolder
 com/example/team_project01/more/MoreFragment.java
  com.example.team_project01.more.MoreFragment
-com/example/team_project01/search/SearchAdapter.java
- com.example.team_project01.search.SearchAdapter
- com.example.team_project01.search.SearchAdapter$ViewHolder
+com/example/team_project01/MainActivity.java
+ com.example.team_project01.MainActivity
+ com.example.team_project01.MainActivity$1
 com/example/team_project01/login/Pw_setting2Activity.java
  com.example.team_project01.login.Pw_setting2Activity
 com/example/team_project01/myinfo/Order_historyActivity.java
@@ -50,9 +51,11 @@ com/example/team_project01/My_reviewActivity.java
  com.example.team_project01.My_reviewActivity
 com/example/team_project01/more/MoreCategoryDTO.java
  com.example.team_project01.more.MoreCategoryDTO
-com/example/team_project01/order/OrderFragment.java
- com.example.team_project01.order.OrderFragment
- com.example.team_project01.order.OrderFragment$1
-com/example/team_project01/MainActivity.java
- com.example.team_project01.MainActivity
- com.example.team_project01.MainActivity$1
+com/example/team_project01/search/SearchAdapter.java
+ com.example.team_project01.search.SearchAdapter
+com/example/team_project01/search/SearchFragment.java
+ com.example.team_project01.search.SearchFragment
+ com.example.team_project01.search.SearchFragment$1
+ com.example.team_project01.search.SearchFragment$1$1
+ com.example.team_project01.search.SearchFragment$1$2
+ com.example.team_project01.search.SearchFragment$2

@@ -3001,6 +3001,7 @@ int id search_button 0x7f08018c
 int id search_close_btn 0x7f08018d
 int id search_edit_frame 0x7f08018e
 int id search_go_btn 0x7f08018f
+int id search_listview 0x7f080216
 int id search_mag_icon 0x7f080190
 int id search_plate 0x7f080191
 int id search_src_text 0x7f080192
