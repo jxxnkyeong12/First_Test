@@ -4,6 +4,14 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+import android.content.Context;
+>>>>>>> e09d6ba7f057dee0ec439d76535cbec06f7f398a
+>>>>>>> a1d20339caaa226e7c53729913ebcb91587d0a39
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.util.Log;
@@ -20,8 +28,17 @@ import com.luseen.spacenavigation.SpaceNavigationView;
 import com.luseen.spacenavigation.SpaceOnClickListener;
 
 public class MainActivity extends AppCompatActivity {
+<<<<<<< HEAD
 
     FrameLayout container;
+=======
+<<<<<<< HEAD
+
+    FrameLayout main_container;
+=======
+    FrameLayout container;
+>>>>>>> e09d6ba7f057dee0ec439d76535cbec06f7f398a
+>>>>>>> a1d20339caaa226e7c53729913ebcb91587d0a39
     SpaceNavigationView bottom_nav;
 
     @Override

@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
+<<<<<<< HEAD
             android:name=".myinfo.Order_history2Activity"
             android:exported="true" />
         <activity
@@ -17,6 +18,13 @@
             android:exported="true" />
         <activity
             android:name=".My_reviewActivity"
+=======
+<<<<<<< HEAD
+            android:name=".store.StoreActivity"
+=======
+            android:name=".ListActivity"
+>>>>>>> e09d6ba7f057dee0ec439d76535cbec06f7f398a
+>>>>>>> a1d20339caaa226e7c53729913ebcb91587d0a39
             android:exported="true" />
         <activity
             android:name=".MainActivity"
