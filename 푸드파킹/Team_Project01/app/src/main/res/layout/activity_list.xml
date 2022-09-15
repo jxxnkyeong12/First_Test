@@ -52,8 +52,8 @@
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="43dp"
-                android:layout_height="28dp"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
                 android:text="전체"
                 android:padding="0dp"
                 android:textColor="@color/black"
@@ -64,8 +64,8 @@
                 />
 
             <Button
-                android:layout_width="55dp"
-                android:layout_height="28dp"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
                 android:text="포장하기"
                 android:padding="0dp"
                 android:textColor="@color/black"
@@ -77,8 +77,8 @@
 
 
             <Button
-                android:layout_width="55dp"
-                android:layout_height="28dp"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
                 android:text="즉시예약"
                 android:padding="0dp"
                 android:textColor="@color/black"
