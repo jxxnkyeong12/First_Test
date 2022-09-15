@@ -3265,8 +3265,8 @@ layout fragment_order_history2
 layout fragment_search
 layout item_category
 layout item_more_recv
-layout item_searach
 layout item_search
+layout item_search_list
 layout item_store_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

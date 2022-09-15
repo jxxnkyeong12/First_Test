@@ -3264,8 +3264,8 @@ int layout fragment_order_history2 0x7f0b003c
 int layout fragment_search 0x7f0b003d
 int layout item_category 0x7f0b003e
 int layout item_more_recv 0x7f0b003f
-int layout item_searach 0x7f0b0040
 int layout item_search 0x7f0b0041
+int layout item_search_list 0x7f0b0097
 int layout item_store_menu 0x7f0b0042
 int layout m3_alert_dialog 0x7f0b0043
 int layout m3_alert_dialog_actions 0x7f0b0044
