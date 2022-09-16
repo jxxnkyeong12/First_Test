@@ -42,4 +42,8 @@ dependencies {
 
     //내정보 동그라미 프로필 위해 추가 - jk 2022/9/6
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //달력캘린더뷰 하려고 추가 -kjk 2022/9/13
+    implementation "com.prolificinteractive:material-calendarview:1.4.3"
+
 }

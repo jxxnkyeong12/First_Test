@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
+            android:name=".order.ReserveActivity"
+            android:exported="true" />
+        <activity
+            android:name=".myinfo.modify.ModifyActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

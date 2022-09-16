@@ -12,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="250dp">
 
+
+
         <de.hdodenhof.circleimageview.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
 
@@ -196,6 +198,7 @@
         android:background="#E4E4E4" />
 
     <LinearLayout
+        android:id="@+id/myinfo_modify"
         android:gravity="center"
         android:layout_margin="15dp"
         android:layout_width="wrap_content"

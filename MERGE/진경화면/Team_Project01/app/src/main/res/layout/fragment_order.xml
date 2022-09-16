@@ -20,50 +20,52 @@
 
     <androidx.cardview.widget.CardView
 
-        android:id="@+id/order"
+        android:id="@+id/order_reserve"
         android:layout_width="350dp"
         android:layout_height="90dp"
         android:layout_gravity="center"
         android:elevation="80dp"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="true">
-    <LinearLayout
 
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
         <LinearLayout
 
-            android:layout_margin="10dp"
-            android:gravity="center_vertical"
-            android:layout_weight="3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:layout_marginLeft="10dp"
-                android:textStyle="bold"
-                android:textColor="#000"
-                android:textSize="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="현장 주문"/>
-            <TextView
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="테이블 예약"/>
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
 
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="현장 주문"/>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="테이블 예약"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/order_test"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gift"/>
         </LinearLayout>
-
-
-        <ImageView
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:src="@drawable/gift"/>
-    </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
