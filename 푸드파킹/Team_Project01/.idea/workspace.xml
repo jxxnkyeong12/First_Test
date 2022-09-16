@@ -2,25 +2,20 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_4" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
-<<<<<<< HEAD
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-=======
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="763ea327-3fde-4231-af8b-5a2f3b416fa8" name="Default Changelist" comment="" />
-=======
     <list default="true" id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="" />
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +27,15 @@
       <ProjectState />
     </projectState>
   </component>
-<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
-        <option value="Class" />
-        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="2ECMlVF0QPS4hc0Tu5fjHXBF5c0" />
-=======
   <component name="ProjectId" id="2ELKq9GZofO6SkwsOC5dShncjws" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,31 +43,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-<<<<<<< HEAD
-    <property name="android-custom-viewC:/Users/hanul/.gradle/caches/modules-2/files-2.1/com.github.armcha/SpaceNavigationView/1.6.0/817fa214b00e27b4ad7383d09557dfd519510b90/SpaceNavigationView-1.6.0-sources.jar!/com/luseen/spacenavigation/SpaceNavigationView.java_SELECTED" value="SpaceNavigationView" />
-    <property name="android-custom-viewC:/Users/hanul/AppData/Local/Android/Sdk/sources/android-31/android/view/View.java_SELECTED" value="View" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project02_IoT" />
-=======
+    <property name="android-custom-viewC:/Users/hanul/AppData/Local/Android/Sdk/sources/android-31/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\layout" />
-<<<<<<< HEAD
-      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\java\com\example\team_project01\order" />
-      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\java\com\example\team_project01\myInfo" />
-      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\drawable" />
-    </key>
-    <key name="android.template.-2024732136">
-      <recent name="com.example.team_project01.store" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.team_project01" />
-    </key>
-=======
       <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\java\com\example\team_project01\search" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\layout" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
@@ -92,8 +66,23 @@
       <recent name="com.example.team_project01.myinfo" />
       <recent name="com.example.team_project01" />
     </key>
+    <key name="android.template.384958447">
+      <recent name="com.example.team_project01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.1962441127">
+      <recent name="com.example.team_project01.common" />
+    </key>
+    <key name="android.template.-1898919170">
+      <recent name="com.example.team_project01.common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.team_project01" />
+    </key>
+    <key name="android.template.-1035396720">
+      <recent name="com.example.team_project01.common" />
     </key>
     <key name="android.template.2110404609">
       <recent name="com.example.team_project01.login" />
@@ -101,7 +90,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.team_project01.login" />
     </key>
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -166,19 +154,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="763ea327-3fde-4231-af8b-5a2f3b416fa8" name="Default Changelist" comment="" />
-      <created>1662095264214</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662095264214</updated>
-=======
       <changelist id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="" />
       <created>1662369612522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662369612522</updated>
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
     </task>
     <servers />
   </component>

@@ -10,19 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
-            android:name=".myinfo.Order_history2Activity"
+            android:name=".common.MapActivity"
             android:exported="true" />
         <activity
-            android:name=".myinfo.Order_historyActivity"
+            android:name=".myinfo.LikeActivity"
             android:exported="true" />
         <activity
-            android:name=".My_reviewActivity"
-            android:exported="true"/>
-
+            android:name=".myinfo.OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyReviewActivity"
+            android:exported="true" />
         <activity
             android:name=".store.StoreActivity"
-            android:exported="true"
-            />
+            android:exported="true" />
         <activity
             android:name=".ListActivity"
             android:exported="true" />

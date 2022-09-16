@@ -5,24 +5,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.LoginmainActivity"
+    tools:context=".login.LoginMainActivity"
     android:orientation="vertical"
     >
 
+    <!-- 뒤로가기 버튼필요,
+         레이아웃이 아닌 상단 앱바로 만들어야 함 (수정예정) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content">
+
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_margin="10dp"
                 android:src="@drawable/arrow"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -31,6 +36,7 @@
                 android:textSize="15dp"
                 android:text="주문내역"
                 android:textStyle="bold"/>
+
         </LinearLayout>
 
         <ImageView

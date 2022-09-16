@@ -11,11 +11,7 @@
 9-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
 10
 11    <application
-<<<<<<< HEAD
-11-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:5:5-24:19
-=======
-11-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:5:5-38:19
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+11-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:5:5-39:19
 12        android:allowBackup="true"
 12-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -23,13 +19,8 @@
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:7:9-43
-<<<<<<< HEAD
-16        android:label="@string/app_name"
-16-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-41
-=======
 16        android:label=""
 16-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-25
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 17        android:roundIcon="@mipmap/ic_launcher_round"
 17-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
@@ -39,122 +30,79 @@
 20-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:11:9-52
 21        <activity
 21-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
-<<<<<<< HEAD
-22            android:name="com.example.team_project01.store.StoreActivity"
-22-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-48
-23            android:exported="true" />
-23-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
-24        <activity
-24-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-23:20
-25            android:name="com.example.team_project01.MainActivity"
-25-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-41
-26            android:exported="true" >
-26-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
-27            <intent-filter>
-27-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:17-69
-28-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:17-77
-30-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <provider
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-35            android:name="androidx.startup.InitializationProvider"
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-36            android:authorities="com.example.team_project01.androidx-startup"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-37            android:exported="false" >
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-38            <meta-data
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-40                android:value="androidx.startup" />
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-41            <meta-data
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-43                android:value="androidx.startup" />
-43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-44        </provider>
-45    </application>
-46
-47</manifest>
-=======
-22            android:name="com.example.team_project01.myinfo.Order_history2Activity"
-22-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-58
+22            android:name="com.example.team_project01.common.MapActivity"
+22-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-47
 23            android:exported="true" />
 23-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
 24        <activity
 24-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
-25            android:name="com.example.team_project01.myinfo.Order_historyActivity"
-25-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-57
+25            android:name="com.example.team_project01.myinfo.LikeActivity"
+25-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-48
 26            android:exported="true" />
 26-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
 27        <activity
-27-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:38
-28            android:name="com.example.team_project01.My_reviewActivity"
-28-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-46
+27-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:39
+28            android:name="com.example.team_project01.myinfo.OrderHistoryActivity"
+28-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-56
 29            android:exported="true" />
 29-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:20:13-36
 30        <activity
-30-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:9-25:15
-31            android:name="com.example.team_project01.store.StoreActivity"
-31-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-48
+30-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:9-23:39
+31            android:name="com.example.team_project01.MyReviewActivity"
+31-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-45
 32            android:exported="true" />
-32-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:13-36
+32-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-36
 33        <activity
-33-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:26:9-28:39
-34            android:name="com.example.team_project01.ListActivity"
-34-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:27:13-41
+33-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
+34            android:name="com.example.team_project01.store.StoreActivity"
+34-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:25:13-48
 35            android:exported="true" />
-35-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-36
+35-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:26:13-36
 36        <activity
-36-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:9-37:20
-37            android:name="com.example.team_project01.MainActivity"
-37-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:30:13-41
-38            android:exported="true" >
-38-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:31:13-36
-39            <intent-filter>
-39-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:32:13-36:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:33:17-69
-40-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:33:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:35:17-77
-42-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:35:27-74
-43            </intent-filter>
-44        </activity>
-45
-46        <provider
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-48            android:authorities="com.example.team_project01.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-50            <meta-data
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+36-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:27:9-29:39
+37            android:name="com.example.team_project01.ListActivity"
+37-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-41
+38            android:exported="true" />
+38-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
+39        <activity
+39-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:30:9-38:20
+40            android:name="com.example.team_project01.MainActivity"
+40-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:31:13-41
+41            android:exported="true" >
+41-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:32:13-36
+42            <intent-filter>
+42-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:34:17-69
+43-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:34:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:36:17-77
+45-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.team_project01.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-56        </provider>
-57    </application>
-58
-59</manifest>
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

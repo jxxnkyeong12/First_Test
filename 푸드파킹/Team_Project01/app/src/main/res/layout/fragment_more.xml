@@ -18,9 +18,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="더보기"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="@color/black"
+            android:layout_gravity="center"
             />
         <View
             android:layout_weight="1"
@@ -33,17 +34,18 @@
             android:backgroundTint="@color/white"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_shopping_cart_24"
             />
     </LinearLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/more_recv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"/>
 
 
 

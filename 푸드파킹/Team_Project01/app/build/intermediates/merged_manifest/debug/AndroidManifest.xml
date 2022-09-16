@@ -13,28 +13,22 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-<<<<<<< HEAD
-        android:label="@string/app_name"
-=======
         android:label=""
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Team_Project01" >
         <activity
-<<<<<<< HEAD
-            android:name="com.example.team_project01.store.StoreActivity"
+            android:name="com.example.team_project01.common.MapActivity"
             android:exported="true" />
         <activity
-=======
-            android:name="com.example.team_project01.myinfo.Order_history2Activity"
+            android:name="com.example.team_project01.myinfo.LikeActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.team_project01.myinfo.Order_historyActivity"
+            android:name="com.example.team_project01.myinfo.OrderHistoryActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.team_project01.My_reviewActivity"
+            android:name="com.example.team_project01.MyReviewActivity"
             android:exported="true" />
         <activity
             android:name="com.example.team_project01.store.StoreActivity"
@@ -43,7 +37,6 @@
             android:name="com.example.team_project01.ListActivity"
             android:exported="true" />
         <activity
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
             android:name="com.example.team_project01.MainActivity"
             android:exported="true" >
             <intent-filter>
