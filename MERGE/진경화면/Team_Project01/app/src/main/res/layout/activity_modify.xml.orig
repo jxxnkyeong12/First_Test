@@ -63,7 +63,11 @@
             android:layout_width="265dp"
             android:layout_height="36dp"
             android:layout_gravity="center"
+<<<<<<< HEAD
+            android:text="      푸드파킹"
+=======
             android:hint="푸드파킹"
+>>>>>>> 990e4a2ea128baa2d97a296f1e9ff8e50b6feeea
             android:textSize="10dp"
             android:textColor="#A8B3BD"
             android:background="@drawable/shape_gray"/>
@@ -85,7 +89,11 @@
             android:layout_width="265dp"
             android:layout_height="36dp"
             android:layout_gravity="center"
+<<<<<<< HEAD
+            android:text="      푸드파킹"
+=======
             android:hint="비밀번호 입력"
+>>>>>>> 990e4a2ea128baa2d97a296f1e9ff8e50b6feeea
             android:textSize="10dp"
             android:textColor="#A8B3BD"
             android:background="@drawable/shape_gray"/>
@@ -108,7 +116,11 @@
             android:layout_width="265dp"
             android:layout_height="36dp"
             android:layout_gravity="center"
+<<<<<<< HEAD
+            android:text="      푸드파킹"
+=======
             android:hint="비밀번호 확인"
+>>>>>>> 990e4a2ea128baa2d97a296f1e9ff8e50b6feeea
             android:textSize="10dp"
             android:textColor="#A8B3BD"
             android:background="@drawable/shape_gray"/>

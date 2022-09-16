@@ -52,7 +52,9 @@
             android:layout_gravity="center"
            android:layout_width="20dp"
            android:layout_height="20dp"
-            android:src="@drawable/calender1"/>
+
+            android:src="@drawable/calender"/>
+
         <TextView
             android:textStyle="bold"
             android:id="@+id/res_datetxt"
@@ -72,7 +74,9 @@
             android:layout_gravity="center"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/up1"/>
+
+            android:src="@drawable/up"/>
+
 
         <ImageView
             android:id="@+id/res_down"
@@ -80,7 +84,9 @@
             android:layout_gravity="center"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/down1"/>
+
+            android:src="@drawable/down"/>
+
     </LinearLayout>
 
 
@@ -111,7 +117,9 @@
             android:layout_gravity="center"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/clock1"/>
+
+            android:src="@drawable/clock"/>
+
         <TextView
             android:textStyle="bold"
             android:id="@+id/res_timetxt"
@@ -131,14 +139,18 @@
             android:layout_gravity="center"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/up1"/>
+
+            android:src="@drawable/up"/>
+
         <ImageView
             android:visibility="gone"
             android:id="@+id/res_down2"
             android:layout_gravity="center"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/down1"/>
+
+            android:src="@drawable/down"/>
+
     </LinearLayout>
 
 
@@ -188,7 +200,9 @@
                 android:layout_gravity="center"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/up1"/>
+
+                android:src="@drawable/up"/>
+
             <ImageView
                 android:visibility="gone"
                 android:id="@+id/res_down3"
@@ -199,6 +213,9 @@
         </LinearLayout>
 
         <LinearLayout
+
+            android:layout_margin="10dp"
+
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -376,6 +393,9 @@
 
         </LinearLayout>
         <View
+
+            android:layout_marginTop="10dp"
+
             android:background="#B8B7B7"
             android:layout_width="wrap_content"
             android:layout_height="1dp"/>
