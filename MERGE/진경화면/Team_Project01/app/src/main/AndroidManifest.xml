@@ -5,10 +5,35 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
+
+        <!--네이버 지도 사용하기 위해 추가 jk2022/9/17-->
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="7jbtb9ge0p" />
+
+
+        <activity
+            android:name=".common.MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".myinfo.LikeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".myinfo.OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyReviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".store.StoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
