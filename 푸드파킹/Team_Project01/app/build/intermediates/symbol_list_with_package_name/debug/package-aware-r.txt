@@ -2627,7 +2627,10 @@ drawable shape_orange
 drawable shape_profile
 drawable shop
 drawable shopping
+<<<<<<< HEAD
 drawable spaghetti
+=======
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3294,10 +3297,14 @@ layout abc_tooltip
 layout activity_basket
 layout activity_join
 <<<<<<< HEAD
+<<<<<<< HEAD
 layout activity_like_history
 =======
 layout activity_like
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
+=======
+layout activity_like_history
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 layout activity_list
 layout activity_login
 layout activity_loginmain
@@ -3337,9 +3344,14 @@ layout fragment_second
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 layout item_category
 layout item_like_history
+<<<<<<< HEAD
 layout item_list_recv
 layout item_more_recv
 <<<<<<< HEAD
+=======
+layout item_more_recv
+layout item_my_review
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 layout item_order_history
 layout item_searach
 =======

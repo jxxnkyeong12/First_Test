@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.example.team_project01.myinfo;
+=======
+package com.example.team_project01.myInfo;
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 
 import androidx.appcompat.app.AppCompatActivity;
 

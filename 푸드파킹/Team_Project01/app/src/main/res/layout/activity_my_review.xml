@@ -9,47 +9,27 @@
     android:orientation="vertical"
     >
 
-    <LinearLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_margin="10dp"
-                android:src="@drawable/arrow"/>
+        android:theme="@style/Theme.AppCompat.Light" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/store_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_store">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textColor="#000000"
-                android:textSize="15dp"
                 android:text="리뷰관리"
-                android:textStyle="bold"/>
-        </LinearLayout>
+                android:textSize="17dp"
+                android:textColor="@color/black" />
 
-        <ImageView
-            android:layout_width="29dp"
-            android:layout_height="25dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/shopping" />
+        </androidx.appcompat.widget.Toolbar>
 
-        <Space
-            android:layout_width="16dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.01" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:layout_marginTop="10dp"
-        android:background="#EEEEEEEE"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
         android:layout_width="match_parent"

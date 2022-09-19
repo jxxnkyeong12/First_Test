@@ -9,6 +9,7 @@
     android:orientation="vertical"
     >
 
+<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,12 +46,40 @@
             android:layout_weight="0.01" />
 
     </LinearLayout>
+=======
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.Light" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/store_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_store">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="찜한내역"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="8dp"
         android:layout_marginTop="10dp"
+<<<<<<< HEAD
         android:background="#FF7A00"/>
 
+=======
+        android:background="#EEEEEEEE"/>
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

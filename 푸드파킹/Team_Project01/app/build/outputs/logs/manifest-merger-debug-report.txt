@@ -2,6 +2,7 @@
 manifest
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
@@ -21,6 +22,13 @@ MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\cac
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\08e57eeea418390b92239bc29c267719\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\ae227914fedd03b5cbe7aec7e6e688fa\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
@@ -70,14 +78,21 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\137fae5cb8b43fd4d77cda20fb259169\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\2c33c4bae6ea4f0acc28f0ec64c6b2d4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+<<<<<<< HEAD
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
+=======
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	package
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
 	android:versionName
+<<<<<<< HEAD
 		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
@@ -85,10 +100,23 @@ INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidMani
 		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+=======
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	xmlns:android
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:2:11-69
 application
+<<<<<<< HEAD
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:5:5-39:19
+=======
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:5:5-38:19
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -108,16 +136,21 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hanul\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\hanul\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-25
+=======
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-41
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	android:roundIcon
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:11:9-52
 <<<<<<< HEAD
 activity#com.example.team_project01.basket.BasketActivity
@@ -125,9 +158,15 @@ activity#com.example.team_project01.basket.BasketActivity
 activity#com.example.team_project01.common.MapActivity
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
+=======
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:11:9-52
+activity#com.example.team_project01.myinfo.Like_historyActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	android:exported
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
+<<<<<<< HEAD
 <<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-50
 activity#com.example.team_project01.list.ListActivity
@@ -136,9 +175,15 @@ activity#com.example.team_project01.list.ListActivity
 activity#com.example.team_project01.myinfo.LikeActivity
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
+=======
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-56
+activity#com.example.team_project01.myinfo.Order_historyActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	android:exported
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
+<<<<<<< HEAD
 <<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-46
 activity#com.example.team_project01.myinfo.Like_historyActivity
@@ -147,9 +192,15 @@ activity#com.example.team_project01.myinfo.Like_historyActivity
 activity#com.example.team_project01.myinfo.OrderHistoryActivity
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:39
+=======
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-57
+activity#com.example.team_project01.My_reviewActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:38
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 	android:exported
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-56
 <<<<<<< HEAD
 activity#com.example.team_project01.myinfo.Order_historyActivity
@@ -215,6 +266,43 @@ MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\cac
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\56442dbac01c176803152a59cf1c1ae9\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
+=======
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-46
+activity#com.example.team_project01.store.StoreActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:22:9-25:15
+	android:exported
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-48
+activity#com.example.team_project01.ListActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:26:9-28:39
+	android:exported
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:27:13-41
+activity#com.example.team_project01.MainActivity
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:35:27-74
+uses-sdk
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\08e57eeea418390b92239bc29c267719\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\08e57eeea418390b92239bc29c267719\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -313,16 +401,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hanul\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\2c33c4bae6ea4f0acc28f0ec64c6b2d4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\111e6e9be3df0e16ccb2077e691a9413\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		ADDED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a6574320c86c3a37e884ef017c5b1904\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hanul\.gradle\caches\transforms-3\d2a3b14342a552ef8281dc10a1999877\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

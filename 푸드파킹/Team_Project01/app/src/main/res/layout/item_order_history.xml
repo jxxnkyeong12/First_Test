@@ -5,7 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".login.LoginmainActivity"
+=======
+    tools:context=".login.LoginMainActivity"
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,6 +45,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
@@ -49,6 +54,17 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:background="@drawable/shape_profile"/>
+=======
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/one"/>
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
 
             <LinearLayout
                 android:layout_width="match_parent"

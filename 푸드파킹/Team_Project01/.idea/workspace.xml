@@ -25,7 +25,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\hanul\.android\avd\Pixel_4_API_30.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LMG710Nb02cbba5]" />
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -67,6 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
 =======
@@ -78,6 +83,11 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
+=======
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/example/team_project01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
   </component>
   <component name="RecentsManager">
     <key name="android.template.1574721424">
@@ -108,6 +118,7 @@
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
     </key>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <key name="android.template.172544817">
       <recent name="com.example.team_project01.list" />
 =======
@@ -123,6 +134,13 @@
     <key name="android.template.-1035396720">
       <recent name="com.example.team_project01.common" />
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
+=======
+    <key name="android.template.-1087579674">
+      <recent name="com.example.team_project01.order" />
+    </key>
+    <key name="android.template.-1458320232">
+      <recent name="com.example.team_project01.order" />
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
     </key>
     <key name="android.template.2110404609">
       <recent name="com.example.team_project01.login" />

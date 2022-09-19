@@ -20,7 +20,11 @@
         android:theme="@style/Theme.Team_Project01" >
         <activity
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name="com.example.team_project01.basket.BasketActivity"
+=======
+            android:name="com.example.team_project01.myinfo.Like_historyActivity"
+>>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
             android:exported="true" />
         <activity
             android:name="com.example.team_project01.list.ListActivity"
