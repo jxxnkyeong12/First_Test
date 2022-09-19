@@ -29,11 +29,13 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
     //DatePicker calendarView;
     CalendarView calendarView;
     ImageView back, res_up, res_up2, res_up3, res_down, res_down2, res_down3;
-    GridView gridview;
+
     FrameLayout res_container;
+    LinearLayout res_time;
 
     boolean arrow = true;
     int arr = 0 ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +47,7 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
         res_timetxt = findViewById(R.id.res_timetxt);
 
         calendarView = findViewById(R.id.calendarView);
+        res_time = findViewById(R.id.res_time);
 
 
         res_up = findViewById(R.id.res_up);
@@ -54,8 +57,8 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
         res_down = findViewById(R.id.res_down);
         res_down2 = findViewById(R.id.res_down2);
         res_down3 = findViewById(R.id.res_down3);
-        gridview = findViewById(R.id.gridview);
-        res_container = findViewById(R.id.res_container);
+
+       // res_container = findViewById(R.id.res_container);
 
         res_two = findViewById(R.id.res_two);
         res_two2 = findViewById(R.id.res_two2);
@@ -86,7 +89,7 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
 
 
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.res_container, new ReserveFragment()).commit();
+       // getSupportFragmentManager().beginTransaction().replace(R.id.res_container, new ReserveFragment()).commit();
 
 
 
@@ -132,7 +135,7 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
          //시간 선택 펼쳤다 접었다
         }else if (v.getId() == R.id.res_up2) {
             if(arr == 0){
-                res_container.setVisibility(View.GONE);
+                res_time.setVisibility(View.GONE);
                 res_up2.setVisibility(View.GONE);
                 res_down2.setVisibility(View.VISIBLE);
                 arrow = false;
@@ -141,7 +144,7 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
             }
         }else if (v.getId() == R.id.res_down2){
 
-            res_container.setVisibility(View.VISIBLE);
+            res_time.setVisibility(View.VISIBLE);
             res_up2.setVisibility(View.VISIBLE);
             res_down2.setVisibility(View.GONE);
             arrow = true;

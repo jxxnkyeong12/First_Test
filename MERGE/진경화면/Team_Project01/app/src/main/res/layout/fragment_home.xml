@@ -11,34 +11,47 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- 고정바 -->
+        <!-- 주소 설정 고정바, 주소 설정가능하게 인텐트 추가 필요 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginHorizontal="15dp"
-            android:layout_marginVertical="17dp"
-            android:gravity="center" >
+            android:layout_marginVertical="17dp">
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_location" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="서울특별시 강남구 강남대로 396"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:layout_marginLeft="5dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/tv_home_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="서울특별시 강남구 강남대로 396"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/ic_shopping_cart"
-                android:layout_gravity="center"/>
+                android:gravity="right"/>
 
         </LinearLayout>
 
@@ -85,6 +98,7 @@
 
                     <!-- 리사이클러뷰 -->
                     <ImageView
+                        android:id="@+id/imgv_test"
                         android:layout_width="130dp"
                         android:layout_height="130dp"
                         android:src="@color/black"
@@ -109,7 +123,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
-                    android:background="#DFDFDF"
+                    android:background="#DEDEDE"
                     android:layout_marginVertical="15dp"/>
 
                 <!-- 주면 맛집 추천 (랜덤) -->
@@ -161,7 +175,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
                     android:background="#DFDFDF"
-                    android:layout_marginVertical="15dp"/>
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="100dp"/>
+
             </LinearLayout>
 
         </ScrollView>

@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.text.Spannable;
 import android.text.SpannableString;
-import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
@@ -46,7 +45,7 @@ public class SearchAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View convertView, ViewGroup parent) {
-        convertView = inflater.inflate(R.layout.item_search, parent, false);
+        convertView = inflater.inflate(R.layout.item_search_list, parent, false);
 
         TextView tv_search = convertView.findViewById(R.id.tv_search);
 

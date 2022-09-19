@@ -13,16 +13,15 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.team_project01.R;
-import com.example.team_project01.myinfo.modify.ModifyActivity;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class MyinfoFragment extends Fragment {
 
-   CircleImageView profile_image;
+   CircleImageView profile_image, myinfo_orderhistory, myinfo_review;
    CardView myinfo_cardview;
-   LinearLayout myinfo_liner, myinfo_modify;
+   LinearLayout myinfo_liner;
 
 
     @Override
@@ -32,15 +31,26 @@ public class MyinfoFragment extends Fragment {
         profile_image = v.findViewById(R.id.profile_image);
         myinfo_cardview = v.findViewById(R.id.myinfo_cardview);
         myinfo_liner = v.findViewById(R.id.myinfo_liner);
-        myinfo_modify = v.findViewById(R.id.myinfo_modify);
+        myinfo_orderhistory = v.findViewById(R.id.myinfo_orderhistory);
+        myinfo_review = v.findViewById(R.id.myinfo_review);
 
-        myinfo_modify.setOnClickListener(new View.OnClickListener() {
+        myinfo_orderhistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), ModifyActivity.class);
+                Intent intent = new Intent(getContext(), OrderHistoryActivity.class);
                 startActivity(intent);
             }
         });
+
+        myinfo_review.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), LikeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         return v;
     }

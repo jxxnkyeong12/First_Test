@@ -1,26 +1,34 @@
 package com.example.team_project01;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
+
+import android.content.Context;
 import android.os.Bundle;
-
+import android.os.PersistableBundle;
+import android.util.Log;
+import android.view.MenuItem;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.example.team_project01.home.HomeFragment;
+import com.example.team_project01.more.MoreFragment;
 import com.example.team_project01.myinfo.MyinfoFragment;
 import com.example.team_project01.order.OrderFragment;
 import com.example.team_project01.search.SearchFragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.luseen.spacenavigation.SpaceItem;
 import com.luseen.spacenavigation.SpaceNavigationView;
 import com.luseen.spacenavigation.SpaceOnClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
+
     FrameLayout container;
     SpaceNavigationView bottom_nav;
-
-    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,10 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 }else if(itemIndex == 1) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, new SearchFragment()).commit();
                 }else if(itemIndex == 2) {
+                    Toast.makeText(MainActivity.this, "내정보", Toast.LENGTH_SHORT).show();
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, new MyinfoFragment()).commit();
                 }else {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new OrderFragment()).commit();
-                    Toast.makeText(MainActivity.this, "더보기", Toast.LENGTH_SHORT).show();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, new MoreFragment()).commit();
                 }
             }
 
