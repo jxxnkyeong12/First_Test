@@ -24,6 +24,8 @@ public class OrderFragment extends Fragment {
             View v =  inflater.inflate(R.layout.fragment_order, container, false);
             order = v.findViewById(R.id.order);
 
+
+
             order.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -31,6 +33,8 @@ public class OrderFragment extends Fragment {
                     startActivity(intent);
                 }
             });
+
+
         return v;
     }
 }

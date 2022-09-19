@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f1002af
 <<<<<<< HEAD
 com.example.team_project01:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f110033
@@ -135,35 +136,84 @@ com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.
 com.example.team_project01:styleable/KeyPosition = 0x7f110045
 com.example.team_project01:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f10039d
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f1003dc
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:styleable/ClockFaceView = 0x7f110021
-com.example.team_project01:style/ShapeAppearanceOverlay.Material3.Chip = 0x7f100166
+com.example.team_project01:style/Widget.Material3.MaterialTimePicker.Display = 0x7f100381
+com.example.team_project01:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f1003a7
+com.example.team_project01:style/Base.Widget.AppCompat.ListView = 0x7f1000d7
+com.example.team_project01:style/Base.ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f10007d
+com.example.team_project01:styleable/MenuItem = 0x7f11005e
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1002a4
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f1002af
+com.example.team_project01:drawable/notification_bg_normal = 0x7f0700b4
+com.example.team_project01:style/Base.TextAppearance.AppCompat.Tooltip = 0x7f10002e
+com.example.team_project01:styleable/CircleImageView = 0x7f11001f
+com.example.team_project01:layout/notification_template_media = 0x7f0b007e
+com.example.team_project01:style/Widget.MaterialComponents.Snackbar = 0x7f100400
+com.example.team_project01:styleable/KeyPosition = 0x7f110045
+com.example.team_project01:integer/config_navAnimTime = 0x7f090035
+com.example.team_project01:style/TextAppearance.Test.NoTextSize = 0x7f1001f7
+com.example.team_project01:styleable/MaterialCheckBox = 0x7f110055
 com.example.team_project01:style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f1003af
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.DayTextView = 0x7f10036c
+com.example.team_project01:style/ThemeOverlay.Material3.FloatingActionButton.Primary = 0x7f100286
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.MonthTextView = 0x7f100377
+com.example.team_project01:style/ThemeOverlay.Material3 = 0x7f10026d
+com.example.team_project01:style/Widget.AppCompat.SearchView = 0x7f100304
+com.example.team_project01:attr/exitAnim = 0x7f030469
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.Year.Selected = 0x7f100379
+com.example.team_project01:drawable/abc_scrubber_track_mtrl_alpha = 0x7f070040
+com.example.team_project01:string/next = 0x7f0f0082
 com.example.team_project01:style/TextAppearance.Compat.Notification.Title = 0x7f1001b8
 com.example.team_project01:style/Widget.Material3.CardView.Outlined = 0x7f10033c
-com.example.team_project01:style/Widget.MaterialComponents.ActionBar.Solid = 0x7f1003a7
-com.example.team_project01:style/Widget.Material3.TextInputLayout.FilledBox.Dense = 0x7f10039a
+com.example.team_project01:style/Widget.Material3.MaterialDivider = 0x7f10037c
+com.example.team_project01:layout/design_layout_snackbar_include = 0x7f0b002b
+com.example.team_project01:style/Widget.AppCompat.Toolbar.Button.Navigation = 0x7f10030f
+com.example.team_project01:id/skipped = 0x7f0801a1
+com.example.team_project01:attr/tabPaddingTop = 0x7f0303b3
+com.example.team_project01:style/Theme.Material3.Light.NoActionBar = 0x7f100230
+com.example.team_project01:styleable/MotionHelper = 0x7f110063
+com.example.team_project01:style/Base.Theme.MaterialComponents.Dialog.Alert = 0x7f10005f
+com.example.team_project01:styleable/TextInputEditText = 0x7f110089
+com.example.team_project01:anim/nav_default_enter_anim = 0x7f010020
+com.example.team_project01:id/layout_store_tab_review = 0x7f080219
+com.example.team_project01:style/Base.Widget.Material3.CompoundButton.CheckBox = 0x7f1000f2
+com.example.team_project01:style/Widget.Material3.Chip.Assist.Elevated = 0x7f10033f
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f1003de
+com.example.team_project01:style/Theme.AppCompat.Dialog.MinWidth = 0x7f100208
+com.example.team_project01:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f100107
+com.example.team_project01:style/Widget.Material3.Snackbar.FullWidth = 0x7f100390
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen = 0x7f1002ba
+com.example.team_project01:style/CardView = 0x7f10010d
+com.example.team_project01:style/Platform.V21.AppCompat.Light = 0x7f10012e
+com.example.team_project01:style/Widget.Material3.AppBarLayout = 0x7f10031f
+com.example.team_project01:style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f10008c
+com.example.team_project01:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0 = 0x7f0a0005
+com.example.team_project01:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f10034b
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day = 0x7f1003dc
+com.example.team_project01:style/Base.ThemeOverlay.MaterialComponents.Dialog = 0x7f100079
+com.example.team_project01:style/ThemeOverlay.Material3.MaterialTimePicker = 0x7f100293
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge = 0x7f10023f
-com.example.team_project01:styleable/ButtonBarLayout = 0x7f110018
+com.example.team_project01:style/TextAppearance.AppCompat.Widget.DropDownItem = 0x7f1001aa
+com.example.team_project01:styleable/FragmentNavigator = 0x7f110099
+com.example.team_project01:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f100097
+com.example.team_project01:integer/mtrl_calendar_year_selector_span = 0x7f09002b
+com.example.team_project01:style/Widget.Design.TextInputLayout = 0x7f10031c
+com.example.team_project01:styleable/TextAppearance = 0x7f110087
+com.example.team_project01:style/Widget.MaterialComponents.Snackbar.TextView = 0x7f100402
+com.example.team_project01:string/first_fragment_label = 0x7f0f007d
+com.example.team_project01:style/ShapeAppearanceOverlay.Material3.Chip = 0x7f100166
+com.example.team_project01:style/Widget.AppCompat.ListMenuView = 0x7f1002f7
 com.example.team_project01:color/m3_sys_color_light_outline = 0x7f050185
 com.example.team_project01:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense = 0x7f1003ae
-com.example.team_project01:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f100204
-com.example.team_project01:integer/abc_config_activityDefaultDur = 0x7f090000
-com.example.team_project01:dimen/subtitle_shadow_radius = 0x7f060243
-com.example.team_project01:style/Widget.AppCompat.ListMenuView = 0x7f1002f7
-com.example.team_project01:style/TextAppearance.AppCompat.Widget.DropDownItem = 0x7f1001aa
-com.example.team_project01:color/bright_foreground_inverse_material_dark = 0x7f050025
-com.example.team_project01:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1000b6
-com.example.team_project01:dimen/mtrl_navigation_rail_icon_size = 0x7f0601f5
-com.example.team_project01:dimen/notification_action_text_size = 0x7f06022c
-com.example.team_project01:id/search_listview = 0x7f080216
-com.example.team_project01:style/Widget.MaterialComponents.Snackbar = 0x7f100400
-com.example.team_project01:layout/notification_template_media = 0x7f0b007e
-com.example.team_project01:style/Widget.Material3.Snackbar.FullWidth = 0x7f100390
-com.example.team_project01:style/Base.Widget.MaterialComponents.PopupMenu.Overflow = 0x7f100107
-com.example.team_project01:layout/material_clock_period_toggle_land = 0x7f0b004b
-com.example.team_project01:style/Widget.MaterialComponents.NavigationView = 0x7f1003f8
+com.example.team_project01:dimen/design_bottom_navigation_label_padding = 0x7f06006b
+com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen = 0x7f100170
+com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge = 0x7f100241
+com.example.team_project01:style/Base.V21.Theme.AppCompat.Light = 0x7f100094
 com.example.team_project01:style/Theme.MaterialComponents.Dialog.Alert.Bridge = 0x7f100247
 com.example.team_project01:styleable/TextEffects = 0x7f110088
+<<<<<<< HEAD
 com.example.team_project01:style/Widget.Material3.Chip.Filter = 0x7f100340
 com.example.team_project01:style/Widget.Material3.Chip.Assist.Elevated = 0x7f10033f
 com.example.team_project01:style/Base.Widget.Material3.CompoundButton.CheckBox = 0x7f1000f2
@@ -308,104 +358,93 @@ com.example.team_project01:layout/material_time_chip = 0x7f0b0050
 com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Tertiary = 0x7f100357
 com.example.team_project01:style/ThemeOverlay.Material3.MaterialTimePicker = 0x7f100293
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f10019e
+=======
+com.example.team_project01:dimen/design_navigation_max_width = 0x7f06007f
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.HeaderLayout = 0x7f100370
+com.example.team_project01:styleable/NavInclude = 0x7f1100a0
+com.example.team_project01:dimen/subtitle_shadow_radius = 0x7f060243
+com.example.team_project01:style/Theme.AppCompat.DayNight.DialogWhenLarge = 0x7f100204
+com.example.team_project01:integer/abc_config_activityDefaultDur = 0x7f090000
+com.example.team_project01:layout/text_view_with_theme_line_height = 0x7f0b0095
+com.example.team_project01:style/ShapeAppearance.MaterialComponents.Test = 0x7f10015e
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:string/abc_shareactionprovider_share_with_application = 0x7f0f0019
 com.example.team_project01:integer/material_motion_duration_long_2 = 0x7f090020
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.DialogWhenLarge = 0x7f100242
-com.example.team_project01:style/ShapeAppearance.MaterialComponents.Test = 0x7f10015e
-com.example.team_project01:style/Base.ThemeOverlay.MaterialComponents.Dialog = 0x7f100079
-com.example.team_project01:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f10024a
-com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1002b3
-com.example.team_project01:styleable/KeyTrigger = 0x7f110047
-com.example.team_project01:drawable/notification_bg_normal = 0x7f0700b4
-com.example.team_project01:style/Base.TextAppearance.AppCompat.Tooltip = 0x7f10002e
-com.example.team_project01:style/Widget.Material3.Button.ElevatedButton.Icon = 0x7f10032c
-com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f10023c
-com.example.team_project01:style/Base.TextAppearance.AppCompat.Medium = 0x7f100022
-com.example.team_project01:style/Widget.AppCompat.ListView.Menu = 0x7f1002fb
-com.example.team_project01:style/Widget.AppCompat.SearchView = 0x7f100304
-com.example.team_project01:drawable/notification_template_icon_bg = 0x7f0700b7
-com.example.team_project01:id/accessibility_custom_action_5 = 0x7f08002b
-com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f100171
-com.example.team_project01:styleable/MotionHelper = 0x7f110063
-com.example.team_project01:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f100042
-com.example.team_project01:drawable/abc_scrubber_track_mtrl_alpha = 0x7f070040
-com.example.team_project01:style/Widget.Material3.MaterialCalendar.Year.Selected = 0x7f100379
-com.example.team_project01:style/TextAppearance.Material3.TitleMedium = 0x7f1001e4
+com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f10019e
+com.example.team_project01:style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense = 0x7f100323
+com.example.team_project01:style/Widget.Material3.NavigationRailView.ActiveIndicator = 0x7f100388
+com.example.team_project01:color/m3_sys_color_light_on_error_container = 0x7f05017c
+com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary = 0x7f100354
+com.example.team_project01:style/Widget.MaterialComponents.ActionBar.PrimarySurface = 0x7f1003a6
+com.example.team_project01:style/Widget.MaterialComponents.ChipGroup = 0x7f1003cc
+com.example.team_project01:style/Base.TextAppearance.AppCompat = 0x7f100013
 com.example.team_project01:style/Widget.Material3.Chip.Input.Elevated = 0x7f100343
-com.example.team_project01:styleable/MenuItem = 0x7f11005e
-com.example.team_project01:id/textinput_placeholder = 0x7f0801e6
-com.example.team_project01:style/Widget.Material3.Button.TextButton.Snackbar = 0x7f100336
-com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabView.Inverse = 0x7f1002e9
-com.example.team_project01:color/design_dark_default_color_primary = 0x7f05003d
-com.example.team_project01:attr/tabPaddingBottom = 0x7f0303b0
-com.example.team_project01:styleable/Transform = 0x7f11008e
+com.example.team_project01:style/TextAppearance.Material3.TitleMedium = 0x7f1001e4
+com.example.team_project01:dimen/notification_action_text_size = 0x7f06022c
+com.example.team_project01:id/search_listview = 0x7f080216
+com.example.team_project01:style/ThemeOverlay.Material3.Chip = 0x7f10027b
+com.example.team_project01:attr/tabIndicatorColor = 0x7f0303a7
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.Day.Today = 0x7f10036a
+com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f100121
+com.example.team_project01:style/Widget.Material3.TextInputLayout.FilledBox.Dense = 0x7f10039a
+com.example.team_project01:style/TextAppearance.Design.Counter = 0x7f1001bb
+com.example.team_project01:style/Widget.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f100398
+com.example.team_project01:attr/initialActivityCount = 0x7f030203
+com.example.team_project01:id/topPanel = 0x7f0801ef
+com.example.team_project01:styleable/CompoundButton = 0x7f110026
+com.example.team_project01:style/Base.Widget.MaterialComponents.Snackbar = 0x7f100109
+com.example.team_project01:dimen/tooltip_y_offset_touch = 0x7f060258
+com.example.team_project01:style/Widget.Material3.Chip.Filter = 0x7f100340
+com.example.team_project01:styleable/DialogFragmentNavigator = 0x7f110098
+com.example.team_project01:styleable/ScrollingViewBehavior_Layout = 0x7f110076
 com.example.team_project01:styleable/ActionMenuView = 0x7f110003
 com.example.team_project01:style/Widget.AppCompat.ActionButton.Overflow = 0x7f1002ce
 com.example.team_project01:string/abc_shareactionprovider_share_with = 0x7f0f0018
 com.example.team_project01:styleable/FontFamily = 0x7f110037
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f1003e9
 com.example.team_project01:style/Base.Widget.AppCompat.DrawerArrowToggle.Common = 0x7f1000c9
 com.example.team_project01:attr/buttonBarNeutralButtonStyle = 0x7f03007b
-com.example.team_project01:style/Widget.AppCompat.Spinner.Underlined = 0x7f10030b
-com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut = 0x7f100137
-com.example.team_project01:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f100409
-com.example.team_project01:styleable/MaterialAlertDialog = 0x7f11004d
-com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display.Divider = 0x7f100417
-com.example.team_project01:style/Widget.Material3.CollapsingToolbar.Medium = 0x7f10034f
-com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f1002e2
+com.example.team_project01:style/Base.V26.Theme.AppCompat.Light = 0x7f1000a6
+com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Body.Text = 0x7f10011b
+com.example.team_project01:layout/material_time_chip = 0x7f0b0050
+com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Icon.Tertiary = 0x7f100357
+com.example.team_project01:style/Base.TextAppearance.MaterialComponents.Headline6 = 0x7f100042
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle = 0x7f1003e9
+com.example.team_project01:style/Theme.Team_Project01 = 0x7f100262
+com.example.team_project01:style/Widget.Material3.Chip.Input = 0x7f100342
+com.example.team_project01:style/ThemeOverlay.Material3.Light = 0x7f10028c
 com.example.team_project01:style/ThemeOverlay.Material3.DynamicColors.DayNight = 0x7f100284
-com.example.team_project01:attr/colorSecondary = 0x7f030101
-com.example.team_project01:styleable/DrawerArrowToggle = 0x7f110030
-com.example.team_project01:attr/telltales_velocityMode = 0x7f0303be
-com.example.team_project01:dimen/design_navigation_max_width = 0x7f06007f
-com.example.team_project01:style/Widget.Material3.MaterialCalendar.HeaderLayout = 0x7f100370
-com.example.team_project01:style/Widget.Material3.TabLayout.Secondary = 0x7f100394
-com.example.team_project01:style/Base.Widget.AppCompat.Light.ActionBar.Solid = 0x7f1000ce
 com.example.team_project01:style/Base.V21.Theme.AppCompat = 0x7f100092
 com.example.team_project01:attr/verticalOffsetWithText = 0x7f030446
 com.example.team_project01:style/Base.Theme.AppCompat.Dialog.FixedSize = 0x7f10004b
+com.example.team_project01:string/hello_first_fragment = 0x7f0f007e
 com.example.team_project01:dimen/mtrl_navigation_rail_margin = 0x7f0601f6
 com.example.team_project01:style/Widget.Material3.Button.OutlinedButton = 0x7f10032f
 com.example.team_project01:style/Base.Widget.AppCompat.ActionButton = 0x7f1000b7
 com.example.team_project01:styleable/FloatingActionButton_Behavior_Layout = 0x7f110035
 com.example.team_project01:id/material_clock_period_am_button = 0x7f08010e
+com.example.team_project01:styleable/View = 0x7f110091
+com.example.team_project01:styleable/BaseProgressIndicator = 0x7f110014
 com.example.team_project01:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f1003d4
-com.example.team_project01:integer/mtrl_calendar_year_selector_span = 0x7f09002b
-com.example.team_project01:style/Base.V21.Theme.MaterialComponents.Dialog = 0x7f100097
-com.example.team_project01:styleable/TextAppearance = 0x7f110087
-com.example.team_project01:style/Widget.Design.TextInputLayout = 0x7f10031c
-com.example.team_project01:id/guideline = 0x7f0800db
-com.example.team_project01:string/m3_ref_typeface_brand_medium = 0x7f0f002e
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f1003eb
-com.example.team_project01:styleable/MaterialCalendarItem = 0x7f110053
-com.example.team_project01:styleable/MaterialCardView = 0x7f110054
-com.example.team_project01:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f10013b
-com.example.team_project01:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f1002b1
-com.example.team_project01:drawable/abc_list_pressed_holo_dark = 0x7f07002f
-com.example.team_project01:integer/material_motion_duration_short_1 = 0x7f090023
-com.example.team_project01:style/Widget.MaterialComponents.ChipGroup = 0x7f1003cc
-com.example.team_project01:style/Base.TextAppearance.AppCompat = 0x7f100013
-com.example.team_project01:style/TextAppearance.Design.Counter = 0x7f1001bb
-com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.Chip = 0x7f10016c
-com.example.team_project01:style/Widget.Material3.ActionBar.Solid = 0x7f10031d
-com.example.team_project01:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f1002de
-com.example.team_project01:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f10018f
-com.example.team_project01:styleable/ShapeAppearance = 0x7f110078
-com.example.team_project01:id/imgv_menu_image = 0x7f0800ec
-com.example.team_project01:styleable/SwitchCompat = 0x7f110083
-com.example.team_project01:layout/mtrl_alert_dialog_title = 0x7f0b0057
-com.example.team_project01:dimen/design_bottom_navigation_label_padding = 0x7f06006b
-com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen = 0x7f100170
-com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge = 0x7f100241
-com.example.team_project01:style/Base.V21.Theme.AppCompat.Light = 0x7f100094
+com.example.team_project01:styleable/MockView = 0x7f110060
+com.example.team_project01:style/TextAppearance.Material3.DisplayMedium = 0x7f1001da
+com.example.team_project01:style/Theme.AppCompat.DialogWhenLarge = 0x7f100209
+com.example.team_project01:styleable/RecyclerView = 0x7f110074
+com.example.team_project01:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f10029c
+com.example.team_project01:attr/cornerFamilyBottomLeft = 0x7f030126
+com.example.team_project01:styleable/Tooltip = 0x7f11008d
+com.example.team_project01:id/recv_list = 0x7f080176
+com.example.team_project01:style/Widget.AppCompat.SearchView.ActionBar = 0x7f100305
+com.example.team_project01:styleable/ActivityNavigator = 0x7f110097
+com.example.team_project01:color/m3_sys_color_dark_on_secondary = 0x7f050139
+com.example.team_project01:dimen/mtrl_card_dragged_z = 0x7f0601c1
 com.example.team_project01:attr/windowNoTitle = 0x7f03045e
 com.example.team_project01:style/Widget.Material3.BottomSheet = 0x7f100328
-com.example.team_project01:styleable/MockView = 0x7f110060
-com.example.team_project01:id/withinBounds = 0x7f08020f
 com.example.team_project01:dimen/m3_navigation_rail_item_active_indicator_margin_horizontal = 0x7f060103
 com.example.team_project01:style/Widget.Support.CoordinatorLayout = 0x7f100422
 com.example.team_project01:style/ThemeOverlay.Material3.Light.Dialog.Alert.Framework = 0x7f10028d
 com.example.team_project01:string/mtrl_exceed_max_badge_number_content_description = 0x7f0f0053
+<<<<<<< HEAD
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display = 0x7f100416
 com.example.team_project01:style/Widget.Material3.MaterialCalendar.Year.Today = 0x7f10037a
 com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Primary = 0x7f100358
@@ -507,10 +546,43 @@ com.example.team_project01:styleable/MenuView = 0x7f11005f
 com.example.team_project01:dimen/abc_star_small = 0x7f06003d
 com.example.team_project01:style/Widget.MaterialComponents.CircularProgressIndicator = 0x7f1003cd
 com.example.team_project01:style/Widget.Material3.MaterialCalendar.Item = 0x7f100375
+=======
+com.example.team_project01:id/withinBounds = 0x7f08020f
+com.example.team_project01:styleable/ButtonBarLayout = 0x7f110018
+com.example.team_project01:style/Widget.Material3.ActionBar.Solid = 0x7f10031d
+com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.Chip = 0x7f10016c
+com.example.team_project01:layout/mtrl_alert_dialog_title = 0x7f0b0057
+com.example.team_project01:styleable/SwitchCompat = 0x7f110083
+com.example.team_project01:id/imgv_menu_image = 0x7f0800ec
+com.example.team_project01:layout/material_clock_period_toggle_land = 0x7f0b004b
+com.example.team_project01:style/Theme.AppCompat.Light.Dialog = 0x7f10020d
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f1002a9
+com.example.team_project01:styleable/ShapeAppearance = 0x7f110078
+com.example.team_project01:style/TextAppearance.MaterialComponents.Overline = 0x7f1001f2
+com.example.team_project01:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f10024a
+com.example.team_project01:style/Widget.Material3.CircularProgressIndicator = 0x7f100349
+com.example.team_project01:style/Base.Theme.AppCompat.CompactMenu = 0x7f100048
+com.example.team_project01:style/Widget.Material3.TextInputLayout.OutlinedBox = 0x7f10039d
+com.example.team_project01:style/TestStyleWithThemeLineHeightAttribute = 0x7f10017c
+com.example.team_project01:dimen/mtrl_calendar_text_input_padding_top = 0x7f0601b6
+com.example.team_project01:style/ShapeAppearance.Material3.SmallComponent = 0x7f100158
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/m3_sys_motion_easing_legacy_accelerate_control_x2 = 0x7f06011f
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.Item = 0x7f100375
+com.example.team_project01:style/Widget.AppCompat.Button.Borderless = 0x7f1002d3
+com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.LabelSmall = 0x7f1001d0
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1002b3
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.MonthTextView = 0x7f1003ed
+com.example.team_project01:style/Widget.AppCompat.Light.DropDownItem.Spinner = 0x7f1002f0
+com.example.team_project01:styleable/MaterialAlertDialog = 0x7f11004d
+com.example.team_project01:style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense = 0x7f100409
+com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display.Divider = 0x7f100417
+com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.Solid = 0x7f1002e2
+com.example.team_project01:style/Widget.Material3.CollapsingToolbar.Medium = 0x7f10034f
 com.example.team_project01:style/Widget.Material3.CardView.Filled = 0x7f10033b
 com.example.team_project01:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1000ca
 com.example.team_project01:id/horizontal_only = 0x7f0800e1
+<<<<<<< HEAD
 com.example.team_project01:style/ThemeOverlay.Material3.Toolbar.Surface = 0x7f10029c
 com.example.team_project01:style/TextAppearance.Material3.DisplayMedium = 0x7f1001da
 com.example.team_project01:style/Theme.AppCompat.DialogWhenLarge = 0x7f100209
@@ -551,29 +623,68 @@ com.example.team_project01:style/Theme.AppCompat.Empty = 0x7f10020a
 com.example.team_project01:style/ThemeOverlayColorAccentRed = 0x7f1002c6
 com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked = 0x7f100121
 com.example.team_project01:id/tag_on_receive_content_mime_types = 0x7f0801ce
+=======
+com.example.team_project01:styleable/ExtendedFloatingActionButton_Behavior_Layout = 0x7f110033
+com.example.team_project01:style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow = 0x7f100106
+com.example.team_project01:integer/m3_sys_motion_duration_800 = 0x7f09001c
+com.example.team_project01:attr/borderWidth = 0x7f030066
+com.example.team_project01:styleable/FontFamilyFont = 0x7f110038
+com.example.team_project01:style/Base.Widget.AppCompat.ActionBar.TabView = 0x7f1000b6
+com.example.team_project01:color/bright_foreground_inverse_material_dark = 0x7f050025
+com.example.team_project01:style/Widget.AppCompat.ActivityChooserView = 0x7f1002d0
+com.example.team_project01:id/alertTitle = 0x7f080048
+com.example.team_project01:styleable/NavigationView = 0x7f11006b
+com.example.team_project01:dimen/view_bottom_margin = 0x7f060259
+com.example.team_project01:style/TextAppearance.AppCompat.Inverse = 0x7f10018a
+com.example.team_project01:layout/abc_action_mode_bar = 0x7f0b0004
+com.example.team_project01:attr/launchSingleTop = 0x7f03046b
+com.example.team_project01:style/Base.Theme.Material3.Dark.Dialog = 0x7f100057
+com.example.team_project01:style/TextAppearance.Test.UsesDp = 0x7f1001f8
+com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner = 0x7f10011d
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView = 0x7f1002a2
+com.example.team_project01:style/Widget.AppCompat.Spinner.Underlined = 0x7f10030b
+com.example.team_project01:string/m3_ref_typeface_brand_medium = 0x7f0f002e
+com.example.team_project01:id/guideline = 0x7f0800db
+com.example.team_project01:style/Theme.MaterialComponents.Dialog.MinWidth.Bridge = 0x7f10024c
+com.example.team_project01:style/TextAppearance.AppCompat.Large = 0x7f10018b
+com.example.team_project01:drawable/abc_ic_voice_search_api_material = 0x7f070028
+com.example.team_project01:dimen/abc_dialog_title_divider_material = 0x7f060026
+com.example.team_project01:color/mtrl_textinput_disabled_color = 0x7f05023a
+com.example.team_project01:style/Theme.Team_Project01.NoActionBar = 0x7f100425
+com.example.team_project01:style/Widget.MaterialComponents.NavigationView = 0x7f1003f8
+com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.BodySmall = 0x7f1001c7
+com.example.team_project01:style/ThemeOverlay.Material3.ActionBar = 0x7f10026e
+com.example.team_project01:id/navigation_bar_item_labels_group = 0x7f08014b
+com.example.team_project01:id/material_textinput_timepicker = 0x7f080116
+com.example.team_project01:styleable/BottomAppBar = 0x7f110015
+com.example.team_project01:layout/text_view_with_line_height_from_layout = 0x7f0b0093
+com.example.team_project01:style/Widget.Material3.BottomSheet.Modal = 0x7f100329
+com.example.team_project01:xml/standalone_badge = 0x7f120000
+com.example.team_project01:style/ThemeOverlay.Material3.Dark.ActionBar = 0x7f10027e
+com.example.team_project01:styleable/DrawerLayout = 0x7f110031
+com.example.team_project01:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f100287
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x7f1002ab
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Spinner = 0x7f1002b8
 com.example.team_project01:styleable/AnimatedStateListDrawableItem = 0x7f110008
-com.example.team_project01:style/ThemeOverlay.Material3.FloatingActionButton.Secondary = 0x7f100287
-com.example.team_project01:drawable/btn_radio_off_to_on_mtrl_animation = 0x7f070061
 com.example.team_project01:style/Widget.MaterialComponents.PopupMenu = 0x7f1003f9
-com.example.team_project01:id/navigation_bar_item_labels_group = 0x7f08014b
-com.example.team_project01:layout/text_view_with_line_height_from_layout = 0x7f0b0093
-com.example.team_project01:id/material_textinput_timepicker = 0x7f080116
-com.example.team_project01:styleable/BottomAppBar = 0x7f110015
+com.example.team_project01:drawable/btn_radio_off_to_on_mtrl_animation = 0x7f070061
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Item = 0x7f1003eb
+com.example.team_project01:drawable/abc_list_pressed_holo_dark = 0x7f07002f
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.Light.Dialog.Alert.Framework = 0x7f1002b1
+com.example.team_project01:integer/material_motion_duration_short_1 = 0x7f090023
+com.example.team_project01:styleable/MaterialCalendarItem = 0x7f110053
+com.example.team_project01:styleable/MaterialCardView = 0x7f110054
 com.example.team_project01:styleable/ActivityChooserView = 0x7f110005
-com.example.team_project01:styleable/DrawerLayout = 0x7f110031
-com.example.team_project01:style/Widget.Material3.BottomSheet.Modal = 0x7f100329
-com.example.team_project01:style/Base.TextAppearance.MaterialComponents.Subtitle2 = 0x7f100043
-com.example.team_project01:id/visible = 0x7f08020b
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f1003e4
-com.example.team_project01:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f1000b3
-com.example.team_project01:style/Widget.Material3.CardView.Elevated = 0x7f10033a
+com.example.team_project01:string/nav_app_bar_open_drawer_description = 0x7f0f0081
+com.example.team_project01:style/RtlOverlay.Widget.AppCompat.Search.DropDown = 0x7f10013b
+com.example.team_project01:layout/design_navigation_item = 0x7f0b002f
 com.example.team_project01:color/m3_ref_palette_secondary50 = 0x7f050111
 com.example.team_project01:attr/layout_constrainedWidth = 0x7f030238
 com.example.team_project01:style/ShapeAppearanceOverlay.Material3.Button = 0x7f100165
 com.example.team_project01:color/design_fab_stroke_end_outer_color = 0x7f050055
 com.example.team_project01:dimen/mtrl_textinput_counter_margin_start = 0x7f060220
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Widget.AppCompat.ActivityChooserView = 0x7f1002d0
 com.example.team_project01:id/alertTitle = 0x7f080048
@@ -709,67 +820,68 @@ com.example.team_project01:style/Widget.Material3.MaterialTimePicker.ImageButton
 com.example.team_project01:color/m3_ref_palette_neutral_variant60 = 0x7f0500f8
 com.example.team_project01:attr/actionMenuTextColor = 0x7f030011
 com.example.team_project01:style/Widget.Material3.CircularProgressIndicator.Medium = 0x7f10034b
+=======
+com.example.team_project01:id/visible = 0x7f08020b
+com.example.team_project01:styleable/ViewTransition = 0x7f110095
+com.example.team_project01:style/Base.Widget.AppCompat.ActionBar.Solid = 0x7f1000b3
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton = 0x7f1003e4
+com.example.team_project01:style/ThemeOverlayColorAccentRed = 0x7f1002c6
+com.example.team_project01:id/tag_on_receive_content_mime_types = 0x7f0801ce
+com.example.team_project01:id/button_second = 0x7f080222
+com.example.team_project01:dimen/mtrl_exposed_dropdown_menu_popup_vertical_offset = 0x7f0601c7
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.Material3.Button.TonalButton = 0x7f10027a
-com.example.team_project01:style/Widget.MaterialComponents.NavigationRailView.Colored.Compact = 0x7f1003f5
-com.example.team_project01:integer/status_bar_notification_info_maxnum = 0x7f090034
-com.example.team_project01:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f100221
-com.example.team_project01:style/ThemeOverlay.Material3.Chip.Assist = 0x7f10027c
+com.example.team_project01:drawable/abc_ic_ab_back_material = 0x7f07001c
+com.example.team_project01:id/honorRequest = 0x7f0800e0
+com.example.team_project01:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f10025e
+com.example.team_project01:attr/tabPadding = 0x7f0303af
 com.example.team_project01:id/constraint = 0x7f080086
 com.example.team_project01:style/Widget.MaterialComponents.Button = 0x7f1003ba
 com.example.team_project01:style/Widget.AppCompat.Light.SearchView = 0x7f1002f5
-com.example.team_project01:styleable/ViewTransition = 0x7f110095
-com.example.team_project01:style/TextAppearance.AppCompat.Caption = 0x7f100184
-com.example.team_project01:dimen/mtrl_alert_dialog_background_inset_bottom = 0x7f060169
-com.example.team_project01:id/matrix = 0x7f08011e
-com.example.team_project01:style/Widget.MaterialComponents.NavigationRailView.Compact = 0x7f1003f6
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f1003ee
-com.example.team_project01:style/Widget.Material3.Button.TonalButton.Icon = 0x7f100338
+com.example.team_project01:styleable/include = 0x7f110096
+com.example.team_project01:style/Widget.MaterialComponents.Button.UnelevatedButton = 0x7f1003c4
+com.example.team_project01:style/ThemeOverlay.AppCompat.Dialog = 0x7f100269
+com.example.team_project01:layout/abc_tooltip = 0x7f0b001b
+com.example.team_project01:id/nav_host_fragment_content_map = 0x7f080228
+com.example.team_project01:style/Widget.MaterialComponents.CompoundButton.RadioButton = 0x7f1003d3
 com.example.team_project01:styleable/Constraint = 0x7f110027
 com.example.team_project01:id/cancel_button = 0x7f08006a
+com.example.team_project01:style/Widget.MaterialComponents.Button.OutlinedButton = 0x7f1003bc
+com.example.team_project01:style/Base.Widget.AppCompat.Spinner = 0x7f1000e6
+com.example.team_project01:drawable/abc_btn_radio_material_anim = 0x7f070011
+com.example.team_project01:style/ThemeOverlay.AppCompat.Dark = 0x7f100265
+com.example.team_project01:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f100046
+com.example.team_project01:styleable/ConstraintLayout_ReactiveGuide = 0x7f110029
+com.example.team_project01:dimen/space_centre_button_margin = 0x7f06023b
+com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f1002e7
+com.example.team_project01:styleable/MaterialRadioButton = 0x7f110057
+com.example.team_project01:style/TextAppearance.Material3.TitleLarge = 0x7f1001e3
+com.example.team_project01:style/Widget.AppCompat.Button.Borderless.Colored = 0x7f1002d4
+com.example.team_project01:color/material_dynamic_tertiary100 = 0x7f0501e0
+com.example.team_project01:style/Base.ThemeOverlay.AppCompat = 0x7f10006e
+com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge = 0x7f10023c
+com.example.team_project01:style/Widget.Material3.Button.ElevatedButton.Icon = 0x7f10032c
+com.example.team_project01:style/Base.ThemeOverlay.MaterialComponents.Dialog.Alert.Framework = 0x7f10007b
+com.example.team_project01:drawable/abc_list_divider_mtrl_alpha = 0x7f07002c
+com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabView.Inverse = 0x7f1002e9
+com.example.team_project01:style/Widget.Material3.Button.TextButton.Snackbar = 0x7f100336
+com.example.team_project01:style/Widget.AppCompat.ListView.Menu = 0x7f1002fb
+com.example.team_project01:style/Base.TextAppearance.AppCompat.Medium = 0x7f100022
+com.example.team_project01:drawable/notification_template_icon_bg = 0x7f0700b7
+com.example.team_project01:id/accessibility_custom_action_5 = 0x7f08002b
+com.example.team_project01:style/Base.Widget.AppCompat.Light.ActionBar.Solid = 0x7f1000ce
+com.example.team_project01:style/Widget.Material3.TabLayout.Secondary = 0x7f100394
+com.example.team_project01:attr/startIconDrawable = 0x7f03037e
+com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.LabelMedium = 0x7f1001cf
+com.example.team_project01:styleable/MotionTelltales = 0x7f110067
+com.example.team_project01:id/matrix = 0x7f08011e
 com.example.team_project01:attr/sliderStyle = 0x7f030367
 com.example.team_project01:id/month_navigation_previous = 0x7f080127
 com.example.team_project01:string/material_timepicker_am = 0x7f0f004a
-com.example.team_project01:styleable/NavigationBarActiveIndicator = 0x7f110068
 com.example.team_project01:color/m3_ref_palette_neutral_variant0 = 0x7f0500f1
-com.example.team_project01:style/ThemeOverlay.AppCompat.Dialog = 0x7f100269
-com.example.team_project01:layout/abc_tooltip = 0x7f0b001b
-com.example.team_project01:style/Widget.MaterialComponents.CompoundButton.RadioButton = 0x7f1003d3
-com.example.team_project01:style/Widget.Material3.CircularProgressIndicator = 0x7f100349
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f1003dd
-com.example.team_project01:attr/maxVelocity = 0x7f0302c0
-com.example.team_project01:drawable/arrow = 0x7f070057
-com.example.team_project01:drawable/abc_btn_radio_material_anim = 0x7f070011
-com.example.team_project01:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title = 0x7f100046
-com.example.team_project01:style/ThemeOverlay.AppCompat.Dark = 0x7f100265
-com.example.team_project01:styleable/ConstraintLayout_ReactiveGuide = 0x7f110029
-com.example.team_project01:dimen/space_centre_button_margin = 0x7f06023b
-com.example.team_project01:style/Base.Widget.AppCompat.Spinner = 0x7f1000e6
-com.example.team_project01:styleable/MaterialRadioButton = 0x7f110057
-com.example.team_project01:style/TextAppearance.Material3.TitleLarge = 0x7f1001e3
-com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabText.Inverse = 0x7f1002e7
-com.example.team_project01:style/Widget.AppCompat.Button.Borderless.Colored = 0x7f1002d4
-com.example.team_project01:style/Base.ThemeOverlay.AppCompat = 0x7f10006e
-com.example.team_project01:color/material_dynamic_tertiary100 = 0x7f0501e0
-com.example.team_project01:style/Base.Theme.MaterialComponents.Dialog.Alert = 0x7f10005f
-com.example.team_project01:styleable/TextInputEditText = 0x7f110089
-com.example.team_project01:attr/startIconDrawable = 0x7f03037e
-com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.LabelMedium = 0x7f1001cf
-com.example.team_project01:id/autoComplete = 0x7f080055
-com.example.team_project01:id/setting = 0x7f080198
-com.example.team_project01:layout/activity_pw_setting2 = 0x7f0b0025
+com.example.team_project01:styleable/NavigationBarActiveIndicator = 0x7f110068
 com.example.team_project01:layout/activity_store = 0x7f0b0026
-com.example.team_project01:drawable/abc_edit_text_material = 0x7f07001b
-com.example.team_project01:style/Base.Widget.Material3.CollapsingToolbar = 0x7f1000f1
-com.example.team_project01:style/Theme.MaterialComponents.Dialog.MinWidth = 0x7f10024b
-com.example.team_project01:style/Widget.Material3.MaterialCalendar.Fullscreen = 0x7f10036d
-com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse = 0x7f1002e5
-com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Secondary = 0x7f100359
-com.example.team_project01:style/Base.Widget.AppCompat.Light.ActionBar.TabBar = 0x7f1000cf
-com.example.team_project01:layout/design_navigation_menu = 0x7f0b0033
-com.example.team_project01:layout/test_exposed_dropdown_menu = 0x7f0b008b
-com.example.team_project01:attr/titleEnabled = 0x7f030417
-com.example.team_project01:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f10040b
-com.example.team_project01:style/Widget.Material3.Toolbar.OnSurface = 0x7f1003a2
+com.example.team_project01:layout/activity_pw_setting2 = 0x7f0b0025
 com.example.team_project01:style/Widget.AppCompat.SeekBar = 0x7f100306
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.DayOfWeekLabel = 0x7f1003e0
 com.example.team_project01:style/TextAppearance.AppCompat = 0x7f100180
@@ -781,26 +893,46 @@ com.example.team_project01:style/Theme.MaterialComponents.Light.Dialog.MinWidth 
 com.example.team_project01:string/material_motion_easing_emphasized = 0x7f0f0045
 com.example.team_project01:attr/ratingBarStyleIndicator = 0x7f030334
 com.example.team_project01:bool/mtrl_btn_textappearance_all_caps = 0x7f040002
-com.example.team_project01:style/Theme.AppCompat.DayNight.Dialog = 0x7f100201
-com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.Small = 0x7f10014d
-com.example.team_project01:layout/notification_action_tombstone = 0x7f0b0074
+com.example.team_project01:style/Widget.AppCompat.Light.ListPopupWindow = 0x7f1002f1
+com.example.team_project01:styleable/MenuView = 0x7f11005f
+com.example.team_project01:dimen/abc_star_small = 0x7f06003d
+com.example.team_project01:style/Widget.MaterialComponents.CircularProgressIndicator = 0x7f1003cd
 com.example.team_project01:style/Widget.AppCompat.CompoundButton.Switch = 0x7f1002dc
-com.example.team_project01:style/Widget.MaterialComponents.Button.OutlinedButton = 0x7f1003bc
+com.example.team_project01:layout/notification_action_tombstone = 0x7f0b0074
+com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.Small = 0x7f10014d
+com.example.team_project01:style/Theme.AppCompat.DayNight.Dialog = 0x7f100201
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton = 0x7f1003ec
 com.example.team_project01:id/transitionToStart = 0x7f0801f2
-com.example.team_project01:string/mtrl_picker_toggle_to_day_selection = 0x7f0f0071
-com.example.team_project01:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
-com.example.team_project01:attr/circularProgressIndicatorStyle = 0x7f0300bf
-com.example.team_project01:attr/textAppearanceListItem = 0x7f0303d8
-com.example.team_project01:string/mtrl_picker_date_header_title = 0x7f0f005b
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.DarkActionBar = 0x7f100238
-com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f1002a5
+com.example.team_project01:style/Base.Widget.AppCompat.ActionBar = 0x7f1000b2
 com.example.team_project01:style/TextAppearance.AppCompat.Title.Inverse = 0x7f10019b
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox = 0x7f1002a5
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Theme.MaterialComponents.CompactMenu = 0x7f100234
-com.example.team_project01:style/Base.Theme.Material3.Light = 0x7f100058
-com.example.team_project01:style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon = 0x7f100134
+com.example.team_project01:style/Widget.Material3.Chip.Suggestion = 0x7f100346
+com.example.team_project01:style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large = 0x7f10018f
+com.example.team_project01:style/Widget.AppCompat.DropDownItem.Spinner = 0x7f1002de
+com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut = 0x7f100137
+com.example.team_project01:style/Widget.Material3.FloatingActionButton.Surface = 0x7f100362
+com.example.team_project01:dimen/mtrl_badge_long_text_horizontal_padding = 0x7f06016f
+com.example.team_project01:color/m3_dynamic_dark_primary_text_disable_only = 0x7f050082
+com.example.team_project01:id/scrollIndicatorUp = 0x7f080187
+com.example.team_project01:style/Widget.Material3.TabLayout = 0x7f100392
+com.example.team_project01:styleable/SnackbarLayout = 0x7f11007c
+com.example.team_project01:dimen/mtrl_navigation_item_icon_padding = 0x7f0601ec
+com.example.team_project01:style/TextAppearance.AppCompat.Widget.Button.Colored = 0x7f1001a8
+com.example.team_project01:style/Widget.AppCompat.TextView = 0x7f10030c
+com.example.team_project01:style/Theme.Material3.Light.BottomSheetDialog = 0x7f10022b
+com.example.team_project01:attr/layout_constraintWidth_max = 0x7f030262
+com.example.team_project01:color/m3_dark_primary_text_disable_only = 0x7f05007b
+com.example.team_project01:attr/gestureInsetBottomIgnored = 0x7f0301d2
+com.example.team_project01:style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog = 0x7f1000c0
+com.example.team_project01:style/ThemeOverlay.Material3.Button.ElevatedButton = 0x7f100277
 com.example.team_project01:dimen/m3_alert_dialog_corner_size = 0x7f0600a3
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:style/Widget.Material3.CheckedTextView = 0x7f10033d
 com.example.team_project01:color/m3_ref_palette_dynamic_secondary70 = 0x7f0500c5
@@ -840,9 +972,52 @@ com.example.team_project01:color/mtrl_outlined_stroke_color = 0x7f050230
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Widget.AppCompat.TextView = 0x7f10030c
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.Button.Colored = 0x7f1001a8
+=======
+com.example.team_project01:id/FirstFragment = 0x7f08021d
+com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year = 0x7f100171
+com.example.team_project01:layout/design_navigation_menu = 0x7f0b0033
+com.example.team_project01:layout/test_exposed_dropdown_menu = 0x7f0b008b
+com.example.team_project01:attr/titleEnabled = 0x7f030417
+com.example.team_project01:style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon = 0x7f100134
+com.example.team_project01:style/Base.Theme.Material3.Light = 0x7f100058
+com.example.team_project01:id/textinput_placeholder = 0x7f0801e6
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f1002a6
+com.example.team_project01:animator/nav_default_pop_exit_anim = 0x7f020023
+com.example.team_project01:style/Widget.Material3.TextInputEditText.OutlinedBox = 0x7f100397
+com.example.team_project01:style/Theme.Material3.DayNight.Dialog.Alert = 0x7f100223
+com.example.team_project01:attr/graph = 0x7f03046a
+com.example.team_project01:style/Theme.Material3.Light.Dialog = 0x7f10022c
+com.example.team_project01:id/animateToStart = 0x7f08004e
+com.example.team_project01:attr/circularProgressIndicatorStyle = 0x7f0300bf
+com.example.team_project01:attr/textAppearanceListItem = 0x7f0303d8
+com.example.team_project01:string/mtrl_picker_toggle_to_day_selection = 0x7f0f0071
+com.example.team_project01:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
+com.example.team_project01:string/mtrl_picker_date_header_title = 0x7f0f005b
+com.example.team_project01:style/Base.Widget.MaterialComponents.AutoCompleteTextView = 0x7f1000ff
+com.example.team_project01:dimen/m3_sys_motion_easing_standard_accelerate_control_x2 = 0x7f06012f
+com.example.team_project01:style/Widget.MaterialComponents.Button.TextButton.Dialog.Icon = 0x7f1003c1
+com.example.team_project01:style/Base.Widget.Material3.CollapsingToolbar = 0x7f1000f1
+com.example.team_project01:drawable/abc_edit_text_material = 0x7f07001b
+com.example.team_project01:style/Theme.AppCompat.DayNight = 0x7f1001ff
+com.example.team_project01:id/progress_horizontal = 0x7f080172
+com.example.team_project01:id/clip_horizontal = 0x7f08007f
+com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Primary = 0x7f100358
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.Year.Today = 0x7f10037a
+com.example.team_project01:dimen/mtrl_alert_dialog_background_inset_bottom = 0x7f060169
+com.example.team_project01:style/TextAppearance.AppCompat.Caption = 0x7f100184
+com.example.team_project01:id/mtrl_picker_title_text = 0x7f080140
+com.example.team_project01:style/Base.V14.ThemeOverlay.MaterialComponents.Dialog = 0x7f10008f
+com.example.team_project01:attr/upDuration = 0x7f030441
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.YearNavigationButton = 0x7f10037b
+com.example.team_project01:string/character_counter_overflowed_content_description = 0x7f0f0021
+com.example.team_project01:xml/standalone_badge_offset = 0x7f120004
+com.example.team_project01:color/mtrl_outlined_stroke_color = 0x7f050230
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f1003df
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:string/path_password_eye = 0x7f0f0076
 com.example.team_project01:dimen/m3_fab_translation_z_hovered_focused = 0x7f0600f2
-com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f1003df
+com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display = 0x7f100416
+com.example.team_project01:drawable/mtrl_popupmenu_background = 0x7f0700a9
 com.example.team_project01:style/ShapeAppearanceOverlay.Material3.TextField.Filled = 0x7f100169
 com.example.team_project01:style/TextAppearance.AppCompat.Headline = 0x7f100189
 <<<<<<< HEAD
@@ -861,15 +1036,23 @@ com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDi
 com.example.team_project01:style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f100102
 com.example.team_project01:style/Widget.AppCompat.Light.ListView.DropDown = 0x7f1002f2
 com.example.team_project01:color/abc_hint_foreground_material_light = 0x7f050008
+com.example.team_project01:id/accessibility_custom_action_28 = 0x7f080025
+com.example.team_project01:anim/btn_checkbox_to_checked_icon_null_animation = 0x7f01000e
+com.example.team_project01:dimen/material_cursor_inset_top = 0x7f06014e
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text = 0x7f1002b6
+com.example.team_project01:style/Theme.Material3.DayNight.Dialog = 0x7f100222
 com.example.team_project01:style/Widget.Material3.Chip.Suggestion.Elevated = 0x7f100347
 com.example.team_project01:drawable/ic_nav_home = 0x7f070080
 com.example.team_project01:style/Widget.Material3.MaterialCalendar.HeaderSelection = 0x7f100371
+<<<<<<< HEAD
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text = 0x7f1002b6
 com.example.team_project01:anim/btn_checkbox_to_checked_icon_null_animation = 0x7f01000e
 com.example.team_project01:dimen/material_cursor_inset_top = 0x7f06014e
 com.example.team_project01:style/Theme.Material3.DayNight.Dialog = 0x7f100222
 com.example.team_project01:id/accessibility_custom_action_28 = 0x7f080025
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu = 0x7f10039c
 com.example.team_project01:style/Base.V23.Theme.AppCompat.Light = 0x7f1000a0
 com.example.team_project01:style/Widget.Material3.MaterialTimePicker.Clock = 0x7f100380
@@ -931,16 +1114,35 @@ com.example.team_project01:style/ThemeOverlay.Material3.AutoCompleteTextView.Fil
 com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f100138
 =======
 com.example.team_project01:attr/layout_constraintHeight_max = 0x7f03024b
+com.example.team_project01:style/Base.V14.Theme.MaterialComponents = 0x7f100084
+com.example.team_project01:layout/notification_action = 0x7f0b0073
+com.example.team_project01:string/previous = 0x7f0f0083
+com.example.team_project01:dimen/mtrl_min_touch_target_size = 0x7f0601e7
+com.example.team_project01:style/Widget.Material3.Button.IconButton = 0x7f10032e
+com.example.team_project01:style/Theme.Material3.DayNight.DialogWhenLarge = 0x7f100225
+com.example.team_project01:style/TextAppearance.Material3.BodyMedium = 0x7f1001d7
+com.example.team_project01:style/Base.Widget.MaterialComponents.PopupMenu = 0x7f100104
 com.example.team_project01:style/Theme.Design.BottomSheetDialog = 0x7f100214
 com.example.team_project01:style/Test.Widget.MaterialComponents.MaterialCalendar.Day.Selected = 0x7f100179
 com.example.team_project01:color/radiobutton_themeable_attribute_color = 0x7f05024d
 com.example.team_project01:style/Theme.Design.Light.BottomSheetDialog = 0x7f100216
 com.example.team_project01:id/search_badge = 0x7f08018a
+com.example.team_project01:style/Widget.AppCompat.Light.AutoCompleteTextView = 0x7f1002ef
+com.example.team_project01:color/m3_ref_palette_neutral_variant60 = 0x7f0500f8
+com.example.team_project01:attr/actionMenuTextColor = 0x7f030011
+com.example.team_project01:style/Widget.Material3.MaterialTimePicker.ImageButton = 0x7f100386
+com.example.team_project01:styleable/AppCompatSeekBar = 0x7f11000f
+com.example.team_project01:attr/tabPaddingBottom = 0x7f0303b0
+com.example.team_project01:color/design_dark_default_color_primary = 0x7f05003d
+com.example.team_project01:styleable/Transform = 0x7f11008e
 com.example.team_project01:drawable/abc_switch_thumb_material = 0x7f070048
+com.example.team_project01:id/main_content = 0x7f080107
+com.example.team_project01:attr/tabBackground = 0x7f03039f
 com.example.team_project01:drawable/abc_star_black_48dp = 0x7f070046
 com.example.team_project01:id/dragAnticlockwise = 0x7f0800a7
-com.example.team_project01:attr/tabBackground = 0x7f03039f
-com.example.team_project01:id/main_content = 0x7f080107
+com.example.team_project01:dimen/m3_sys_motion_easing_standard_control_x1 = 0x7f060132
+com.example.team_project01:color/design_fab_stroke_top_inner_color = 0x7f050056
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.Toolbar.Primary = 0x7f1002c4
 com.example.team_project01:color/m3_ref_palette_tertiary70 = 0x7f050120
 com.example.team_project01:styleable/ConstraintLayout_placeholder = 0x7f11002a
 com.example.team_project01:string/exposed_dropdown_menu_content_description = 0x7f0f0026
@@ -950,50 +1152,62 @@ com.example.team_project01:style/Platform.Widget.AppCompat.Spinner = 0x7f100131
 com.example.team_project01:layout/mtrl_picker_header_fullscreen = 0x7f0b006d
 com.example.team_project01:style/TextAppearance.Material3.HeadlineSmall = 0x7f1001de
 com.example.team_project01:layout/abc_list_menu_item_layout = 0x7f0b0010
-com.example.team_project01:dimen/mtrl_min_touch_target_size = 0x7f0601e7
-com.example.team_project01:style/Widget.Material3.Button.IconButton = 0x7f10032e
-com.example.team_project01:style/Theme.Material3.DayNight.DialogWhenLarge = 0x7f100225
-com.example.team_project01:style/TextAppearance.Material3.BodyMedium = 0x7f1001d7
-com.example.team_project01:style/Base.V14.Theme.MaterialComponents.Light.Bridge = 0x7f100089
-com.example.team_project01:id/transition_position = 0x7f0801f5
-com.example.team_project01:drawable/$avd_hide_password__2 = 0x7f070002
-com.example.team_project01:string/abc_searchview_description_voice = 0x7f0f0017
+com.example.team_project01:style/Base.V22.Theme.AppCompat.Light = 0x7f10009e
+com.example.team_project01:id/mtrl_internal_children_alpha_tag = 0x7f080136
 com.example.team_project01:color/m3_dynamic_highlighted_text = 0x7f050085
 com.example.team_project01:styleable/PropertySet = 0x7f110070
-com.example.team_project01:id/mtrl_internal_children_alpha_tag = 0x7f080136
-com.example.team_project01:style/Base.V22.Theme.AppCompat.Light = 0x7f10009e
+com.example.team_project01:style/Widget.Material3.CompoundButton.CheckBox = 0x7f100350
+com.example.team_project01:style/Base.V14.Theme.MaterialComponents.Light.Bridge = 0x7f100089
+com.example.team_project01:id/transition_position = 0x7f0801f5
+com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse = 0x7f1002e5
+com.example.team_project01:style/Theme.MaterialComponents.Dialog.MinWidth = 0x7f10024b
+com.example.team_project01:style/Widget.Material3.MaterialCalendar.Fullscreen = 0x7f10036d
+com.example.team_project01:layout/fragment_first = 0x7f0b009b
+com.example.team_project01:string/abc_searchview_description_voice = 0x7f0f0017
+com.example.team_project01:drawable/$avd_hide_password__2 = 0x7f070002
 com.example.team_project01:style/ThemeOverlay.Material3.Snackbar = 0x7f100296
-com.example.team_project01:color/m3_ref_palette_tertiary40 = 0x7f05011d
 com.example.team_project01:attr/tabStyle = 0x7f0303b7
+com.example.team_project01:color/m3_ref_palette_tertiary40 = 0x7f05011d
 com.example.team_project01:id/accessibility_custom_action_4 = 0x7f08002a
+com.example.team_project01:string/second_fragment_label = 0x7f0f0084
 com.example.team_project01:style/Widget.Material3.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu = 0x7f10039f
 com.example.team_project01:style/Widget.MaterialComponents.FloatingActionButton = 0x7f1003d7
-com.example.team_project01:styleable/FloatingActionButton = 0x7f110034
-com.example.team_project01:id/META = 0x7f080005
-com.example.team_project01:layout/abc_screen_content_include = 0x7f0b0014
-com.example.team_project01:styleable/KeyCycle = 0x7f110041
+com.example.team_project01:layout/mtrl_calendar_year = 0x7f0b0065
 com.example.team_project01:integer/m3_sys_motion_duration_100 = 0x7f09000e
+com.example.team_project01:id/META = 0x7f080005
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.Dialog.Alert = 0x7f1002ae
 com.example.team_project01:style/Widget.MaterialComponents.AppBarLayout.Surface = 0x7f1003ac
 com.example.team_project01:style/Widget.Material3.Slider = 0x7f10038e
 com.example.team_project01:string/material_timepicker_text_input_mode_description = 0x7f0f0050
+com.example.team_project01:styleable/FloatingActionButton = 0x7f110034
+com.example.team_project01:styleable/KeyCycle = 0x7f110041
+com.example.team_project01:layout/abc_screen_content_include = 0x7f0b0014
+com.example.team_project01:style/Widget.Material3.CheckedTextView = 0x7f10033d
+com.example.team_project01:color/m3_ref_palette_dynamic_secondary70 = 0x7f0500c5
+com.example.team_project01:dimen/item_touch_helper_swipe_escape_velocity = 0x7f0600a0
 com.example.team_project01:style/TextAppearance.Design.Placeholder = 0x7f1001c0
 com.example.team_project01:attr/textBackgroundZoom = 0x7f0303e9
 com.example.team_project01:style/ThemeOverlay.Material3.HarmonizedColors = 0x7f10028a
 com.example.team_project01:style/Base.V7.Widget.AppCompat.EditText = 0x7f1000b0
 com.example.team_project01:style/Theme.AppCompat.NoActionBar = 0x7f100212
+com.example.team_project01:styleable/AlertDialog = 0x7f110006
+com.example.team_project01:id/item2 = 0x7f0800f5
+com.example.team_project01:style/Widget.Material3.Button.TextButton.Dialog = 0x7f100332
 com.example.team_project01:style/TextAppearance.MaterialComponents.Tooltip = 0x7f1001f6
 com.example.team_project01:id/transition_layout_save = 0x7f0801f4
-com.example.team_project01:styleable/AlertDialog = 0x7f110006
-com.example.team_project01:style/Widget.Material3.Button.TextButton.Dialog = 0x7f100332
-com.example.team_project01:id/item2 = 0x7f0800f5
 com.example.team_project01:layout/material_clock_display_divider = 0x7f0b0049
-com.example.team_project01:style/Widget.AppCompat.ImageButton = 0x7f1002e0
+com.example.team_project01:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f1001f3
+com.example.team_project01:layout/text_view_without_line_height = 0x7f0b0096
+com.example.team_project01:attr/uri = 0x7f030475
+com.example.team_project01:style/Base.Widget.Material3.CompoundButton.Switch = 0x7f1000f4
+com.example.team_project01:style/Widget.AppCompat.Spinner = 0x7f100308
 com.example.team_project01:drawable/pack = 0x7f0700bc
+com.example.team_project01:style/Widget.AppCompat.ImageButton = 0x7f1002e0
 com.example.team_project01:styleable/KeyFramesVelocity = 0x7f110044
 com.example.team_project01:color/m3_elevated_chip_background_color = 0x7f050088
 com.example.team_project01:id/actions = 0x7f080045
 com.example.team_project01:style/Theme.AppCompat.Empty = 0x7f10020a
+<<<<<<< HEAD
 com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f100138
 com.example.team_project01:style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense = 0x7f100271
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
@@ -1006,20 +1220,36 @@ com.example.team_project01:style/ThemeOverlay.Design.TextInputEditText = 0x7f100
 com.example.team_project01:style/TextAppearance.MaterialComponents.Body2 = 0x7f1001e8
 =======
 com.example.team_project01:style/TextAppearance.MaterialComponents.Body2 = 0x7f1001e8
+=======
+com.example.team_project01:layout/abc_alert_dialog_title_material = 0x7f0b000a
+com.example.team_project01:style/Widget.Material3.Button.ElevatedButton = 0x7f10032b
+com.example.team_project01:style/TextAppearance.MaterialComponents.Headline5 = 0x7f1001f0
+com.example.team_project01:color/mtrl_text_btn_text_color_selector = 0x7f050238
+com.example.team_project01:style/ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense = 0x7f100271
+com.example.team_project01:integer/status_bar_notification_info_maxnum = 0x7f090034
+com.example.team_project01:style/Theme.Material3.DayNight.BottomSheetDialog = 0x7f100221
+com.example.team_project01:style/ThemeOverlay.Material3.Chip.Assist = 0x7f10027c
+com.example.team_project01:style/Widget.MaterialComponents.NavigationRailView.Colored.Compact = 0x7f1003f5
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.Design.TextInputEditText = 0x7f10026c
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush = 0x7f1003c0
+com.example.team_project01:style/TextAppearance.MaterialComponents.Body2 = 0x7f1001e8
 com.example.team_project01:style/TextAppearance.Material3.TitleSmall = 0x7f1001e5
-com.example.team_project01:style/TextAppearance.Material3.HeadlineMedium = 0x7f1001dd
 com.example.team_project01:string/m3_sys_motion_easing_standard = 0x7f0f003a
 com.example.team_project01:styleable/Motion = 0x7f110061
-com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.LabelSmall = 0x7f1001d0
-com.example.team_project01:style/Widget.AppCompat.Button.Borderless = 0x7f1002d3
-com.example.team_project01:style/Base.Widget.MaterialComponents.PopupMenu = 0x7f100104
+com.example.team_project01:style/Widget.Material3.CardView.Elevated = 0x7f10033a
+com.example.team_project01:style/TextAppearance.Material3.HeadlineMedium = 0x7f1001dd
+com.example.team_project01:color/m3_sys_color_dynamic_light_outline = 0x7f05016b
+com.example.team_project01:attr/colorSecondary = 0x7f030101
+com.example.team_project01:attr/popUpToInclusive = 0x7f030472
+com.example.team_project01:styleable/DrawerArrowToggle = 0x7f110030
+com.example.team_project01:attr/telltales_velocityMode = 0x7f0303be
 com.example.team_project01:style/Base.V7.Theme.AppCompat.Light.Dialog = 0x7f1000ad
 <<<<<<< HEAD
 =======
 com.example.team_project01:style/Base.Widget.Material3.ActionMode = 0x7f1000ee
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f1001fa
 com.example.team_project01:style/Widget.MaterialComponents.Slider = 0x7f1003ff
@@ -1046,11 +1276,23 @@ com.example.team_project01:dimen/notification_subtext_size = 0x7f060237
 com.example.team_project01:layout/test_design_checkbox = 0x7f0b0089
 com.example.team_project01:style/TextAppearance.Compat.Notification.Line2.Media = 0x7f1001b4
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/Base.Widget.Material3.CompoundButton.RadioButton = 0x7f1000f3
+com.example.team_project01:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f100268
+com.example.team_project01:string/m3_sys_motion_easing_emphasized_path_data = 0x7f0f0035
+com.example.team_project01:style/TextAppearance.Compat.Notification.Line2.Media = 0x7f1001b4
+com.example.team_project01:dimen/notification_subtext_size = 0x7f060237
+com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.HeadlineLarge = 0x7f1001cb
+com.example.team_project01:attr/popEnterAnim = 0x7f03046f
+com.example.team_project01:styleable/ScrimInsetsFrameLayout = 0x7f110075
+com.example.team_project01:layout/test_design_checkbox = 0x7f0b0089
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.Switch = 0x7f1001ae
-com.example.team_project01:id/decelerate = 0x7f080094
 com.example.team_project01:style/Base.V24.Theme.Material3.Dark = 0x7f1000a1
+com.example.team_project01:id/decelerate = 0x7f080094
 com.example.team_project01:color/m3_ref_palette_dynamic_tertiary0 = 0x7f0500ca
 com.example.team_project01:style/Widget.AppCompat.PopupWindow = 0x7f1002fe
+com.example.team_project01:id/nav_graph = 0x7f080226
 com.example.team_project01:dimen/mtrl_progress_circular_track_thickness_extra_small = 0x7f060202
 com.example.team_project01:style/Widget.MaterialComponents.CircularProgressIndicator.ExtraSmall = 0x7f1003ce
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse = 0x7f1001a1
@@ -1080,19 +1322,19 @@ com.example.team_project01:layout/notification_template_part_time = 0x7f0b0084
 =======
 com.example.team_project01:style/Theme.AppCompat.Light.DarkActionBar = 0x7f10020c
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionBar.Menu = 0x7f10019d
-com.example.team_project01:style/ThemeOverlay.MaterialComponents.ActionBar = 0x7f10029f
 com.example.team_project01:style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored = 0x7f100037
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.ActionBar = 0x7f10029f
+com.example.team_project01:layout/fragment_home = 0x7f0b0037
 com.example.team_project01:id/ignoreRequest = 0x7f0800e6
 com.example.team_project01:color/m3_ref_palette_primary70 = 0x7f050106
 com.example.team_project01:style/Widget.Material3.MaterialTimePicker = 0x7f10037e
 com.example.team_project01:style/ShapeAppearance.MaterialComponents.MediumComponent = 0x7f10015c
-com.example.team_project01:layout/fragment_home = 0x7f0b0037
-com.example.team_project01:drawable/abc_ic_go_search_api_material = 0x7f070020
-com.example.team_project01:style/Widget.MaterialComponents.TextView = 0x7f100412
 com.example.team_project01:id/staticPostLayout = 0x7f0801bb
 com.example.team_project01:style/Base.Widget.AppCompat.ActionMode = 0x7f1000ba
 com.example.team_project01:style/Widget.MaterialComponents.TabLayout.Colored = 0x7f100404
 com.example.team_project01:drawable/$ic_launcher_foreground__0 = 0x7f070006
+com.example.team_project01:drawable/abc_ic_go_search_api_material = 0x7f070020
+com.example.team_project01:style/Widget.MaterialComponents.TextView = 0x7f100412
 com.example.team_project01:style/TextAppearance.AppCompat.Small.Inverse = 0x7f100197
 com.example.team_project01:style/Widget.AppCompat.ActionButton = 0x7f1002cc
 com.example.team_project01:layout/notification_template_part_time = 0x7f0b0081
@@ -1105,6 +1347,7 @@ com.example.team_project01:style/Base.V21.Theme.MaterialComponents.Light = 0x7f1
 com.example.team_project01:attr/itemFillColor = 0x7f03020a
 com.example.team_project01:styleable/Badge = 0x7f110013
 com.example.team_project01:style/Widget.AppCompat.ListView = 0x7f1002f9
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:style/Base.V26.Theme.AppCompat = 0x7f1000a5
 com.example.team_project01:integer/material_motion_path = 0x7f090025
@@ -1129,6 +1372,24 @@ com.example.team_project01:style/Base.Widget.Material3.CompoundButton.RadioButto
 com.example.team_project01:style/ThemeOverlay.AppCompat.DayNight.ActionBar = 0x7f100268
 com.example.team_project01:layout/mtrl_calendar_year = 0x7f0b0065
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:string/abc_menu_ctrl_shortcut_label = 0x7f0f0009
+com.example.team_project01:string/m3_sys_motion_easing_standard_decelerate = 0x7f0f003c
+com.example.team_project01:dimen/mtrl_navigation_rail_icon_size = 0x7f0601f5
+com.example.team_project01:color/material_on_surface_emphasis_medium = 0x7f0501fe
+com.example.team_project01:string/nav_app_bar_navigate_up_description = 0x7f0f0080
+com.example.team_project01:styleable/LinearProgressIndicator = 0x7f11004b
+com.example.team_project01:attr/colorTertiaryContainer = 0x7f030109
+com.example.team_project01:attr/chipCornerRadius = 0x7f0300ab
+com.example.team_project01:attr/windowFixedHeightMinor = 0x7f030459
+com.example.team_project01:drawable/notification_bg_low_normal = 0x7f0700b2
+com.example.team_project01:id/spacer = 0x7f0801aa
+com.example.team_project01:style/Theme.MaterialComponents.Light.Dialog.MinWidth.Bridge = 0x7f10025b
+com.example.team_project01:id/autoComplete = 0x7f080055
+com.example.team_project01:id/setting = 0x7f080198
+com.example.team_project01:style/Base.Widget.AppCompat.Light.ActionBar.TabBar = 0x7f1000cf
+com.example.team_project01:style/Widget.Material3.ExtendedFloatingActionButton.Secondary = 0x7f100359
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display.TextInputLayout = 0x7f10041a
 com.example.team_project01:style/Widget.MaterialComponents.Snackbar.FullWidth = 0x7f100401
 com.example.team_project01:style/Widget.AppCompat.PopupMenu.Overflow = 0x7f1002fd
@@ -1141,11 +1402,16 @@ com.example.team_project01:id/mtrl_view_tag_bottom_padding = 0x7f080141
 com.example.team_project01:style/TextAppearance.AppCompat.Display4 = 0x7f100188
 com.example.team_project01:style/TextAppearance.AppCompat.Body1 = 0x7f100181
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse = 0x7f1001a5
+<<<<<<< HEAD
 com.example.team_project01:style/Widget.Material3.CompoundButton.CheckBox = 0x7f100350
 <<<<<<< HEAD
 =======
 com.example.team_project01:string/mtrl_picker_range_header_unselected = 0x7f0f0068
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:string/mtrl_picker_range_header_unselected = 0x7f0f0068
+com.example.team_project01:attr/startDestination = 0x7f030473
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.MaterialComponents.BottomAppBar = 0x7f1003b2
 com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.BottomSheet = 0x7f10016b
 com.example.team_project01:style/ShapeAppearanceOverlay.Material3.FloatingActionButton = 0x7f100167
@@ -1153,8 +1419,13 @@ com.example.team_project01:string/mtrl_picker_text_input_date_range_end_hint = 0
 com.example.team_project01:style/Test.Theme.MaterialComponents.MaterialCalendar = 0x7f100176
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Button = 0x7f100414
 com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Title = 0x7f10013a
+<<<<<<< HEAD
 com.example.team_project01:style/ShapeAppearanceOverlay.BottomRightCut = 0x7f100162
 com.example.team_project01:layout/mtrl_picker_dialog = 0x7f0b006d
+=======
+com.example.team_project01:layout/mtrl_picker_dialog = 0x7f0b006a
+com.example.team_project01:style/ShapeAppearanceOverlay.BottomRightCut = 0x7f100162
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:styleable/ConstraintOverride = 0x7f11002b
 com.example.team_project01:style/ShapeAppearance.Material3.Tooltip = 0x7f100159
 com.example.team_project01:style/Base.V28.Theme.AppCompat = 0x7f1000a8
@@ -1176,11 +1447,15 @@ com.example.team_project01:styleable/MenuGroup = 0x7f11005d
 com.example.team_project01:layout/mtrl_picker_header_toggle = 0x7f0b0070
 com.example.team_project01:style/Base.Widget.Material3.FloatingActionButton = 0x7f1000f7
 com.example.team_project01:id/invisible = 0x7f0800f1
-com.example.team_project01:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f10010b
-com.example.team_project01:id/media_actions = 0x7f08011f
+com.example.team_project01:style/Base.TextAppearance.MaterialComponents.Subtitle2 = 0x7f100043
+com.example.team_project01:style/Base.Widget.Material3.MaterialCalendar.NavigationButton = 0x7f1000fa
+com.example.team_project01:style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item = 0x7f1001fa
+com.example.team_project01:style/Widget.MaterialComponents.Slider = 0x7f1003ff
+com.example.team_project01:styleable/ViewBackgroundHelper = 0x7f110092
 com.example.team_project01:id/transition_transform = 0x7f0801f7
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:drawable/btn_checkbox_unchecked_mtrl = 0x7f07005e
+<<<<<<< HEAD
 com.example.team_project01:id/transition_transform = 0x7f0801fc
 com.example.team_project01:id/media_actions = 0x7f080123
 com.example.team_project01:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f10010b
@@ -1209,16 +1484,22 @@ com.example.team_project01:string/androidx_startup = 0x7f0f001b
 com.example.team_project01:attr/dividerPadding = 0x7f030156
 =======
 com.example.team_project01:layout/material_textinput_timepicker = 0x7f0b004f
+=======
+com.example.team_project01:id/media_actions = 0x7f08011f
+com.example.team_project01:style/Base.Widget.MaterialComponents.TextInputLayout = 0x7f10010b
+com.example.team_project01:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f0601a2
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/m3_btn_dialog_btn_spacing = 0x7f0600c2
 com.example.team_project01:attr/constraint_referenced_tags = 0x7f030110
+com.example.team_project01:layout/material_textinput_timepicker = 0x7f0b004f
 com.example.team_project01:layout/m3_alert_dialog_actions = 0x7f0b0044
 com.example.team_project01:style/ThemeOverlay.AppCompat.ActionBar = 0x7f100264
-com.example.team_project01:layout/m3_alert_dialog_title = 0x7f0b0045
 com.example.team_project01:id/dragClockwise = 0x7f0800a8
 com.example.team_project01:id/sharedValueUnset = 0x7f08019a
 com.example.team_project01:id/tag_transition_group = 0x7f0801d1
 com.example.team_project01:attr/centre_button_color = 0x7f030099
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance = 0x7f10041c
+<<<<<<< HEAD
 com.example.team_project01:id/icon_group = 0x7f0800e3
 com.example.team_project01:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f10013c
 com.example.team_project01:layout/item_search_list = 0x7f0b0097
@@ -1227,11 +1508,15 @@ com.example.team_project01:style/Base.Widget.AppCompat.CompoundButton.RadioButto
 com.example.team_project01:style/Platform.V21.AppCompat.Light = 0x7f10012e
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Theme.MaterialComponents.Light.Dialog.Alert = 0x7f100255
+=======
+com.example.team_project01:layout/m3_alert_dialog_title = 0x7f0b0045
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/m3_btn_translation_z_base = 0x7f0600d8
 com.example.team_project01:drawable/gradient = 0x7f07006c
 com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem = 0x7f100135
 com.example.team_project01:color/m3_ref_palette_neutral_variant99 = 0x7f0500fd
 com.example.team_project01:style/Widget.Material3.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu = 0x7f10039b
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:dimen/m3_btn_translation_z_base = 0x7f0600d8
 com.example.team_project01:drawable/gradient = 0x7f07006c
@@ -1239,18 +1524,31 @@ com.example.team_project01:drawable/gradient = 0x7f07006c
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Theme.Material3.DynamicColors.Dark = 0x7f100227
 com.example.team_project01:style/RtlOverlay.DialogWindowTitle.AppCompat = 0x7f100132
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:attr/motionTarget = 0x7f0302ea
 com.example.team_project01:color/design_dark_default_color_error = 0x7f050037
+com.example.team_project01:style/Theme.Material3.DynamicColors.Dark = 0x7f100227
+com.example.team_project01:style/RtlOverlay.DialogWindowTitle.AppCompat = 0x7f100132
+com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.Large.Top = 0x7f10014a
 com.example.team_project01:style/Platform.V21.AppCompat = 0x7f10012d
 com.example.team_project01:style/ShapeAppearanceOverlay.TopRightDifferentCornerSize = 0x7f100174
 com.example.team_project01:style/Platform.AppCompat = 0x7f100124
 com.example.team_project01:style/Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f1002f4
 com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked = 0x7f100123
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.example.team_project01:drawable/mtrl_popupmenu_background = 0x7f0700aa
 =======
 com.example.team_project01:drawable/mtrl_popupmenu_background = 0x7f0700a9
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:id/icon_group = 0x7f0800e3
+com.example.team_project01:style/RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1 = 0x7f10013c
+com.example.team_project01:color/m3_ref_palette_dynamic_tertiary99 = 0x7f0500d6
+com.example.team_project01:layout/item_search_list = 0x7f0b0097
+com.example.team_project01:style/Base.Widget.AppCompat.CompoundButton.RadioButton = 0x7f1000c6
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.Material3.Light.ActionBar.Solid = 0x7f100364
 com.example.team_project01:dimen/abc_disabled_alpha_material_light = 0x7f060028
 com.example.team_project01:style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f10029b
@@ -1262,9 +1560,15 @@ com.example.team_project01:style/Widget.Material3.Chip.Assist = 0x7f10033e
 com.example.team_project01:color/abc_primary_text_disable_only_material_dark = 0x7f050009
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/MaterialAlertDialog.MaterialComponents = 0x7f10011a
+com.example.team_project01:id/spinner = 0x7f08021a
 com.example.team_project01:style/MaterialAlertDialog.Material3.Body.Text.CenterStacked = 0x7f100113
 com.example.team_project01:dimen/space_item_icon_only_size = 0x7f06023d
 com.example.team_project01:style/Base.Widget.MaterialComponents.TextView = 0x7f10010c
+com.example.team_project01:id/textview_second = 0x7f08022a
+com.example.team_project01:style/Theme.MaterialComponents.DayNight.NoActionBar = 0x7f100243
+com.example.team_project01:dimen/m3_extended_fab_end_padding = 0x7f0600eb
+com.example.team_project01:style/Base.Widget.AppCompat.AutoCompleteTextView = 0x7f1000bc
+com.example.team_project01:id/wrap = 0x7f080210
 com.example.team_project01:style/Theme.MaterialComponents.Light.BottomSheetDialog = 0x7f100250
 com.example.team_project01:style/Base.Widget.MaterialComponents.Chip = 0x7f100101
 com.example.team_project01:style/Base.Widget.Material3.TabLayout.OnSurface = 0x7f1000fd
@@ -1289,15 +1593,19 @@ com.example.team_project01:style/ThemeOverlay.MaterialComponents.TextInputEditTe
 com.example.team_project01:color/material_timepicker_clockface = 0x7f050209
 com.example.team_project01:style/Base.Widget.Material3.Snackbar = 0x7f1000fb
 com.example.team_project01:id/item4 = 0x7f0800f7
+<<<<<<< HEAD
 com.example.team_project01:styleable/ScrollingViewBehavior_Layout = 0x7f110076
 com.example.team_project01:style/Widget.Material3.TextInputEditText.OutlinedBox.Dense = 0x7f100398
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/default_activity_button = 0x7f080097
 com.example.team_project01:style/Widget.MaterialComponents.Chip.Choice = 0x7f1003c9
-com.example.team_project01:style/ThemeOverlay.MaterialComponents.TextInputEditText = 0x7f1002bb
 com.example.team_project01:style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu = 0x7f1003a0
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.TextInputEditText = 0x7f1002bb
 com.example.team_project01:id/disableIntraAutoTransition = 0x7f0800a3
 com.example.team_project01:style/Base.TextAppearance.AppCompat.SearchResult = 0x7f100025
+<<<<<<< HEAD
 com.example.team_project01:style/Widget.AppCompat.Spinner = 0x7f100308
 com.example.team_project01:style/Base.Widget.Material3.CompoundButton.Switch = 0x7f1000f4
 <<<<<<< HEAD
@@ -1322,29 +1630,44 @@ com.example.team_project01:drawable/ic_mtrl_checked_circle = 0x7f07007c
 com.example.team_project01:styleable/Variant = 0x7f110090
 com.example.team_project01:style/Widget.Design.BottomSheet.Modal = 0x7f100314
 com.example.team_project01:color/design_default_color_background = 0x7f050043
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/action_mode_bar = 0x7f080041
 com.example.team_project01:string/character_counter_content_description = 0x7f0f0020
 com.example.team_project01:dimen/mtrl_btn_padding_bottom = 0x7f060188
 com.example.team_project01:id/snackbar_text = 0x7f0801a4
-com.example.team_project01:style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f1001af
+com.example.team_project01:attr/data = 0x7f030464
 com.example.team_project01:styleable/ViewStubCompat = 0x7f110094
+com.example.team_project01:style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem = 0x7f1001af
 com.example.team_project01:dimen/mtrl_tooltip_padding = 0x7f060229
 com.example.team_project01:integer/m3_sys_motion_duration_1000 = 0x7f09000f
 com.example.team_project01:drawable/abc_ic_menu_cut_mtrl_alpha = 0x7f070022
+com.example.team_project01:style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense = 0x7f10040b
+com.example.team_project01:style/Widget.Material3.Toolbar.OnSurface = 0x7f1003a2
+com.example.team_project01:id/action_SecondFragment_to_FirstFragment = 0x7f080220
+com.example.team_project01:style/Widget.MaterialComponents.NavigationRailView.Compact = 0x7f1003f6
+com.example.team_project01:style/Widget.Material3.Button.TonalButton.Icon = 0x7f100338
+com.example.team_project01:attr/maxVelocity = 0x7f0302c0
+com.example.team_project01:drawable/arrow = 0x7f070057
+com.example.team_project01:attr/dataPattern = 0x7f030465
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Day.Invalid = 0x7f1003dd
+com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.Year = 0x7f1003ee
 com.example.team_project01:color/material_dynamic_secondary99 = 0x7f0501dd
 com.example.team_project01:style/Base.TextAppearance.AppCompat.Display2 = 0x7f100019
-com.example.team_project01:id/order_pack = 0x7f08015e
 com.example.team_project01:dimen/mtrl_calendar_header_selection_line_height = 0x7f0601a6
-com.example.team_project01:string/mtrl_exceed_max_badge_number_suffix = 0x7f0f0054
+com.example.team_project01:id/order_pack = 0x7f08015e
 com.example.team_project01:attr/tintMode = 0x7f030413
-com.example.team_project01:style/Base.Widget.Material3.Light.ActionBar.Solid = 0x7f1000f9
+com.example.team_project01:string/mtrl_exceed_max_badge_number_suffix = 0x7f0f0054
 com.example.team_project01:color/m3_sys_color_dark_error = 0x7f05012f
 com.example.team_project01:style/Theme.Material3.DynamicColors.Light = 0x7f100229
+com.example.team_project01:id/nav_controller_view_tag = 0x7f080225
+com.example.team_project01:drawable/abc_list_selector_holo_light = 0x7f070036
+com.example.team_project01:style/Base.Widget.Material3.ActionBar.Solid = 0x7f1000ed
 com.example.team_project01:id/split_action_bar = 0x7f0801ad
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:color/primary_material_dark = 0x7f050244
-com.example.team_project01:style/Base.Widget.Material3.ActionBar.Solid = 0x7f1000ed
 com.example.team_project01:color/m3_ref_palette_dynamic_neutral90 = 0x7f0500a0
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:style/ThemeOverlay.Material3.DynamicColors.Light = 0x7f100285
 com.example.team_project01:style/ThemeOverlay.Material3.NavigationView = 0x7f100295
@@ -1363,6 +1686,14 @@ com.example.team_project01:style/CardView.Light = 0x7f10010f
 com.example.team_project01:style/Theme.Material3.DayNight.NoActionBar = 0x7f100226
 com.example.team_project01:style/Widget.Material3.Chip.Assist = 0x7f10033e
 =======
+=======
+com.example.team_project01:style/Base.Widget.Material3.Light.ActionBar.Solid = 0x7f1000f9
+com.example.team_project01:styleable/ViewPager2 = 0x7f110093
+com.example.team_project01:id/SecondFragment = 0x7f08021e
+com.example.team_project01:string/material_clock_toggle_content_description = 0x7f0f003e
+com.example.team_project01:string/hello_blank_fragment = 0x7f0f0029
+com.example.team_project01:style/Base.ThemeOverlay.Material3.BottomSheetDialog = 0x7f100076
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Theme.AppCompat = 0x7f1001fd
 com.example.team_project01:style/ThemeOverlay.Material3.DynamicColors.Light = 0x7f100285
 com.example.team_project01:style/ThemeOverlay.Material3.NavigationView = 0x7f100295
@@ -1373,9 +1704,11 @@ com.example.team_project01:style/Widget.AppCompat.PopupMenu = 0x7f1002fc
 com.example.team_project01:id/view_tree_saved_state_registry_owner = 0x7f080209
 com.example.team_project01:color/m3_ref_palette_dynamic_primary70 = 0x7f0500b8
 com.example.team_project01:bool/abc_config_actionMenuItemAllCaps = 0x7f040001
-com.example.team_project01:style/Base.Widget.AppCompat.TextView.SpinnerItem = 0x7f1000e9
+com.example.team_project01:attr/action = 0x7f030462
 com.example.team_project01:style/Base.Widget.AppCompat.Button.Colored = 0x7f1000c1
 com.example.team_project01:color/m3_ref_palette_dynamic_neutral70 = 0x7f05009e
+com.example.team_project01:style/Base.Widget.AppCompat.TextView.SpinnerItem = 0x7f1000e9
+com.example.team_project01:styleable/NavAction = 0x7f11009a
 com.example.team_project01:style/Theme.Material3.DayNight.NoActionBar = 0x7f100226
 com.example.team_project01:style/CardView.Light = 0x7f10010f
 com.example.team_project01:style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton = 0x7f100103
@@ -1394,12 +1727,16 @@ com.example.team_project01:style/Widget.Material3.Button.TextButton.Icon = 0x7f1
 com.example.team_project01:dimen/m3_sys_motion_easing_linear_control_y2 = 0x7f06012d
 com.example.team_project01:dimen/m3_bottom_sheet_elevation = 0x7f0600bc
 com.example.team_project01:style/Base.Widget.AppCompat.CompoundButton.Switch = 0x7f1000c7
+com.example.team_project01:attr/argType = 0x7f030463
 com.example.team_project01:style/Base.Widget.AppCompat.CompoundButton.CheckBox = 0x7f1000c5
 com.example.team_project01:style/Theme.MaterialComponents.NoActionBar = 0x7f100260
 com.example.team_project01:style/Base.Widget.AppCompat.Button.Small = 0x7f1000c2
 com.example.team_project01:style/Widget.AppCompat.ActionMode = 0x7f1002cf
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.Dialog.MinWidth = 0x7f100240
 com.example.team_project01:style/Base.Widget.AppCompat.ActionButton.CloseMode = 0x7f1000b8
+com.example.team_project01:id/map_toolbar = 0x7f080224
+com.example.team_project01:dimen/notification_media_narrow_margin = 0x7f060232
+com.example.team_project01:attr/switchPadding = 0x7f03039c
 com.example.team_project01:style/Base.Widget.AppCompat.ActionBar.TabBar = 0x7f1000b4
 com.example.team_project01:style/Base.V7.Widget.AppCompat.AutoCompleteTextView = 0x7f1000af
 com.example.team_project01:style/Base.V7.Theme.AppCompat.Light = 0x7f1000ac
@@ -1408,6 +1745,7 @@ com.example.team_project01:id/action_bar_root = 0x7f080037
 com.example.team_project01:string/hide_bottom_view_on_scroll_behavior = 0x7f0f002a
 com.example.team_project01:string/mtrl_chip_close_icon_content_description = 0x7f0f0052
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.example.team_project01:style/Platform.MaterialComponents.Dialog = 0x7f100127
 com.example.team_project01:style/Base.V7.Theme.AppCompat = 0x7f1000aa
 com.example.team_project01:styleable/MaterialAlertDialogTheme = 0x7f11004e
@@ -1415,16 +1753,26 @@ com.example.team_project01:styleable/MaterialAlertDialogTheme = 0x7f11004e
 com.example.team_project01:styleable/MaterialAlertDialogTheme = 0x7f11004e
 com.example.team_project01:style/Base.V7.Theme.AppCompat = 0x7f1000aa
 com.example.team_project01:style/Platform.MaterialComponents.Dialog = 0x7f100127
+=======
+com.example.team_project01:dimen/design_snackbar_max_width = 0x7f060087
+com.example.team_project01:style/Theme.Material3.Light.DialogWhenLarge = 0x7f10022f
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/tooltip_precise_anchor_threshold = 0x7f060255
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse = 0x7f1001a3
 com.example.team_project01:id/search_go_btn = 0x7f08018f
 com.example.team_project01:integer/mtrl_chip_anim_duration = 0x7f09002e
+<<<<<<< HEAD
 com.example.team_project01:dimen/design_snackbar_max_width = 0x7f060087
 com.example.team_project01:style/Theme.Material3.Light.DialogWhenLarge = 0x7f10022f
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/Base.V7.Theme.AppCompat = 0x7f1000aa
+com.example.team_project01:style/Platform.MaterialComponents.Dialog = 0x7f100127
+com.example.team_project01:styleable/MaterialAlertDialogTheme = 0x7f11004e
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Base.V28.Theme.AppCompat.Light = 0x7f1000a9
-com.example.team_project01:dimen/mtrl_btn_corner_radius = 0x7f06017c
 com.example.team_project01:style/Widget.Material3.ChipGroup = 0x7f100348
+com.example.team_project01:dimen/mtrl_btn_corner_radius = 0x7f06017c
 com.example.team_project01:style/Base.V24.Theme.Material3.Light.Dialog = 0x7f1000a4
 com.example.team_project01:layout/item_search = 0x7f0b0044
 com.example.team_project01:style/Base.V21.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f10009c
@@ -1444,30 +1792,35 @@ com.example.team_project01:color/m3_textfield_filled_background_color = 0x7f0501
 com.example.team_project01:id/month_navigation_fragment_toggle = 0x7f080129
 =======
 com.example.team_project01:drawable/ic_star = 0x7f070087
+com.example.team_project01:id/parallax = 0x7f080163
 com.example.team_project01:attr/textAppearanceHeadlineMedium = 0x7f0303d1
 com.example.team_project01:style/Widget.AppCompat.EditText = 0x7f1002df
-com.example.team_project01:id/parallax = 0x7f080163
 com.example.team_project01:styleable/ConstraintSet = 0x7f11002c
 com.example.team_project01:drawable/abc_scrubber_primary_mtrl_alpha = 0x7f07003f
 com.example.team_project01:styleable/TabItem = 0x7f110085
 com.example.team_project01:id/noState = 0x7f080153
 com.example.team_project01:dimen/material_time_picker_minimum_screen_width = 0x7f060167
-com.example.team_project01:attr/subMenuArrow = 0x7f03038c
-com.example.team_project01:style/Widget.Material3.Button = 0x7f10032a
-com.example.team_project01:color/m3_ref_palette_dynamic_tertiary70 = 0x7f0500d2
-com.example.team_project01:attr/dividerPadding = 0x7f030156
-com.example.team_project01:string/androidx_startup = 0x7f0f001b
-com.example.team_project01:style/Base.V26.Theme.AppCompat = 0x7f1000a5
-com.example.team_project01:id/month_navigation_fragment_toggle = 0x7f080125
-com.example.team_project01:color/m3_textfield_filled_background_color = 0x7f050193
-com.example.team_project01:integer/material_motion_path = 0x7f090025
-com.example.team_project01:dimen/fastscroll_minimum_range = 0x7f060096
 com.example.team_project01:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f10018d
 com.example.team_project01:style/Widget.Material3.FloatingActionButton.Large.Primary = 0x7f10035c
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/Base.V26.Theme.AppCompat = 0x7f1000a5
+com.example.team_project01:attr/subMenuArrow = 0x7f03038c
+com.example.team_project01:style/Widget.Material3.Button = 0x7f10032a
+com.example.team_project01:attr/dividerPadding = 0x7f030156
+com.example.team_project01:color/m3_ref_palette_dynamic_tertiary70 = 0x7f0500d2
+com.example.team_project01:string/androidx_startup = 0x7f0f001b
+com.example.team_project01:id/month_navigation_fragment_toggle = 0x7f080125
+com.example.team_project01:color/m3_textfield_filled_background_color = 0x7f050193
+com.example.team_project01:dimen/fastscroll_minimum_range = 0x7f060096
+com.example.team_project01:integer/material_motion_path = 0x7f090025
+com.example.team_project01:id/myinfo_bookmark = 0x7f080143
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f100091
 com.example.team_project01:style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1003ad
 com.example.team_project01:style/ThemeOverlay.Material3.Dialog.Alert = 0x7f100281
+com.example.team_project01:styleable/KeyTrigger = 0x7f110047
 com.example.team_project01:style/Base.V14.ThemeOverlay.MaterialComponents.BottomSheetDialog = 0x7f10008e
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f1002c2
 com.example.team_project01:style/Base.V14.Theme.Material3.Dark.Dialog = 0x7f100080
@@ -1480,14 +1833,15 @@ com.example.team_project01:dimen/m3_chip_hovered_translation_z = 0x7f0600e6
 com.example.team_project01:attr/tooltipFrameBackground = 0x7f030427
 =======
 com.example.team_project01:attr/tooltipFrameBackground = 0x7f030427
-com.example.team_project01:dimen/m3_chip_hovered_translation_z = 0x7f0600e6
 com.example.team_project01:style/Base.Widget.Material3.FloatingActionButton.Large = 0x7f1000f8
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:dimen/m3_chip_hovered_translation_z = 0x7f0600e6
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Base.ThemeOverlay.Material3.Dialog = 0x7f100077
 com.example.team_project01:style/TextAppearance.Design.Prefix = 0x7f1001c1
 com.example.team_project01:style/Base.Widget.AppCompat.ButtonBar = 0x7f1000c3
-com.example.team_project01:style/Base.ThemeOverlay.Material3.BottomSheetDialog = 0x7f100076
-com.example.team_project01:string/hello_blank_fragment = 0x7f0f0029
 com.example.team_project01:style/Base.Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f10006d
 com.example.team_project01:color/mtrl_choice_chip_text_color = 0x7f05021d
 com.example.team_project01:style/TextAppearance.AppCompat.SearchResult.Title = 0x7f100195
@@ -1497,13 +1851,17 @@ com.example.team_project01:styleable/MotionLayout = 0x7f110065
 com.example.team_project01:style/ThemeOverlay.AppCompat = 0x7f100263
 =======
 com.example.team_project01:style/ThemeOverlay.AppCompat = 0x7f100263
-com.example.team_project01:styleable/MotionLayout = 0x7f110065
 com.example.team_project01:string/abc_toolbar_collapse_description = 0x7f0f001a
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:styleable/MotionLayout = 0x7f110065
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.Material3.FloatingActionButton.Surface = 0x7f100288
 com.example.team_project01:dimen/mtrl_textinput_box_stroke_width_focused = 0x7f06021f
 com.example.team_project01:style/Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f100067
 com.example.team_project01:style/Widget.MaterialComponents.Button.TextButton.Icon = 0x7f1003c2
+<<<<<<< HEAD
 com.example.team_project01:layout/text_view_without_line_height = 0x7f0b0099
 com.example.team_project01:style/TextAppearance.MaterialComponents.Subtitle1 = 0x7f1001f3
 <<<<<<< HEAD
@@ -1513,6 +1871,8 @@ com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabView = 0x7f
 com.example.team_project01:style/Theme.Material3.DayNight.Dialog.MinWidth = 0x7f100224
 com.example.team_project01:dimen/mtrl_exposed_dropdown_menu_popup_vertical_padding = 0x7f0601c8
 =======
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:drawable/one = 0x7f0700bb
 com.example.team_project01:style/Base.Theme.MaterialComponents.Light.Bridge = 0x7f100065
 com.example.team_project01:style/Widget.AppCompat.Light.ActionBar.TabView = 0x7f1002e8
@@ -1520,8 +1880,8 @@ com.example.team_project01:dimen/mtrl_exposed_dropdown_menu_popup_vertical_paddi
 com.example.team_project01:style/Theme.Material3.DayNight.Dialog.MinWidth = 0x7f100224
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/ShapeAppearance.Material3.MediumComponent = 0x7f100156
-com.example.team_project01:styleable/ThemeEnforcement = 0x7f11008b
 com.example.team_project01:style/TextAppearance.AppCompat.Subhead.Inverse = 0x7f100199
+<<<<<<< HEAD
 com.example.team_project01:style/Base.Theme.MaterialComponents.CompactMenu = 0x7f10005d
 <<<<<<< HEAD
 com.example.team_project01:id/tv_category = 0x7f0801fe
@@ -1531,6 +1891,15 @@ com.example.team_project01:styleable/ThemeEnforcement = 0x7f11008b
 =======
 com.example.team_project01:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f100068
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/Base.Theme.MaterialComponents.Light.Dialog = 0x7f100068
+com.example.team_project01:style/Base.Theme.MaterialComponents.CompactMenu = 0x7f10005d
+com.example.team_project01:id/mtrl_picker_text_input_date = 0x7f08013d
+com.example.team_project01:animator/nav_default_exit_anim = 0x7f020021
+com.example.team_project01:styleable/ThemeEnforcement = 0x7f11008b
+com.example.team_project01:attr/autoCompleteMode = 0x7f03003b
+com.example.team_project01:drawable/m3_tabs_background = 0x7f070091
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Base.Theme.Material3.Dark.BottomSheetDialog = 0x7f100056
 com.example.team_project01:style/Base.Theme.AppCompat.Light.Dialog.Alert = 0x7f100051
 com.example.team_project01:style/ShapeAppearanceOverlay.MaterialAlertDialog.Material3 = 0x7f10016a
@@ -1584,6 +1953,7 @@ com.example.team_project01:style/Base.TextAppearance.AppCompat.Headline = 0x7f10
 com.example.team_project01:style/Base.Theme.AppCompat.Light.Dialog.FixedSize = 0x7f100052
 com.example.team_project01:style/Widget.MaterialComponents.Button.UnelevatedButton.Icon = 0x7f1003c5
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.example.team_project01:dimen/mtrl_calendar_navigation_top_padding = 0x7f0601b0
 com.example.team_project01:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f10035e
 com.example.team_project01:style/AndroidThemeColorAccentYellow = 0x7f100002
@@ -1595,6 +1965,10 @@ com.example.team_project01:style/Theme.MaterialComponents.Light = 0x7f10024e
 com.example.team_project01:style/Base.Widget.AppCompat.Button.Borderless.Colored = 0x7f1000bf
 com.example.team_project01:dimen/mtrl_btn_focused_z = 0x7f060181
 =======
+=======
+com.example.team_project01:dimen/design_tab_text_size = 0x7f06008f
+com.example.team_project01:color/m3_sys_color_dark_on_primary_container = 0x7f050138
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/AndroidThemeColorAccentYellow = 0x7f100002
 com.example.team_project01:layout/mtrl_picker_header_title_text = 0x7f0b006f
 com.example.team_project01:style/Widget.Material3.FloatingActionButton.Large.Surface = 0x7f10035e
@@ -1715,6 +2089,7 @@ com.example.team_project01:id/message = 0x7f080124
 com.example.team_project01:id/message = 0x7f080120
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:string/material_slider_range_end = 0x7f0f0048
+com.example.team_project01:attr/enterAnim = 0x7f030468
 com.example.team_project01:string/m3_ref_typeface_plain_medium = 0x7f0f0030
 com.example.team_project01:style/ThemeOverlay.AppCompat.Light = 0x7f10026b
 com.example.team_project01:string/material_motion_easing_linear = 0x7f0f0046
@@ -1771,7 +2146,14 @@ com.example.team_project01:style/Base.Widget.AppCompat.PopupMenu.Overflow = 0x7f
 com.example.team_project01:color/m3_text_button_background_color_selector = 0x7f050190
 com.example.team_project01:dimen/badge_left_margin = 0x7f060053
 com.example.team_project01:styleable/MenuGroup = 0x7f11005d
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:styleable/Variant = 0x7f110090
+com.example.team_project01:color/design_default_color_background = 0x7f050043
+com.example.team_project01:drawable/ic_mtrl_checked_circle = 0x7f07007c
+com.example.team_project01:style/Widget.Design.BottomSheet.Modal = 0x7f100314
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.AppCompat.ActionBar = 0x7f1002c7
 com.example.team_project01:dimen/compat_button_padding_horizontal_material = 0x7f06005b
 com.example.team_project01:dimen/abc_action_button_min_width_material = 0x7f06000e
@@ -1851,6 +2233,7 @@ com.example.team_project01:layout/test_design_radiobutton = 0x7f0b008a
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:color/material_dynamic_neutral30 = 0x7f0501ae
 com.example.team_project01:id/accessibility_action_clickable_span = 0x7f08000f
+com.example.team_project01:id/layout_basic_info = 0x7f080217
 com.example.team_project01:style/Widget.Material3.MaterialTimePicker.Display.HelperText = 0x7f100383
 com.example.team_project01:attr/layout_goneMarginTop = 0x7f03026e
 com.example.team_project01:drawable/abc_list_divider_material = 0x7f07002b
@@ -1866,8 +2249,8 @@ com.example.team_project01:layout/select_dialog_multichoice_material = 0x7f0b008
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:styleable/ListPopupWindow = 0x7f11004c
 com.example.team_project01:color/m3_timepicker_display_text_color = 0x7f05019f
-com.example.team_project01:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle = 0x7f100045
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialCalendar = 0x7f1002b9
+<<<<<<< HEAD
 com.example.team_project01:dimen/mtrl_textinput_end_icon_margin_start = 0x7f060221
 com.example.team_project01:styleable/SearchView = 0x7f110077
 <<<<<<< HEAD
@@ -1886,11 +2269,16 @@ com.example.team_project01:attr/hintTextAppearance = 0x7f0301e3
 com.example.team_project01:layout/notification_template_part_chronometer = 0x7f0b0083
 com.example.team_project01:layout/notification_template_big_media = 0x7f0b007a
 =======
+=======
+com.example.team_project01:style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle = 0x7f100045
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.Material3.TextInputEditText = 0x7f100297
-com.example.team_project01:layout/test_action_chip = 0x7f0b0087
-com.example.team_project01:style/TextAppearance.AppCompat.Menu = 0x7f100193
 com.example.team_project01:attr/chipStyle = 0x7f0300bc
 com.example.team_project01:drawable/material_cursor_drawable = 0x7f070097
+com.example.team_project01:style/TextAppearance.AppCompat.Menu = 0x7f100193
+com.example.team_project01:layout/test_action_chip = 0x7f0b0087
+com.example.team_project01:dimen/mtrl_textinput_end_icon_margin_start = 0x7f060221
+com.example.team_project01:styleable/SearchView = 0x7f110077
 com.example.team_project01:id/continuousVelocity = 0x7f08008b
 com.example.team_project01:attr/tint = 0x7f030412
 com.example.team_project01:menu/menu_store = 0x7f0c0002
@@ -1902,11 +2290,17 @@ com.example.team_project01:layout/notification_template_part_chronometer = 0x7f0
 com.example.team_project01:layout/notification_template_big_media = 0x7f0b0077
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Base.Theme.AppCompat = 0x7f100047
+<<<<<<< HEAD
 com.example.team_project01:layout/notification_action = 0x7f0b0076
 com.example.team_project01:style/Base.V14.Theme.MaterialComponents = 0x7f100084
 <<<<<<< HEAD
 com.example.team_project01:layout/mtrl_picker_header_dialog = 0x7f0b006f
 =======
+=======
+com.example.team_project01:color/mtrl_fab_bg_color_selector = 0x7f05021f
+com.example.team_project01:attr/imageZoom = 0x7f0301f9
+com.example.team_project01:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f1000f6
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:layout/mtrl_picker_header_dialog = 0x7f0b006c
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:string/m3_sys_motion_easing_legacy_decelerate = 0x7f0f0038
@@ -1931,15 +2325,16 @@ com.example.team_project01:layout/item_like_history = 0x7f0b003f
 =======
 com.example.team_project01:id/unchecked = 0x7f080200
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.BottomAppBar.Surface = 0x7f1002a8
-com.example.team_project01:layout/material_timepicker = 0x7f0b0052
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.YearNavigationButton = 0x7f1003f1
+com.example.team_project01:layout/material_timepicker = 0x7f0b0052
 com.example.team_project01:layout/mtrl_calendar_vertical = 0x7f0b0064
 com.example.team_project01:styleable/Chip = 0x7f11001d
 com.example.team_project01:layout/mtrl_calendar_months = 0x7f0b0063
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:id/accessibility_custom_action_2 = 0x7f08001c
-com.example.team_project01:dimen/mtrl_badge_with_text_radius = 0x7f060175
+com.example.team_project01:style/Theme.MaterialComponents.Light.Dialog.Alert = 0x7f100255
 com.example.team_project01:dimen/test_navigation_bar_elevation = 0x7f060249
+com.example.team_project01:dimen/mtrl_badge_with_text_radius = 0x7f060175
 com.example.team_project01:string/material_timepicker_pm = 0x7f0f004e
 com.example.team_project01:layout/mtrl_alert_select_dialog_singlechoice = 0x7f0b005d
 com.example.team_project01:layout/mtrl_alert_select_dialog_item = 0x7f0b005b
@@ -1964,6 +2359,7 @@ com.example.team_project01:id/time = 0x7f0801e9
 com.example.team_project01:layout/item_store_menu = 0x7f0b0042
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:styleable/FlowLayout = 0x7f110036
+<<<<<<< HEAD
 com.example.team_project01:color/mtrl_fab_bg_color_selector = 0x7f05021f
 com.example.team_project01:attr/imageZoom = 0x7f0301f9
 com.example.team_project01:style/Base.Widget.Material3.ExtendedFloatingActionButton.Icon = 0x7f1000f6
@@ -1973,7 +2369,10 @@ com.example.team_project01:id/tab_review = 0x7f0801cb
 com.example.team_project01:style/Theme.Material3.DynamicColors.DayNight = 0x7f100228
 com.example.team_project01:id/search_edit_frame = 0x7f080193
 =======
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/tab_review = 0x7f0801c6
+com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog = 0x7f1002b2
 com.example.team_project01:style/Theme.Material3.DynamicColors.DayNight = 0x7f100228
 com.example.team_project01:id/search_edit_frame = 0x7f08018e
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
@@ -1995,14 +2394,19 @@ com.example.team_project01:string/hide_bottom_view_on_scroll_behavior = 0x7f0f00
 com.example.team_project01:color/m3_ref_palette_dynamic_neutral99 = 0x7f0500a2
 com.example.team_project01:id/dropdown_noneditable = 0x7f0800b1
 com.example.team_project01:layout/design_navigation_item_subheader = 0x7f0b0032
+<<<<<<< HEAD
 com.example.team_project01:layout/design_navigation_item = 0x7f0b002f
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:styleable/ViewPager2 = 0x7f110093
 com.example.team_project01:string/material_clock_toggle_content_description = 0x7f0f003e
 com.example.team_project01:layout/design_layout_tab_text = 0x7f0b002e
+=======
+com.example.team_project01:layout/design_layout_tab_text = 0x7f0b002d
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:string/chip_text = 0x7f0f0023
 com.example.team_project01:layout/design_bottom_sheet_dialog = 0x7f0b002a
 com.example.team_project01:style/Widget.AppCompat.RatingBar.Indicator = 0x7f100302
+com.example.team_project01:attr/textInputFilledExposedDropdownMenuStyle = 0x7f0303ef
 com.example.team_project01:style/ThemeOverlay.AppCompat.Dialog.Alert = 0x7f10026a
 com.example.team_project01:layout/custom_dialog = 0x7f0b0028
 com.example.team_project01:styleable/ChipGroup = 0x7f11001e
@@ -2033,6 +2437,7 @@ com.example.team_project01:drawable/abc_tab_indicator_material = 0x7f07004a
 com.example.team_project01:id/navigation_bar_item_icon_view = 0x7f08014a
 com.example.team_project01:id/forever = 0x7f0800cf
 com.example.team_project01:layout/abc_screen_toolbar = 0x7f0b0017
+com.example.team_project01:id/tv_home_address = 0x7f08022b
 com.example.team_project01:dimen/abc_star_big = 0x7f06003b
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/ThemeOverlay.Material3.FloatingActionButton.Tertiary = 0x7f100289
@@ -2046,7 +2451,6 @@ com.example.team_project01:dimen/mtrl_slider_thumb_elevation = 0x7f06020e
 com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.Large = 0x7f100148
 com.example.team_project01:string/abc_search_hint = 0x7f0f0012
 com.example.team_project01:style/Widget.Design.TabLayout = 0x7f10031a
-com.example.team_project01:layout/abc_alert_dialog_title_material = 0x7f0b000a
 com.example.team_project01:integer/m3_sys_motion_duration_900 = 0x7f09001d
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.BottomSheetDialog = 0x7f100236
 com.example.team_project01:styleable/Insets = 0x7f11003f
@@ -2148,10 +2552,19 @@ com.example.team_project01:layout/material_timepicker_dialog = 0x7f0b0056
 com.example.team_project01:id/withText = 0x7f080218
 com.example.team_project01:style/Platform.V25.AppCompat = 0x7f10012f
 com.example.team_project01:style/Theme.Design.Light.NoActionBar = 0x7f100217
+<<<<<<< HEAD
 com.example.team_project01:id/view_tree_lifecycle_owner = 0x7f080212
 com.example.team_project01:id/view_offset_helper = 0x7f080210
 com.example.team_project01:id/useLogo = 0x7f08020e
 com.example.team_project01:id/unlabeled = 0x7f08020c
+=======
+com.example.team_project01:id/view_tree_lifecycle_owner = 0x7f080208
+com.example.team_project01:id/view_offset_helper = 0x7f080206
+com.example.team_project01:id/useLogo = 0x7f080204
+com.example.team_project01:id/material_minute_text_input = 0x7f080114
+com.example.team_project01:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f10030d
+com.example.team_project01:id/unlabeled = 0x7f080202
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/Widget.Material3.TabLayout.OnSurface = 0x7f100393
 <<<<<<< HEAD
 com.example.team_project01:id/uniform = 0x7f08020b
@@ -2252,22 +2665,30 @@ com.example.team_project01:id/collapseActionView = 0x7f080083
 com.example.team_project01:style/Base.V21.Theme.MaterialComponents = 0x7f100096
 com.example.team_project01:string/m3_sys_motion_easing_emphasized = 0x7f0f0032
 com.example.team_project01:id/ignore = 0x7f0800e5
-com.example.team_project01:id/searchview = 0x7f080194
+com.example.team_project01:id/startHorizontal = 0x7f0801b7
+com.example.team_project01:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f0601e8
+com.example.team_project01:style/TestThemeWithLineHeight = 0x7f10017e
+com.example.team_project01:id/deltaRelative = 0x7f080098
+com.example.team_project01:style/Widget.Material3.MaterialTimePicker.Button = 0x7f10037f
 com.example.team_project01:style/Base.Widget.AppCompat.ListMenuView = 0x7f1000d5
 com.example.team_project01:style/Base.V24.Theme.Material3.Dark.Dialog = 0x7f1000a2
 com.example.team_project01:id/wrap_content = 0x7f080211
 com.example.team_project01:attr/windowActionBarOverlay = 0x7f030456
 com.example.team_project01:id/dragStart = 0x7f0800ad
-com.example.team_project01:dimen/mtrl_progress_circular_size_small = 0x7f060201
+com.example.team_project01:attr/mimeType = 0x7f03046c
+com.example.team_project01:styleable/NavDeepLink = 0x7f11009c
+com.example.team_project01:id/searchview = 0x7f080194
+com.example.team_project01:attr/targetPackage = 0x7f030474
 com.example.team_project01:id/search_src_text = 0x7f080192
+com.example.team_project01:dimen/mtrl_progress_circular_size_small = 0x7f060201
 com.example.team_project01:style/ShapeAppearance.Material3.Corner.Medium = 0x7f100152
-com.example.team_project01:styleable/OnSwipe = 0x7f11006d
-com.example.team_project01:layout/design_text_input_start_icon = 0x7f0b0036
 com.example.team_project01:color/m3_ref_palette_dynamic_tertiary60 = 0x7f0500d1
 com.example.team_project01:id/search_button = 0x7f08018c
 com.example.team_project01:dimen/mtrl_bottomappbar_height = 0x7f06017b
-com.example.team_project01:layout/m3_auto_complete_simple_item = 0x7f0b0046
+com.example.team_project01:styleable/OnSwipe = 0x7f11006d
+com.example.team_project01:layout/design_text_input_start_icon = 0x7f0b0036
 com.example.team_project01:layout/notification_media_action = 0x7f0b0075
+com.example.team_project01:layout/m3_auto_complete_simple_item = 0x7f0b0046
 com.example.team_project01:id/search_bar = 0x7f08018b
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:drawable/ic_mtrl_chip_close_circle = 0x7f07007f
@@ -2281,11 +2702,16 @@ com.example.team_project01:id/scroll = 0x7f08018a
 =======
 com.example.team_project01:id/scrollIndicatorDown = 0x7f080186
 com.example.team_project01:id/scroll = 0x7f080185
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f100405
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ShapeAppearance.Material3.Corner.None = 0x7f100153
-com.example.team_project01:style/ShapeAppearance.Material3.Corner.Large = 0x7f100151
+com.example.team_project01:style/Widget.MaterialComponents.TabLayout.PrimarySurface = 0x7f100405
+com.example.team_project01:attr/nullable = 0x7f03046e
 com.example.team_project01:style/Base.Widget.Material3.ExtendedFloatingActionButton = 0x7f1000f5
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:id/sawtooth = 0x7f080187
 com.example.team_project01:style/Widget.MaterialComponents.ExtendedFloatingActionButton = 0x7f1003d5
@@ -2302,15 +2728,17 @@ com.example.team_project01:id/rounded = 0x7f080183
 com.example.team_project01:id/sin = 0x7f0801a4
 com.example.team_project01:id/progress_circular = 0x7f080175
 =======
+=======
+com.example.team_project01:style/ShapeAppearance.Material3.Corner.Large = 0x7f100151
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/sawtooth = 0x7f080182
 com.example.team_project01:style/Widget.MaterialComponents.ExtendedFloatingActionButton = 0x7f1003d5
-com.example.team_project01:attr/textInputFilledExposedDropdownMenuStyle = 0x7f0303ef
-com.example.team_project01:style/Widget.Material3.Badge = 0x7f100324
-com.example.team_project01:styleable/ColorStateListItem = 0x7f110025
-com.example.team_project01:id/save_overlay_view = 0x7f080181
 com.example.team_project01:styleable/KeyFrame = 0x7f110042
 com.example.team_project01:style/ShapeAppearance.Material3.LargeComponent = 0x7f100155
 com.example.team_project01:attr/textInputLayoutFocusedRectEnabled = 0x7f0303f1
+com.example.team_project01:style/Widget.Material3.Badge = 0x7f100324
+com.example.team_project01:id/save_overlay_view = 0x7f080181
+com.example.team_project01:styleable/ColorStateListItem = 0x7f110025
 com.example.team_project01:id/row_index_key = 0x7f08017f
 com.example.team_project01:layout/fragment_myinfo = 0x7f0b0039
 com.example.team_project01:id/rounded = 0x7f08017e
@@ -2414,11 +2842,11 @@ com.example.team_project01:attr/actionMenuTextAppearance = 0x7f030010
 com.example.team_project01:id/imgv_banner = 0x7f0800e9
 com.example.team_project01:color/m3_sys_color_dark_on_tertiary = 0x7f05013d
 com.example.team_project01:style/Theme.AppCompat.Light.Dialog.MinWidth = 0x7f10020f
-com.example.team_project01:dimen/material_clock_hand_stroke_width = 0x7f060146
 com.example.team_project01:color/m3_ref_palette_dynamic_tertiary30 = 0x7f0500ce
 com.example.team_project01:layout/mtrl_alert_select_dialog_multichoice = 0x7f0b0059
 com.example.team_project01:dimen/abc_text_size_display_3_material = 0x7f060045
 com.example.team_project01:id/mtrl_picker_fullscreen = 0x7f080138
+com.example.team_project01:dimen/material_clock_hand_stroke_width = 0x7f060146
 com.example.team_project01:id/mtrl_calendar_main_pane = 0x7f08012f
 com.example.team_project01:id/mtrl_calendar_days_of_week = 0x7f08012d
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
@@ -2436,12 +2864,20 @@ com.example.team_project01:id/mini = 0x7f080122
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display.HelperText = 0x7f100418
 com.example.team_project01:id/material_timepicker_view = 0x7f080120
 com.example.team_project01:dimen/notification_small_icon_size_as_large = 0x7f060236
+<<<<<<< HEAD
 com.example.team_project01:id/material_timepicker_container = 0x7f08011c
 com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Title.Text = 0x7f100122
 com.example.team_project01:id/material_timepicker_cancel_button = 0x7f08011b
 com.example.team_project01:style/Widget.AppCompat.TextView.SpinnerItem = 0x7f10030d
 com.example.team_project01:id/material_minute_text_input = 0x7f080118
 com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.Large.Top = 0x7f10014a
+=======
+com.example.team_project01:layout/fragment_second = 0x7f0b009c
+com.example.team_project01:style/RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow = 0x7f100138
+com.example.team_project01:id/material_timepicker_container = 0x7f080118
+com.example.team_project01:style/MaterialAlertDialog.MaterialComponents.Title.Text = 0x7f100122
+com.example.team_project01:id/material_timepicker_cancel_button = 0x7f080117
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f07009e
 <<<<<<< HEAD
 com.example.team_project01:style/Theme.Material3.Light.Dialog.MinWidth = 0x7f10022e
@@ -2523,16 +2959,17 @@ com.example.team_project01:id/groups = 0x7f0800da
 com.example.team_project01:style/Widget.Material3.MaterialDivider.Heavy = 0x7f10037d
 com.example.team_project01:id/mtrl_calendar_year_selector_frame = 0x7f080133
 com.example.team_project01:id/image = 0x7f0800e7
-com.example.team_project01:id/honorRequest = 0x7f0800e0
-com.example.team_project01:drawable/abc_ic_ab_back_material = 0x7f07001c
 com.example.team_project01:styleable/CheckedTextView = 0x7f11001c
 com.example.team_project01:id/groups = 0x7f0800da
+<<<<<<< HEAD
 com.example.team_project01:attr/autoCompleteMode = 0x7f03003b
 com.example.team_project01:drawable/m3_tabs_background = 0x7f070091
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:color/material_dynamic_primary10 = 0x7f0501c5
-com.example.team_project01:styleable/Carousel = 0x7f11001b
 com.example.team_project01:id/flip = 0x7f0800cd
+com.example.team_project01:styleable/Carousel = 0x7f11001b
 com.example.team_project01:color/m3_ref_palette_primary40 = 0x7f050103
 com.example.team_project01:attr/alertDialogButtonGroupStyle = 0x7f03002a
 com.example.team_project01:style/Base.Widget.AppCompat.ProgressBar = 0x7f1000dd
@@ -2589,25 +3026,35 @@ com.example.team_project01:id/month_navigation_bar = 0x7f080124
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:id/easeOut = 0x7f0800b4
 com.example.team_project01:id/easeInOut = 0x7f0800b3
+<<<<<<< HEAD
 com.example.team_project01:id/easeIn = 0x7f0800b2
 com.example.team_project01:color/m3_sys_color_dark_secondary_container = 0x7f050143
 com.example.team_project01:string/mtrl_picker_announce_current_selection = 0x7f0f0057
 com.example.team_project01:color/design_default_color_error = 0x7f050044
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:attr/motionEffect_translationX = 0x7f0302e2
 com.example.team_project01:id/supportScrollUp = 0x7f0801c2
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/TextAppearance.Material3.LabelMedium = 0x7f1001e0
 com.example.team_project01:string/material_timepicker_minute = 0x7f0f004d
-com.example.team_project01:attr/haloColor = 0x7f0301d5
+com.example.team_project01:id/easeIn = 0x7f0800b2
+com.example.team_project01:color/m3_sys_color_dark_secondary_container = 0x7f050143
+com.example.team_project01:string/mtrl_picker_announce_current_selection = 0x7f0f0057
+com.example.team_project01:color/design_default_color_error = 0x7f050044
 com.example.team_project01:attr/flow_padding = 0x7f0301bc
+<<<<<<< HEAD
 <<<<<<< HEAD
 com.example.team_project01:id/submenuarrow = 0x7f0801c5
 com.example.team_project01:attr/deltaPolarAngle = 0x7f03014a
 com.example.team_project01:attr/motionEffect_translationX = 0x7f0302e2
 com.example.team_project01:id/supportScrollUp = 0x7f0801c7
 =======
+=======
+com.example.team_project01:attr/haloColor = 0x7f0301d5
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/submenuarrow = 0x7f0801c0
 com.example.team_project01:attr/deltaPolarAngle = 0x7f03014a
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
@@ -2625,11 +3072,14 @@ com.example.team_project01:id/dependency_ordering = 0x7f080099
 com.example.team_project01:dimen/mtrl_slider_halo_radius = 0x7f06020a
 com.example.team_project01:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f1003d1
 com.example.team_project01:style/Theme.MaterialComponents.Light.DarkActionBar.Bridge = 0x7f100253
+<<<<<<< HEAD
 com.example.team_project01:id/startHorizontal = 0x7f0801bc
 com.example.team_project01:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f0601e8
 com.example.team_project01:style/TestThemeWithLineHeight = 0x7f10017e
 com.example.team_project01:id/deltaRelative = 0x7f080098
 com.example.team_project01:style/Widget.Material3.MaterialTimePicker.Button = 0x7f10037f
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:drawable/like = 0x7f070089
 com.example.team_project01:color/material_dynamic_secondary0 = 0x7f0501d1
 com.example.team_project01:id/customPanel = 0x7f080091
@@ -2638,8 +3088,12 @@ com.example.team_project01:color/material_blue_grey_800 = 0x7f0501a3
 com.example.team_project01:id/custom = 0x7f080090
 com.example.team_project01:attr/methodName = 0x7f0302c5
 com.example.team_project01:dimen/material_emphasis_disabled = 0x7f060151
+<<<<<<< HEAD
 com.example.team_project01:id/notification_background = 0x7f08015b
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:anim/abc_tooltip_enter = 0x7f01000a
+com.example.team_project01:id/notification_background = 0x7f080157
 com.example.team_project01:style/Theme.MaterialComponents.Light.DialogWhenLarge = 0x7f10025c
 com.example.team_project01:color/m3_radiobutton_ripple_tint = 0x7f050094
 com.example.team_project01:id/currentState = 0x7f08008f
@@ -2674,6 +3128,7 @@ com.example.team_project01:id/checked = 0x7f080076
 com.example.team_project01:attr/textAppearanceLabelLarge = 0x7f0303d3
 com.example.team_project01:attr/colorSecondaryVariant = 0x7f030103
 com.example.team_project01:id/center = 0x7f08006d
+<<<<<<< HEAD
 com.example.team_project01:style/Widget.AppCompat.DrawerArrowToggle = 0x7f1002dd
 com.example.team_project01:style/Theme.AppCompat.CompactMenu = 0x7f1001fe
 <<<<<<< HEAD
@@ -2695,9 +3150,19 @@ com.example.team_project01:dimen/mtrl_low_ripple_default_alpha = 0x7f0601e3
 com.example.team_project01:dimen/m3_extended_fab_top_padding = 0x7f0600ef
 com.example.team_project01:styleable/AppCompatImageView = 0x7f11000e
 com.example.team_project01:style/Widget.Material3.AutoCompleteTextView.FilledBox = 0x7f100320
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:drawable/mail_img = 0x7f070096
 com.example.team_project01:styleable/TabLayout = 0x7f110086
 com.example.team_project01:style/Widget.Design.NavigationView = 0x7f100317
+com.example.team_project01:style/Theme.AppCompat.CompactMenu = 0x7f1001fe
+com.example.team_project01:style/Widget.AppCompat.DrawerArrowToggle = 0x7f1002dd
+com.example.team_project01:id/tag_on_apply_window_listener = 0x7f0801cc
+com.example.team_project01:dimen/mtrl_low_ripple_default_alpha = 0x7f0601e3
+com.example.team_project01:dimen/m3_extended_fab_top_padding = 0x7f0600ef
+com.example.team_project01:style/Widget.Material3.AutoCompleteTextView.FilledBox = 0x7f100320
+com.example.team_project01:animator/nav_default_enter_anim = 0x7f020020
+com.example.team_project01:styleable/AppCompatImageView = 0x7f11000e
 com.example.team_project01:dimen/mtrl_navigation_item_shape_vertical_margin = 0x7f0601ef
 com.example.team_project01:id/cache_measures = 0x7f080067
 com.example.team_project01:attr/chipEndPadding = 0x7f0300ac
@@ -2708,6 +3173,7 @@ com.example.team_project01:id/buttonPanel = 0x7f080066
 com.example.team_project01:id/blocking = 0x7f08005f
 com.example.team_project01:id/peekHeight = 0x7f08016f
 com.example.team_project01:attr/drawableTint = 0x7f030163
+<<<<<<< HEAD
 com.example.team_project01:integer/m3_sys_motion_path = 0x7f09001e
 com.example.team_project01:color/checkbox_themeable_attribute_color = 0x7f050030
 <<<<<<< HEAD
@@ -2716,16 +3182,24 @@ com.example.team_project01:layout/abc_alert_dialog_material = 0x7f0b0009
 com.example.team_project01:id/beginOnFirstDraw = 0x7f08005c
 com.example.team_project01:style/ShapeAppearance.Material3.Corner.ExtraSmall = 0x7f10014f
 =======
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ShapeAppearance.Material3.Corner.ExtraSmall = 0x7f10014f
 com.example.team_project01:style/Theme.MaterialComponents.Light.Bridge = 0x7f100251
 com.example.team_project01:id/beginOnFirstDraw = 0x7f08005c
 com.example.team_project01:layout/abc_alert_dialog_material = 0x7f0b0009
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:id/decor_content_parent = 0x7f080096
 com.example.team_project01:color/m3_sys_color_dark_on_secondary_container = 0x7f05013a
+=======
+com.example.team_project01:integer/m3_sys_motion_path = 0x7f09001e
+com.example.team_project01:color/checkbox_themeable_attribute_color = 0x7f050030
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/asConfigured = 0x7f080052
 com.example.team_project01:attr/extendedFloatingActionButtonTertiaryStyle = 0x7f030196
-com.example.team_project01:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f10029d
+com.example.team_project01:id/decor_content_parent = 0x7f080096
+com.example.team_project01:color/m3_sys_color_dark_on_secondary_container = 0x7f05013a
 com.example.team_project01:integer/cancel_button_image_alpha = 0x7f090004
 <<<<<<< HEAD
 com.example.team_project01:id/centerCrop = 0x7f08006e
@@ -2733,7 +3207,11 @@ com.example.team_project01:color/m3_sys_color_dynamic_dark_tertiary_container = 
 =======
 com.example.team_project01:color/m3_sys_color_dynamic_dark_tertiary_container = 0x7f05015d
 com.example.team_project01:id/centerCrop = 0x7f08006e
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
+=======
+com.example.team_project01:style/ThemeOverlay.MaterialAlertDialog.Material3.Title.Icon = 0x7f10029d
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/confirm_button = 0x7f080085
 com.example.team_project01:id/scrollView = 0x7f08018d
 com.example.team_project01:id/animateToEnd = 0x7f08004d
@@ -2751,16 +3229,19 @@ com.example.team_project01:color/material_dynamic_tertiary90 = 0x7f0501e8
 com.example.team_project01:style/Widget.Material3.PopupMenu.ContextMenu = 0x7f10038b
 =======
 com.example.team_project01:id/selection_type = 0x7f080197
-com.example.team_project01:drawable/abc_list_selector_holo_light = 0x7f070036
 com.example.team_project01:attr/showText = 0x7f03035e
 com.example.team_project01:style/Widget.AppCompat.ButtonBar.AlertDialog = 0x7f1002d9
 com.example.team_project01:layout/activity_loginmain = 0x7f0b001f
 com.example.team_project01:style/Widget.MaterialComponents.MaterialDivider = 0x7f1003f2
 com.example.team_project01:style/Widget.Material3.PopupMenu.ContextMenu = 0x7f10038b
 com.example.team_project01:color/material_dynamic_tertiary90 = 0x7f0501e8
+<<<<<<< HEAD
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:dimen/mtrl_alert_dialog_background_inset_top = 0x7f06016c
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1002a3
+com.example.team_project01:dimen/mtrl_alert_dialog_background_inset_top = 0x7f06016c
 com.example.team_project01:id/activity_chooser_view_content = 0x7f080046
 com.example.team_project01:layout/mtrl_picker_text_input_date = 0x7f0b0074
 com.example.team_project01:styleable/SpaceNavigationView = 0x7f11007d
@@ -2778,11 +3259,11 @@ com.example.team_project01:style/Widget.MaterialComponents.ActionBar.Primary = 0
 com.example.team_project01:id/action_bar_activity_content = 0x7f080035
 com.example.team_project01:dimen/mtrl_snackbar_margin = 0x7f060217
 com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall = 0x7f100145
-com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.DisplaySmall = 0x7f1001ca
-com.example.team_project01:color/m3_ref_palette_secondary0 = 0x7f05010b
-com.example.team_project01:id/accessibility_custom_action_7 = 0x7f08002d
 com.example.team_project01:style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText = 0x7f100419
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton = 0x7f1003ea
+com.example.team_project01:color/m3_ref_palette_secondary0 = 0x7f05010b
+com.example.team_project01:id/accessibility_custom_action_7 = 0x7f08002d
+com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.DisplaySmall = 0x7f1001ca
 com.example.team_project01:id/accessibility_custom_action_31 = 0x7f080029
 com.example.team_project01:style/Base.Theme.MaterialComponents.Light = 0x7f100064
 com.example.team_project01:string/fab_transformation_scrim_behavior = 0x7f0f0027
@@ -2904,11 +3385,15 @@ com.example.team_project01:styleable/GradientColor = 0x7f11003c
 com.example.team_project01:drawable/ic_launcher_foreground = 0x7f070077
 com.example.team_project01:string/mtrl_picker_out_of_range = 0x7f0f0063
 com.example.team_project01:drawable/abc_scrubber_control_to_pressed_mtrl_000 = 0x7f07003d
+<<<<<<< HEAD
 com.example.team_project01:drawable/ic_favorite = 0x7f070074
 com.example.team_project01:id/TOP_END = 0x7f08000c
 com.example.team_project01:attr/chipMinTouchTargetSize = 0x7f0300b4
 com.example.team_project01:drawable/ic_baseline_campaign_24 = 0x7f07006f
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/notification_right_side_padding_top = 0x7f060234
+com.example.team_project01:drawable/ic_baseline_campaign_24 = 0x7f07006f
 com.example.team_project01:string/mtrl_picker_toggle_to_calendar_input_mode = 0x7f0f0070
 com.example.team_project01:style/TextAppearance.MaterialComponents.Caption = 0x7f1001ea
 com.example.team_project01:drawable/google_button = 0x7f07006b
@@ -2971,6 +3456,7 @@ com.example.team_project01:drawable/abc_text_select_handle_left_mtrl = 0x7f07004
 com.example.team_project01:color/material_harmonized_color_error = 0x7f0501f2
 com.example.team_project01:drawable/abc_tab_indicator_mtrl_alpha = 0x7f07004b
 com.example.team_project01:attr/arcMode = 0x7f030037
+com.example.team_project01:dimen/fab_margin = 0x7f06025a
 com.example.team_project01:drawable/abc_switch_track_mtrl_alpha = 0x7f070049
 com.example.team_project01:color/error_color_material_light = 0x7f05005f
 com.example.team_project01:style/MaterialAlertDialog.Material3.Title.Panel.CenterStacked = 0x7f100117
@@ -3174,7 +3660,6 @@ com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.TitleMedium = 0
 com.example.team_project01:dimen/mtrl_extended_fab_disabled_elevation = 0x7f0601cb
 com.example.team_project01:id/labeled = 0x7f0800ff
 com.example.team_project01:dimen/mtrl_extended_fab_bottom_padding = 0x7f0601c9
-com.example.team_project01:dimen/mtrl_exposed_dropdown_menu_popup_vertical_offset = 0x7f0601c7
 com.example.team_project01:color/notification_material_background_media_default_color = 0x7f050240
 com.example.team_project01:dimen/mtrl_exposed_dropdown_menu_popup_elevation = 0x7f0601c6
 com.example.team_project01:attr/endIconTintMode = 0x7f03017b
@@ -3273,6 +3758,7 @@ com.example.team_project01:dimen/abc_dialog_list_padding_bottom_no_buttons = 0x7
 com.example.team_project01:dimen/material_text_size_sp = 0x7f060160
 com.example.team_project01:dimen/material_filled_edittext_font_2_0_padding_top = 0x7f060158
 com.example.team_project01:style/TextAppearance.MaterialComponents.Headline4 = 0x7f1001ef
+com.example.team_project01:styleable/NavArgument = 0x7f11009b
 com.example.team_project01:attr/floatingActionButtonLargePrimaryStyle = 0x7f0301a5
 com.example.team_project01:dimen/material_filled_edittext_font_2_0_padding_bottom = 0x7f060157
 com.example.team_project01:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f100407
@@ -3283,6 +3769,7 @@ com.example.team_project01:attr/layout_constraintWidth = 0x7f030260
 com.example.team_project01:style/ThemeOverlay.Material3.Dialog = 0x7f100280
 com.example.team_project01:drawable/abc_ratingbar_indicator_material = 0x7f070039
 com.example.team_project01:dimen/material_cursor_inset_bottom = 0x7f06014d
+com.example.team_project01:styleable/NavHostFragment = 0x7f11009f
 com.example.team_project01:dimen/material_clock_number_text_size = 0x7f060148
 com.example.team_project01:attr/layout_scrollFlags = 0x7f030274
 com.example.team_project01:color/m3_ref_palette_neutral_variant100 = 0x7f0500f3
@@ -3293,6 +3780,7 @@ com.example.team_project01:attr/telltales_tailScale = 0x7f0303bd
 com.example.team_project01:dimen/material_clock_face_margin_top = 0x7f060143
 com.example.team_project01:dimen/abc_dropdownitem_text_padding_left = 0x7f06002a
 com.example.team_project01:dimen/material_clock_display_padding = 0x7f060142
+com.example.team_project01:id/button_first = 0x7f080221
 com.example.team_project01:dimen/main_content_height = 0x7f060140
 com.example.team_project01:id/up = 0x7f08020d
 com.example.team_project01:dimen/m3_timepicker_window_elevation = 0x7f06013f
@@ -3399,14 +3887,19 @@ com.example.team_project01:dimen/m3_datepicker_elevation = 0x7f0600e8
 com.example.team_project01:integer/mtrl_tab_indicator_anim_duration_ms = 0x7f09002f
 com.example.team_project01:drawable/$avd_show_password__0 = 0x7f070003
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.example.team_project01:id/mtrl_picker_text_input_date = 0x7f080141
 =======
 com.example.team_project01:id/mtrl_picker_text_input_date = 0x7f08013d
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:color/androidx_core_secondary_text_default_material_light = 0x7f05001c
 com.example.team_project01:dimen/m3_chip_dragged_translation_z = 0x7f0600e4
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:attr/verticalOffset = 0x7f030445
+com.example.team_project01:dimen/m3_chip_dragged_translation_z = 0x7f0600e4
 com.example.team_project01:styleable/AppBarLayoutStates = 0x7f11000b
+com.example.team_project01:color/androidx_core_secondary_text_default_material_light = 0x7f05001c
 com.example.team_project01:id/chain2 = 0x7f080073
 com.example.team_project01:dimen/m3_chip_disabled_translation_z = 0x7f0600e3
 com.example.team_project01:attr/controlBackground = 0x7f030123
@@ -3423,8 +3916,8 @@ com.example.team_project01:style/Widget.Material3.PopupMenu.Overflow = 0x7f10038
 com.example.team_project01:dimen/m3_btn_translation_z_hovered = 0x7f0600d9
 com.example.team_project01:dimen/m3_btn_text_btn_padding_right = 0x7f0600d7
 com.example.team_project01:dimen/m3_btn_text_btn_padding_left = 0x7f0600d6
-com.example.team_project01:styleable/CoordinatorLayout_Layout = 0x7f11002e
 com.example.team_project01:style/Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f100257
+com.example.team_project01:styleable/CoordinatorLayout_Layout = 0x7f11002e
 com.example.team_project01:dimen/m3_btn_text_btn_icon_padding_right = 0x7f0600d5
 com.example.team_project01:layout/material_clock_period_toggle = 0x7f0b004d
 com.example.team_project01:dimen/m3_btn_text_btn_icon_padding_left = 0x7f0600d4
@@ -3493,8 +3986,6 @@ com.example.team_project01:attr/startIconTintMode = 0x7f030380
 com.example.team_project01:dimen/disabled_alpha_material_dark = 0x7f060092
 com.example.team_project01:styleable/MaterialButtonToggleGroup = 0x7f110051
 com.example.team_project01:dimen/design_tab_text_size_2line = 0x7f060090
-com.example.team_project01:color/m3_sys_color_dark_on_primary_container = 0x7f050138
-com.example.team_project01:dimen/design_tab_text_size = 0x7f06008f
 com.example.team_project01:attr/chipSpacingVertical = 0x7f0300b7
 com.example.team_project01:dimen/design_tab_scrollable_min_width = 0x7f06008e
 com.example.team_project01:dimen/design_snackbar_padding_horizontal = 0x7f060089
@@ -3523,6 +4014,7 @@ com.example.team_project01:dimen/design_navigation_item_horizontal_padding = 0x7
 com.example.team_project01:dimen/design_navigation_icon_size = 0x7f06007b
 com.example.team_project01:id/SHOW_PROGRESS = 0x7f08000a
 com.example.team_project01:color/material_dynamic_primary99 = 0x7f0501d0
+com.example.team_project01:anim/nav_default_pop_enter_anim = 0x7f010022
 com.example.team_project01:dimen/design_navigation_elevation = 0x7f060079
 com.example.team_project01:styleable/Transition = 0x7f11008f
 com.example.team_project01:integer/hide_password_duration = 0x7f090008
@@ -3612,8 +4104,12 @@ com.example.team_project01:dimen/abc_floating_window_z = 0x7f06002f
 com.example.team_project01:dimen/abc_edit_text_inset_bottom_material = 0x7f06002c
 com.example.team_project01:dimen/abc_dropdownitem_text_padding_right = 0x7f06002b
 <<<<<<< HEAD
+<<<<<<< HEAD
 com.example.team_project01:drawable/abc_cab_background_top_material = 0x7f070017
 =======
+=======
+com.example.team_project01:attr/navGraph = 0x7f03046d
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:dimen/mtrl_progress_circular_size_extra_small = 0x7f0601ff
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 com.example.team_project01:style/Base.Widget.AppCompat.Spinner.Underlined = 0x7f1000e7
@@ -3622,6 +4118,7 @@ com.example.team_project01:dimen/abc_disabled_alpha_material_dark = 0x7f060027
 com.example.team_project01:layout/design_navigation_item_separator = 0x7f0b0032
 com.example.team_project01:style/Base.TextAppearance.AppCompat.Small = 0x7f100028
 com.example.team_project01:attr/commitIcon = 0x7f03010a
+com.example.team_project01:id/layout_store_tab_info = 0x7f080218
 com.example.team_project01:dimen/abc_dialog_padding_material = 0x7f060024
 com.example.team_project01:color/m3_sys_color_dynamic_light_inverse_surface = 0x7f050161
 com.example.team_project01:style/Theme.MaterialComponents = 0x7f100231
@@ -3636,6 +4133,7 @@ com.example.team_project01:dimen/abc_dialog_fixed_width_minor = 0x7f06001f
 com.example.team_project01:id/notification_main_column = 0x7f08015c
 com.example.team_project01:id/chains = 0x7f080074
 com.example.team_project01:dimen/abc_dialog_fixed_height_minor = 0x7f06001d
+com.example.team_project01:id/action_FirstFragment_to_SecondFragment = 0x7f08021f
 com.example.team_project01:dimen/mtrl_navigation_item_icon_size = 0x7f0601ed
 com.example.team_project01:id/navigation_header_container = 0x7f080152
 com.example.team_project01:dimen/abc_config_prefDialogWidth = 0x7f060017
@@ -3667,7 +4165,13 @@ com.example.team_project01:dimen/abc_action_bar_stacked_max_height = 0x7f060009
 com.example.team_project01:dimen/abc_action_bar_overflow_padding_start_material = 0x7f060008
 com.example.team_project01:color/background_floating_material_dark = 0x7f05001d
 com.example.team_project01:styleable/LinearLayoutCompat = 0x7f110049
+<<<<<<< HEAD
 com.example.team_project01:id/overshoot = 0x7f080165
+=======
+com.example.team_project01:id/textview_first = 0x7f080229
+com.example.team_project01:id/overshoot = 0x7f080161
+com.example.team_project01:id/src_over = 0x7f0801b4
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:color/m3_ref_palette_dynamic_primary40 = 0x7f0500b5
 com.example.team_project01:dimen/mtrl_low_ripple_focused_alpha = 0x7f0601e4
 com.example.team_project01:layout/abc_search_view = 0x7f0b0019
@@ -3697,10 +4201,16 @@ com.example.team_project01:color/switch_thumb_disabled_material_dark = 0x7f05025
 com.example.team_project01:color/space_white = 0x7f050258
 com.example.team_project01:style/Widget.Material3.Button.UnelevatedButton = 0x7f100339
 com.example.team_project01:color/space_transparent = 0x7f050257
+<<<<<<< HEAD
 com.example.team_project01:id/src_over = 0x7f0801b9
 com.example.team_project01:color/secondary_text_disabled_material_dark = 0x7f050252
 com.example.team_project01:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f10002b
 com.example.team_project01:id/selected = 0x7f08019b
+=======
+com.example.team_project01:style/Base.TextAppearance.AppCompat.Subhead.Inverse = 0x7f10002b
+com.example.team_project01:color/secondary_text_disabled_material_dark = 0x7f050252
+com.example.team_project01:id/selected = 0x7f080196
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:id/clip_vertical = 0x7f080080
 com.example.team_project01:color/ripple_material_dark = 0x7f05024e
 com.example.team_project01:id/linear = 0x7f080108
@@ -3717,8 +4227,6 @@ com.example.team_project01:style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem
 com.example.team_project01:dimen/abc_action_bar_overflow_padding_end_material = 0x7f060007
 com.example.team_project01:color/notification_icon_bg_color = 0x7f05023f
 com.example.team_project01:color/mtrl_textinput_filled_box_default_background_color = 0x7f05023b
-com.example.team_project01:dimen/abc_dialog_title_divider_material = 0x7f060026
-com.example.team_project01:color/mtrl_textinput_disabled_color = 0x7f05023a
 com.example.team_project01:color/mtrl_tabs_legacy_text_color_selector = 0x7f050236
 com.example.team_project01:id/material_timepicker_edit_text = 0x7f08011d
 com.example.team_project01:drawable/pw_img = 0x7f0700c0
@@ -3802,6 +4310,7 @@ com.example.team_project01:color/material_on_background_disabled = 0x7f0501f6
 com.example.team_project01:styleable/CollapsingToolbarLayout = 0x7f110023
 com.example.team_project01:dimen/material_emphasis_high_type = 0x7f060153
 com.example.team_project01:color/material_harmonized_color_on_error = 0x7f0501f4
+com.example.team_project01:style/spinner = 0x7f100423
 com.example.team_project01:dimen/mtrl_btn_letter_spacing = 0x7f060186
 com.example.team_project01:color/material_grey_300 = 0x7f0501ec
 com.example.team_project01:attr/alphabeticModifiers = 0x7f030030
@@ -3851,15 +4360,14 @@ com.example.team_project01:string/abc_capital_off = 0x7f0f0006
 com.example.team_project01:color/material_dynamic_neutral99 = 0x7f0501b6
 com.example.team_project01:dimen/m3_navigation_menu_headline_horizontal_padding = 0x7f060100
 com.example.team_project01:color/material_dynamic_neutral95 = 0x7f0501b5
+com.example.team_project01:layout/activity_like = 0x7f0b0098
 com.example.team_project01:style/Base.Theme.MaterialComponents.DialogWhenLarge = 0x7f100063
 com.example.team_project01:color/material_dynamic_neutral90 = 0x7f0501b4
 com.example.team_project01:color/m3_ref_palette_tertiary50 = 0x7f05011e
 com.example.team_project01:integer/config_tooltipAnimTime = 0x7f090005
-com.example.team_project01:dimen/notification_media_narrow_margin = 0x7f060232
-com.example.team_project01:attr/switchPadding = 0x7f03039c
-com.example.team_project01:color/mtrl_on_surface_ripple_color = 0x7f05022e
-com.example.team_project01:attr/titleMarginStart = 0x7f03041b
 com.example.team_project01:color/material_dynamic_neutral60 = 0x7f0501b1
+com.example.team_project01:attr/titleMarginStart = 0x7f03041b
+com.example.team_project01:color/mtrl_on_surface_ripple_color = 0x7f05022e
 com.example.team_project01:attr/number = 0x7f0302f8
 com.example.team_project01:color/material_dynamic_neutral50 = 0x7f0501b0
 com.example.team_project01:style/Base.Widget.Material3.TabLayout.Secondary = 0x7f1000fe
@@ -3912,6 +4420,7 @@ com.example.team_project01:color/m3_ref_palette_secondary30 = 0x7f05010f
 com.example.team_project01:layout/abc_select_dialog_material = 0x7f0b001a
 com.example.team_project01:color/m3_sys_color_light_on_surface = 0x7f050181
 com.example.team_project01:attr/tabRippleColor = 0x7f0303b4
+com.example.team_project01:anim/nav_default_exit_anim = 0x7f010021
 com.example.team_project01:color/button_material_light = 0x7f05002a
 com.example.team_project01:style/TextAppearance.MaterialComponents.Subtitle2 = 0x7f1001f4
 com.example.team_project01:color/m3_sys_color_light_on_primary = 0x7f05017d
@@ -3922,7 +4431,6 @@ com.example.team_project01:color/m3_sys_color_dynamic_light_tertiary = 0x7f05017
 com.example.team_project01:color/m3_sys_color_dynamic_light_primary_container = 0x7f05016d
 com.example.team_project01:color/m3_popupmenu_overlay_color = 0x7f050092
 com.example.team_project01:dimen/mtrl_calendar_title_baseline_to_top_fullscreen = 0x7f0601b8
-com.example.team_project01:color/m3_sys_color_dynamic_light_outline = 0x7f05016b
 com.example.team_project01:dimen/mtrl_slider_widget_height = 0x7f060213
 com.example.team_project01:dimen/mtrl_fab_elevation = 0x7f0601da
 com.example.team_project01:layout/design_bottom_navigation_item = 0x7f0b0029
@@ -3934,6 +4442,7 @@ com.example.team_project01:style/TextAppearance.Design.CollapsingToolbar.Expande
 com.example.team_project01:attr/itemIconTint = 0x7f03020f
 com.example.team_project01:color/dim_foreground_material_light = 0x7f05005d
 com.example.team_project01:style/Theme.Material3.Dark.Dialog.Alert = 0x7f10021c
+com.example.team_project01:styleable/Navigator = 0x7f1100a1
 com.example.team_project01:string/mtrl_badge_numberless_content_description = 0x7f0f0051
 com.example.team_project01:dimen/design_bottom_navigation_height = 0x7f060067
 com.example.team_project01:color/m3_sys_color_dynamic_dark_surface_variant = 0x7f05015b
@@ -3962,6 +4471,7 @@ com.example.team_project01:color/m3_sys_color_dark_primary = 0x7f050140
 com.example.team_project01:color/design_default_color_primary_dark = 0x7f05004b
 com.example.team_project01:style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day = 0x7f10016f
 com.example.team_project01:color/m3_sys_color_dark_inverse_on_surface = 0x7f050131
+com.example.team_project01:attr/defaultNavHost = 0x7f030466
 com.example.team_project01:attr/counterMaxLength = 0x7f030131
 com.example.team_project01:style/Widget.Material3.MaterialCalendar.Day = 0x7f100367
 com.example.team_project01:color/m3_ref_palette_dynamic_primary95 = 0x7f0500bb
@@ -4000,6 +4510,8 @@ com.example.team_project01:style/TextAppearance.Test.UsesSP = 0x7f1001f9
 com.example.team_project01:color/m3_default_color_primary_text = 0x7f05007c
 com.example.team_project01:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle = 0x7f1001a2
 com.example.team_project01:color/m3_slider_thumb_color = 0x7f05012b
+com.example.team_project01:style/Base.Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f10006b
+com.example.team_project01:attr/tabIndicatorAnimationMode = 0x7f0303a6
 com.example.team_project01:drawable/abc_btn_check_to_on_mtrl_000 = 0x7f07000c
 com.example.team_project01:attr/layout_goneMarginLeft = 0x7f03026b
 com.example.team_project01:style/Theme.MaterialComponents.DayNight = 0x7f100235
@@ -4081,6 +4593,7 @@ com.example.team_project01:style/Base.Widget.AppCompat.Toolbar.Button.Navigation
 com.example.team_project01:color/m3_ref_palette_tertiary99 = 0x7f050124
 com.example.team_project01:attr/materialCalendarHeaderToggleButton = 0x7f0302a6
 com.example.team_project01:color/m3_ref_palette_error10 = 0x7f0500d8
+com.example.team_project01:styleable/NavGraphNavigator = 0x7f11009d
 com.example.team_project01:color/m3_ref_palette_error0 = 0x7f0500d7
 com.example.team_project01:dimen/abc_dialog_corner_radius_material = 0x7f06001b
 com.example.team_project01:color/m3_ref_palette_dynamic_tertiary20 = 0x7f0500cd
@@ -4155,6 +4668,7 @@ com.example.team_project01:color/m3_timepicker_button_background_color = 0x7f050
 com.example.team_project01:color/m3_primary_text_disable_only = 0x7f050093
 com.example.team_project01:color/design_default_color_secondary_variant = 0x7f05004e
 com.example.team_project01:color/m3_navigation_bar_item_with_indicator_label_tint = 0x7f05008c
+com.example.team_project01:string/hello_second_fragment = 0x7f0f007f
 com.example.team_project01:string/m3_sys_motion_easing_standard_accelerate = 0x7f0f003b
 com.example.team_project01:color/m3_navigation_bar_item_with_indicator_icon_tint = 0x7f05008b
 com.example.team_project01:color/m3_dynamic_dark_hint_foreground = 0x7f050081
@@ -4264,6 +4778,7 @@ com.example.team_project01:style/Base.TextAppearance.AppCompat.Widget.TextView.S
 com.example.team_project01:layout/notification_template_custom_big = 0x7f0b007e
 com.example.team_project01:attr/materialCardViewStyle = 0x7f0302af
 com.example.team_project01:integer/m3_sys_motion_duration_400 = 0x7f090015
+com.example.team_project01:styleable/NavHost = 0x7f11009e
 com.example.team_project01:color/accent_material_dark = 0x7f050019
 com.example.team_project01:color/abc_tint_switch_track = 0x7f050018
 com.example.team_project01:style/TextAppearance.Material3.MaterialTimePicker.Title = 0x7f1001e2
@@ -4323,7 +4838,12 @@ com.example.team_project01:attr/touchAnchorId = 0x7f03042b
 com.example.team_project01:dimen/mtrl_high_ripple_hovered_alpha = 0x7f0601e0
 com.example.team_project01:attr/toolbarSurfaceStyle = 0x7f030425
 com.example.team_project01:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text.Day = 0x7f1002b7
+<<<<<<< HEAD
 com.example.team_project01:id/material_clock_period_toggle = 0x7f080114
+=======
+com.example.team_project01:id/material_clock_period_toggle = 0x7f080110
+com.example.team_project01:style/Theme.Team_Project01.PopupOverlay = 0x7f100426
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:color/material_dynamic_neutral100 = 0x7f0501ac
 com.example.team_project01:attr/deriveConstraintsFrom = 0x7f03014c
 com.example.team_project01:color/design_dark_default_color_secondary_variant = 0x7f050041
@@ -4494,8 +5014,6 @@ com.example.team_project01:style/Widget.MaterialComponents.ActionMode = 0x7f1003
 com.example.team_project01:attr/tabIndicatorGravity = 0x7f0303a9
 com.example.team_project01:style/Base.Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f1000d4
 com.example.team_project01:attr/contentPaddingEnd = 0x7f03011c
-com.example.team_project01:attr/tabIndicatorAnimationMode = 0x7f0303a6
-com.example.team_project01:style/Base.Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f10006b
 com.example.team_project01:style/TestStyleWithLineHeight = 0x7f10017a
 com.example.team_project01:id/tab_info = 0x7f0801c9
 com.example.team_project01:attr/titleCentered = 0x7f030415
@@ -4596,6 +5114,7 @@ com.example.team_project01:attr/snackbarButtonStyle = 0x7f030368
 com.example.team_project01:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection.Fullscreen = 0x7f1003e8
 com.example.team_project01:style/TextAppearance.Material3.DisplaySmall = 0x7f1001db
 com.example.team_project01:id/fixed = 0x7f0800cc
+com.example.team_project01:navigation/nav_graph = 0x7f130000
 com.example.team_project01:id/accessibility_custom_action_16 = 0x7f080018
 com.example.team_project01:attr/sizePercent = 0x7f030366
 com.example.team_project01:attr/motionEffect_start = 0x7f0302e0
@@ -4624,7 +5143,12 @@ com.example.team_project01:id/tag_accessibility_heading = 0x7f0801cf
 com.example.team_project01:attr/checkedIconSize = 0x7f0300a6
 com.example.team_project01:color/m3_ref_palette_error20 = 0x7f0500da
 com.example.team_project01:attr/selectableItemBackground = 0x7f03034d
+<<<<<<< HEAD
 com.example.team_project01:id/top = 0x7f0801f3
+=======
+com.example.team_project01:id/top = 0x7f0801ee
+com.example.team_project01:id/store_tv_spinner = 0x7f08021c
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:attr/seekBarStyle = 0x7f03034c
 com.example.team_project01:attr/searchViewStyle = 0x7f03034b
 com.example.team_project01:string/path_password_eye_mask_visible = 0x7f0f0078
@@ -4658,6 +5182,7 @@ com.example.team_project01:attr/space_item_icon_only_size = 0x7f03036c
 com.example.team_project01:dimen/mtrl_btn_pressed_z = 0x7f06018c
 com.example.team_project01:style/ShapeAppearance.M3.Sys.Shape.Corner.ExtraSmall.Top = 0x7f100146
 com.example.team_project01:attr/ratingBarStyleSmall = 0x7f030335
+com.example.team_project01:layout/activity_map = 0x7f0b0099
 com.example.team_project01:drawable/abc_ic_commit_search_api_mtrl_alpha = 0x7f07001f
 com.example.team_project01:attr/ratingBarStyle = 0x7f030333
 com.example.team_project01:style/Theme.MaterialComponents.DayNight.DarkActionBar.Bridge = 0x7f100239
@@ -4777,6 +5302,7 @@ com.example.team_project01:style/Widget.MaterialComponents.Button.TextButton.Dia
 com.example.team_project01:attr/layout_constraintWidth_percent = 0x7f030264
 com.example.team_project01:color/m3_tabs_icon_color = 0x7f05018e
 com.example.team_project01:attr/bottomNavigationStyle = 0x7f03006a
+com.example.team_project01:attr/destination = 0x7f030467
 com.example.team_project01:attr/flow_verticalGap = 0x7f0301bf
 com.example.team_project01:color/bright_foreground_disabled_material_light = 0x7f050024
 com.example.team_project01:styleable/MaterialButton = 0x7f110050
@@ -4897,6 +5423,7 @@ com.example.team_project01:dimen/mtrl_progress_circular_inset_extra_small = 0x7f
 com.example.team_project01:attr/listChoiceBackgroundIndicator = 0x7f03027d
 com.example.team_project01:attr/layout_constraintEnd_toEndOf = 0x7f030244
 com.example.team_project01:id/accessibility_custom_action_26 = 0x7f080023
+com.example.team_project01:attr/popExitAnim = 0x7f030470
 com.example.team_project01:styleable/AppCompatEmojiHelper = 0x7f11000d
 com.example.team_project01:anim/btn_checkbox_to_checked_box_outer_merged_animation = 0x7f01000d
 com.example.team_project01:attr/materialCalendarDay = 0x7f03029d
@@ -4923,7 +5450,12 @@ com.example.team_project01:attr/layout_wrapBehaviorInParent = 0x7f030276
 com.example.team_project01:id/dragEnd = 0x7f0800aa
 com.example.team_project01:dimen/m3_card_elevated_dragged_z = 0x7f0600db
 com.example.team_project01:color/m3_ref_palette_dynamic_neutral10 = 0x7f050097
+<<<<<<< HEAD
 com.example.team_project01:id/reverseSawtooth = 0x7f08017e
+=======
+com.example.team_project01:layout/activity_test = 0x7f0b009d
+com.example.team_project01:id/reverseSawtooth = 0x7f080179
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:attr/materialCardViewFilledStyle = 0x7f0302ad
 com.example.team_project01:id/tag_unhandled_key_event_manager = 0x7f0801d7
 com.example.team_project01:integer/show_password_duration = 0x7f090033
@@ -5015,6 +5547,7 @@ com.example.team_project01:attr/state_collapsed = 0x7f030382
 com.example.team_project01:attr/layout_anchor = 0x7f030232
 com.example.team_project01:attr/buttonBarNegativeButtonStyle = 0x7f03007a
 com.example.team_project01:attr/textOutlineColor = 0x7f0303f7
+com.example.team_project01:id/store_spinner = 0x7f08021b
 com.example.team_project01:color/primary_text_default_material_dark = 0x7f050246
 com.example.team_project01:id/tag_accessibility_actions = 0x7f0801cd
 com.example.team_project01:styleable/CardView = 0x7f11001a
@@ -5193,6 +5726,7 @@ com.example.team_project01:animator/mtrl_btn_unelevated_state_list_anim = 0x7f02
 com.example.team_project01:attr/font = 0x7f0301c2
 com.example.team_project01:attr/flow_verticalStyle = 0x7f0301c0
 com.example.team_project01:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0700a0
+com.example.team_project01:string/title_activity_map = 0x7f0f0085
 com.example.team_project01:attr/maxWidth = 0x7f0302c1
 com.example.team_project01:drawable/call_agent = 0x7f070064
 com.example.team_project01:style/RtlUnderlay.Widget.AppCompat.ActionButton.Overflow = 0x7f100142
@@ -5244,6 +5778,7 @@ com.example.team_project01:style/TextAppearance.M3.Sys.Typescale.BodyLarge = 0x7
 com.example.team_project01:id/tag_screen_reader_focusable = 0x7f0801d4
 com.example.team_project01:attr/carousel_touchUp_velocityThreshold = 0x7f030097
 com.example.team_project01:color/m3_ref_palette_dynamic_secondary99 = 0x7f0500c9
+com.example.team_project01:attr/popUpTo = 0x7f030471
 com.example.team_project01:attr/floatingActionButtonSecondaryStyle = 0x7f0301ab
 com.example.team_project01:dimen/m3_fab_translation_z_pressed = 0x7f0600f3
 com.example.team_project01:attr/errorTextColor = 0x7f030185
@@ -5336,6 +5871,7 @@ com.example.team_project01:attr/elevationOverlayEnabled = 0x7f030173
 com.example.team_project01:id/accessibility_custom_action_12 = 0x7f080014
 com.example.team_project01:color/m3_card_ripple_color = 0x7f050070
 com.example.team_project01:dimen/m3_appbar_expanded_title_margin_horizontal = 0x7f0600a9
+com.example.team_project01:animator/nav_default_pop_enter_anim = 0x7f020022
 com.example.team_project01:attr/elevationOverlayAccentColor = 0x7f030171
 com.example.team_project01:dimen/m3_sys_motion_easing_emphasized_accelerate_control_y2 = 0x7f060119
 com.example.team_project01:id/auto = 0x7f080054
@@ -5723,6 +6259,7 @@ com.example.team_project01:attr/tabIndicatorAnimationDuration = 0x7f0303a5
 com.example.team_project01:style/Theme.AppCompat.DayNight.Dialog.Alert = 0x7f100202
 com.example.team_project01:attr/checkedIconGravity = 0x7f0300a4
 com.example.team_project01:attr/chipSpacing = 0x7f0300b5
+com.example.team_project01:id/layout_map = 0x7f080223
 com.example.team_project01:dimen/space_item_text_default_size = 0x7f06023e
 com.example.team_project01:attr/chipIconVisible = 0x7f0300b2
 com.example.team_project01:style/Theme.Material3.Dark = 0x7f100219
@@ -5983,6 +6520,7 @@ com.example.team_project01:id/rectangles = 0x7f080179
 com.example.team_project01:dimen/m3_card_hovered_z = 0x7f0600df
 com.example.team_project01:style/Widget.AppCompat.Light.PopupMenu = 0x7f1002f3
 com.example.team_project01:color/material_dynamic_tertiary0 = 0x7f0501de
+com.example.team_project01:style/Theme.Team_Project01.AppBarOverlay = 0x7f100424
 com.example.team_project01:id/action_mode_close_button = 0x7f080043
 com.example.team_project01:attr/behavior_draggable = 0x7f03005a
 com.example.team_project01:style/TextAppearance.Compat.Notification.Time.Media = 0x7f1001b7
@@ -6001,6 +6539,7 @@ com.example.team_project01:dimen/abc_text_size_body_1_material = 0x7f06003f
 com.example.team_project01:color/m3_sys_color_dark_on_error = 0x7f050135
 com.example.team_project01:styleable/ActionMenuItemView = 0x7f110002
 com.example.team_project01:anim/abc_fade_in = 0x7f010000
+com.example.team_project01:layout/content_map = 0x7f0b009a
 com.example.team_project01:attr/windowFixedWidthMinor = 0x7f03045b
 com.example.team_project01:animator/mtrl_extended_fab_state_list_animator = 0x7f02001b
 com.example.team_project01:attr/actionBarTabTextStyle = 0x7f03000a
@@ -6030,6 +6569,7 @@ com.example.team_project01:id/x_right = 0x7f08021e
 com.example.team_project01:animator/m3_btn_state_list_anim = 0x7f02000e
 com.example.team_project01:id/fragment_container_view_tag = 0x7f0800d0
 com.example.team_project01:attr/singleChoiceItemLayout = 0x7f030363
+com.example.team_project01:id/nav_host_fragment_container = 0x7f080227
 com.example.team_project01:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f100021
 com.example.team_project01:dimen/material_divider_thickness = 0x7f060150
 com.example.team_project01:color/material_dynamic_tertiary95 = 0x7f0501e9
@@ -6049,7 +6589,12 @@ com.example.team_project01:attr/subtitleTextStyle = 0x7f030396
 com.example.team_project01:style/Base.V21.ThemeOverlay.AppCompat.Dialog = 0x7f10009a
 com.example.team_project01:attr/arrowHeadLength = 0x7f030038
 com.example.team_project01:attr/layout_scrollInterpolator = 0x7f030275
+<<<<<<< HEAD
 com.example.team_project01:id/startToEnd = 0x7f0801bd
+=======
+com.example.team_project01:anim/nav_default_pop_exit_anim = 0x7f010023
+com.example.team_project01:id/startToEnd = 0x7f0801b8
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 com.example.team_project01:anim/btn_radio_to_on_mtrl_ring_outer_path_animation = 0x7f010017
 com.example.team_project01:string/m3_ref_typeface_brand_regular = 0x7f0f002f
 com.example.team_project01:integer/m3_card_anim_delay_ms = 0x7f09000b

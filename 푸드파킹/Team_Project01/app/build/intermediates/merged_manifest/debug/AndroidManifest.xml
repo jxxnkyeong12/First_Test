@@ -19,6 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Team_Project01" >
         <activity
+<<<<<<< HEAD
             android:name="com.example.team_project01.basket.BasketActivity"
             android:exported="true" />
         <activity
@@ -26,12 +27,18 @@
             android:exported="true" />
         <activity
             android:name="com.example.team_project01.myinfo.Like_historyActivity"
+=======
+            android:name="com.example.team_project01.common.MapActivity"
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
             android:exported="true" />
         <activity
-            android:name="com.example.team_project01.myinfo.Order_historyActivity"
+            android:name="com.example.team_project01.myinfo.LikeActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.team_project01.My_reviewActivity"
+            android:name="com.example.team_project01.myinfo.OrderHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.team_project01.MyReviewActivity"
             android:exported="true" />
         <activity
             android:name="com.example.team_project01.store.StoreActivity"

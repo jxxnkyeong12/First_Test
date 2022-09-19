@@ -18,9 +18,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="더보기"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:textStyle="bold"
             android:textColor="@color/black"
+            android:layout_gravity="center"
             />
         <View
             android:layout_weight="1"
@@ -28,20 +29,32 @@
             android:layout_height="match_parent"
             />
 
+<<<<<<< HEAD
         <ImageView
             android:id="@+id/imgv_basket"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_shopping_cart"
             android:layout_gravity="center"/>
+=======
+        <ImageButton
+            android:scaleType="fitXY"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
+            />
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
     </LinearLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/more_recv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"/>
 
 
 

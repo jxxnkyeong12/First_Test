@@ -2,17 +2,24 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_4" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="" />
+    <list default="true" id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/Pw_img.JPG" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
@@ -40,6 +48,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+=======
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
   </component>
   <component name="ProjectId" id="2ELKq9GZofO6SkwsOC5dShncjws" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,8 +66,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+=======
+    <property name="android-custom-viewC:/Users/hanul/AppData/Local/Android/Sdk/sources/android-31/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
   </component>
   <component name="RecentsManager">
     <key name="android.template.1574721424">
@@ -75,11 +101,28 @@
       <recent name="com.example.team_project01.myinfo" />
       <recent name="com.example.team_project01" />
     </key>
+    <key name="android.template.384958447">
+      <recent name="com.example.team_project01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
     </key>
+<<<<<<< HEAD
     <key name="android.template.172544817">
       <recent name="com.example.team_project01.list" />
+=======
+    <key name="android.template.1962441127">
+      <recent name="com.example.team_project01.common" />
+    </key>
+    <key name="android.template.-1898919170">
+      <recent name="com.example.team_project01.common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.team_project01" />
+    </key>
+    <key name="android.template.-1035396720">
+      <recent name="com.example.team_project01.common" />
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
     </key>
     <key name="android.template.2110404609">
       <recent name="com.example.team_project01.login" />
@@ -160,5 +203,16 @@
       <updated>1662369612522</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

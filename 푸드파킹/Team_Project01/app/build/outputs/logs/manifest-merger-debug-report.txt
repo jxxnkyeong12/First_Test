@@ -1,25 +1,35 @@
 -- Merging decision tree log ---
 manifest
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
+<<<<<<< HEAD
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\ce8dc4ecb450029493cb43bf3a49e8e2\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
 =======
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+=======
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4db0e65e8b0136ba0bdf296570634278\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\56442dbac01c176803152a59cf1c1ae9\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
 >>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\ae227914fedd03b5cbe7aec7e6e688fa\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3fe5827d6ee265022c6c7d744237ebf4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\e7cc95c8092d0ea93916799fefbe652b\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\hanul\.gradle\caches\transforms-3\46bb1ae435f1531ac70b11ba6657394e\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\68653bf21883c8f561deda403f4d10fb\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hanul\.gradle\caches\transforms-3\8cb55503b36ad9de85cad1fe498b94c4\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\b28ff500d82f8b3d7afa1379dfc38470\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hanul\.gradle\caches\transforms-3\16bdb11fbb5dc0274a6fe1e0b510194e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\f564eb521e851d8a21a82d52f6ece6f1\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\f1580985bb0a1642c9b93471b2dfbf35\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -28,18 +38,19 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hanul\.gradl
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hanul\.gradle\caches\transforms-3\b48f259e201f08362d0ce8b4c580fd80\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\c22fd05136e22dd74f12fdb52c866d0a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\ec14db118fa5a12c63b129931d41ad83\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hanul\.gradle\caches\transforms-3\06d232761adef0ba5b5d99fd1a4b3500\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\bf9fef39d4962548a4e4bead6bd316b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\34e4afa6bdb61e696bb8f3d82c690a41\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a44f7d642c441ca604adf667f4646668\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3a91b684008f575ae984b8716902e3f7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\hanul\.gradle\caches\transforms-3\59561e88517f71d24e0dc51fcae60883\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\5b5b966ca59807804aa23da69f0f2cc1\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\af07ceebc9ddad3887a8cc2866511b22\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\2f558a16ae7effefb4c40445cb99fcf6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\dee7037931f066d3b4edabb67c57f62a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\02ba2442eddfc12787d7e8f7834095e1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\1d5929fdd2dd1eb6526d78cff549db56\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\107190c859fc1c5c03948b8c67058d89\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.7.0] C:\Users\hanul\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\769e8eeb090a40829e9ec33d2a71a862\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\hanul\.gradle\caches\transforms-3\cea770675b9c8230e77cdcd03dff11d7\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -108,29 +119,48 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hanul\.gradle\cach
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:11:9-52
+<<<<<<< HEAD
 activity#com.example.team_project01.basket.BasketActivity
+=======
+activity#com.example.team_project01.common.MapActivity
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-50
 activity#com.example.team_project01.list.ListActivity
+=======
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-47
+activity#com.example.team_project01.myinfo.LikeActivity
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-46
 activity#com.example.team_project01.myinfo.Like_historyActivity
+=======
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-48
+activity#com.example.team_project01.myinfo.OrderHistoryActivity
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-56
+<<<<<<< HEAD
 activity#com.example.team_project01.myinfo.Order_historyActivity
+=======
+activity#com.example.team_project01.MyReviewActivity
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
+<<<<<<< HEAD
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-57
 activity#com.example.team_project01.My_reviewActivity
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
@@ -144,6 +174,21 @@ ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifes
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-48
+=======
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-45
+activity#com.example.team_project01.store.StoreActivity
+ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
+	android:exported
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:25:13-48
+activity#com.example.team_project01.ListActivity
+ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:27:9-29:39
+	android:exported
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-41
+>>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 activity#com.example.team_project01.MainActivity
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
@@ -164,6 +209,10 @@ uses-sdk
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4db0e65e8b0136ba0bdf296570634278\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4db0e65e8b0136ba0bdf296570634278\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\56442dbac01c176803152a59cf1c1ae9\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\56442dbac01c176803152a59cf1c1ae9\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
@@ -174,12 +223,16 @@ MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\ae227914fedd03b5cbe7aec7e6e688fa\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3fe5827d6ee265022c6c7d744237ebf4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3fe5827d6ee265022c6c7d744237ebf4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\e7cc95c8092d0ea93916799fefbe652b\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\e7cc95c8092d0ea93916799fefbe652b\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\hanul\.gradle\caches\transforms-3\46bb1ae435f1531ac70b11ba6657394e\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\hanul\.gradle\caches\transforms-3\46bb1ae435f1531ac70b11ba6657394e\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\68653bf21883c8f561deda403f4d10fb\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\68653bf21883c8f561deda403f4d10fb\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hanul\.gradle\caches\transforms-3\8cb55503b36ad9de85cad1fe498b94c4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\hanul\.gradle\caches\transforms-3\8cb55503b36ad9de85cad1fe498b94c4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\b28ff500d82f8b3d7afa1379dfc38470\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\b28ff500d82f8b3d7afa1379dfc38470\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hanul\.gradle\caches\transforms-3\16bdb11fbb5dc0274a6fe1e0b510194e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\hanul\.gradle\caches\transforms-3\16bdb11fbb5dc0274a6fe1e0b510194e\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\f564eb521e851d8a21a82d52f6ece6f1\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
@@ -196,8 +249,6 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hanul\
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\c22fd05136e22dd74f12fdb52c866d0a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\ec14db118fa5a12c63b129931d41ad83\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\ec14db118fa5a12c63b129931d41ad83\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hanul\.gradle\caches\transforms-3\06d232761adef0ba5b5d99fd1a4b3500\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\hanul\.gradle\caches\transforms-3\06d232761adef0ba5b5d99fd1a4b3500\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\bf9fef39d4962548a4e4bead6bd316b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\bf9fef39d4962548a4e4bead6bd316b6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\34e4afa6bdb61e696bb8f3d82c690a41\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -206,20 +257,24 @@ MERGED from [androidx.media:media:1.0.0] C:\Users\hanul\.gradle\caches\transform
 MERGED from [androidx.media:media:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\a44f7d642c441ca604adf667f4646668\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3a91b684008f575ae984b8716902e3f7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\3a91b684008f575ae984b8716902e3f7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\hanul\.gradle\caches\transforms-3\59561e88517f71d24e0dc51fcae60883\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\hanul\.gradle\caches\transforms-3\59561e88517f71d24e0dc51fcae60883\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\5b5b966ca59807804aa23da69f0f2cc1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\5b5b966ca59807804aa23da69f0f2cc1\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\af07ceebc9ddad3887a8cc2866511b22\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\af07ceebc9ddad3887a8cc2866511b22\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\2f558a16ae7effefb4c40445cb99fcf6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\2f558a16ae7effefb4c40445cb99fcf6\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\dee7037931f066d3b4edabb67c57f62a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\hanul\.gradle\caches\transforms-3\dee7037931f066d3b4edabb67c57f62a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4fb902d840465e2b9805977f1d6b945a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\02ba2442eddfc12787d7e8f7834095e1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\02ba2442eddfc12787d7e8f7834095e1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\1d5929fdd2dd1eb6526d78cff549db56\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\1d5929fdd2dd1eb6526d78cff549db56\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\107190c859fc1c5c03948b8c67058d89\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\107190c859fc1c5c03948b8c67058d89\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] C:\Users\hanul\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.7.0] C:\Users\hanul\.gradle\caches\transforms-3\107b48ead489d4dd0a48badb09d9592d\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hanul\.gradle\caches\transforms-3\769e8eeb090a40829e9ec33d2a71a862\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
