@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Team_Project01" >
         <activity
-            android:name="com.example.team_project01.myinfo.Order_history2Activity"
+            android:name="com.example.team_project01.myinfo.Like_historyActivity"
             android:exported="true" />
         <activity
             android:name="com.example.team_project01.myinfo.Order_historyActivity"

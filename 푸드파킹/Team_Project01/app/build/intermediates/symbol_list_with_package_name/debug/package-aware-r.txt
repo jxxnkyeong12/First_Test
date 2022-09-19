@@ -2596,7 +2596,6 @@ drawable shape_orange
 drawable shape_profile
 drawable shop
 drawable shopping
-drawable star
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3229,13 +3228,13 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_join
+layout activity_like_history
 layout activity_list
 layout activity_login
 layout activity_loginmain
 layout activity_main
 layout activity_my_review
 layout activity_order_history
-layout activity_order_history2
 layout activity_pw_setting
 layout activity_pw_setting2
 layout activity_store
@@ -3259,11 +3258,12 @@ layout fragment_home
 layout fragment_more
 layout fragment_myinfo
 layout fragment_order
-layout fragment_order_history
-layout fragment_order_history2
 layout fragment_search
 layout item_category
+layout item_like_history
 layout item_more_recv
+layout item_my_review
+layout item_order_history
 layout item_searach
 layout item_search
 layout item_store_menu

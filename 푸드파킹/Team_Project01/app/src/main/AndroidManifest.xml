@@ -10,19 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Team_Project01">
         <activity
-            android:name=".myinfo.Order_history2Activity"
+            android:name=".order.Order_moreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".order.Order_evalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".order.BillActivity"
+            android:exported="true" />
+        <activity
+            android:name=".myinfo.Like_historyActivity"
             android:exported="true" />
         <activity
             android:name=".myinfo.Order_historyActivity"
             android:exported="true" />
         <activity
             android:name=".My_reviewActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".store.StoreActivity"
-            android:exported="true"
-            />
+            android:exported="true" />
         <activity
             android:name=".ListActivity"
             android:exported="true" />
