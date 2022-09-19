@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.team_project01.ListActivity;
 import com.example.team_project01.R;
+import com.example.team_project01.list.ListActivity;
 
 
 public class OrderFragment extends Fragment {
@@ -27,7 +27,7 @@ public class OrderFragment extends Fragment {
             order.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(inflater.getContext(), ListActivity.class);
+                    Intent intent = new Intent(getContext(), ListActivity.class);
                     startActivity(intent);
                 }
             });

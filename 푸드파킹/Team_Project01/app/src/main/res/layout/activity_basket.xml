@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basket.BasketActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/arrow"/>
+
+        <TextView
+            android:id="@+id/tv_store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="황남비빔밥"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recv_basket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F25C05"
+        android:text="+더 담으러 가기" />
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F25C05"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2개"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17,000 원"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/orange"
+            android:text="포장주문"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/orange"
+            android:text="자리예약"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

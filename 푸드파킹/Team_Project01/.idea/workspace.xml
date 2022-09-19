@@ -24,6 +24,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2ELKq9GZofO6SkwsOC5dShncjws" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,11 +50,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1574721424">
+      <recent name="com.example.team_project01.basket" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\drawable" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\layout" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable-v24" />
@@ -52,10 +73,15 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
     </key>
+    <key name="android.template.172544817">
+      <recent name="com.example.team_project01.list" />
+    </key>
     <key name="android.template.2110404609">
       <recent name="com.example.team_project01.login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.team_project01.list" />
+      <recent name="com.example.team_project01.myinfo" />
       <recent name="com.example.team_project01.login" />
     </key>
   </component>
