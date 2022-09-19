@@ -41,45 +41,39 @@
 21        <activity
 <<<<<<< HEAD
 21-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
-<<<<<<< HEAD
-22            android:name="com.example.team_project01.basket.BasketActivity"
-22-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-50
-=======
 22            android:name="com.example.team_project01.common.MapActivity"
 22-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-47
+<<<<<<< HEAD
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 =======
 21-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
 22            android:name="com.example.team_project01.myinfo.Like_historyActivity"
 22-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-56
 >>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
 23            android:exported="true" />
 23-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
 24        <activity
 <<<<<<< HEAD
 24-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
-<<<<<<< HEAD
-25            android:name="com.example.team_project01.list.ListActivity"
-25-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-46
-=======
 25            android:name="com.example.team_project01.myinfo.LikeActivity"
 25-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-48
+<<<<<<< HEAD
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 =======
 24-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
 25            android:name="com.example.team_project01.myinfo.Order_historyActivity"
 25-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-57
 >>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
 26            android:exported="true" />
 26-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
 27        <activity
 <<<<<<< HEAD
 27-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:39
-<<<<<<< HEAD
-28            android:name="com.example.team_project01.myinfo.Like_historyActivity"
-=======
 28            android:name="com.example.team_project01.myinfo.OrderHistoryActivity"
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 28-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-56
 =======
 27-->D:\Study_Android\Workspace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:38
@@ -91,35 +85,20 @@
 30        <activity
 <<<<<<< HEAD
 30-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:9-23:39
-<<<<<<< HEAD
-31            android:name="com.example.team_project01.myinfo.Order_historyActivity"
-31-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-57
-=======
 31            android:name="com.example.team_project01.MyReviewActivity"
 31-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-45
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 32            android:exported="true" />
 32-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-36
 33        <activity
 33-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
-<<<<<<< HEAD
-34            android:name="com.example.team_project01.My_reviewActivity"
-34-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:25:13-46
-=======
 34            android:name="com.example.team_project01.store.StoreActivity"
 34-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:25:13-48
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 35            android:exported="true" />
 35-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:26:13-36
 36        <activity
 36-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:27:9-29:39
-<<<<<<< HEAD
-37            android:name="com.example.team_project01.store.StoreActivity"
-37-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-48
-=======
 37            android:name="com.example.team_project01.ListActivity"
 37-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-41
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 38            android:exported="true" />
 38-->D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
 39        <activity

@@ -15,11 +15,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/Pw_img.JPG" beforeDir="false" />
-    </list>
+    <list default="true" id="aa53791f-f25e-4613-851e-75f7af15f7d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,28 +34,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< HEAD
-        <option value="resourceFile" />
-        <option value="layoutResourceFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-=======
         <option value="valueResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
   </component>
   <component name="ProjectId" id="2ELKq9GZofO6SkwsOC5dShncjws" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,9 +52,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
 =======
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
     <property name="android-custom-viewC:/Users/hanul/AppData/Local/Android/Sdk/sources/android-31/android/widget/LinearLayout.java_SELECTED" value="LinearLayout" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
@@ -82,24 +65,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 =======
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/example/team_project01" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
 >>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
   </component>
   <component name="RecentsManager">
-    <key name="android.template.1574721424">
-      <recent name="com.example.team_project01.basket" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\drawable" />
-=======
       <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\layout" />
       <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\java\com\example\team_project01\search" />
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\layout" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable-v24" />
@@ -119,9 +98,12 @@
     </key>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <key name="android.template.172544817">
       <recent name="com.example.team_project01.list" />
 =======
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
     <key name="android.template.1962441127">
       <recent name="com.example.team_project01.common" />
     </key>
@@ -133,6 +115,7 @@
     </key>
     <key name="android.template.-1035396720">
       <recent name="com.example.team_project01.common" />
+<<<<<<< HEAD
 >>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 =======
     <key name="android.template.-1087579674">
@@ -141,13 +124,13 @@
     <key name="android.template.-1458320232">
       <recent name="com.example.team_project01.order" />
 >>>>>>> 143e272f6ecff581bce63cb4ffcb99443a4d6fec
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
     </key>
     <key name="android.template.2110404609">
       <recent name="com.example.team_project01.login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.team_project01.list" />
-      <recent name="com.example.team_project01.myinfo" />
       <recent name="com.example.team_project01.login" />
     </key>
   </component>
@@ -232,5 +215,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

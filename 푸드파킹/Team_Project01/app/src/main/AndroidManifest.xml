@@ -12,6 +12,7 @@
         <activity
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".basket.BasketActivity"
 =======
             android:name=".order.Order_moreActivity"
@@ -32,13 +33,15 @@
         <activity
             android:name=".myinfo.Like_historyActivity"
 =======
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
             android:name=".common.MapActivity"
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
             android:exported="true" />
         <activity
             android:name=".myinfo.LikeActivity"
             android:exported="true" />
         <activity
+<<<<<<< HEAD
 <<<<<<< HEAD
             android:name=".My_reviewActivity"
             android:exported="true" />
@@ -46,6 +49,8 @@
             android:name=".store.StoreActivity"
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 8a8f634f45d91df19016a68fbccd82ba96a130dc
             android:name=".myinfo.OrderHistoryActivity"
             android:exported="true" />
         <activity
@@ -58,7 +63,6 @@
             android:exported="true" />
         <activity
             android:name=".ListActivity"
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
             android:exported="true" />
         <activity
             android:name=".MainActivity"
