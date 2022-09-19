@@ -12,6 +12,7 @@
 
 
         <LinearLayout
+            android:id="@+id/category_korean"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"

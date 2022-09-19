@@ -141,19 +141,222 @@
             android:src="@drawable/down"/>
     </LinearLayout>
 
+       <LinearLayout
+           android:id="@+id/res_time"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+        <TextView
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오전"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:background="@drawable/click_time_shape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10:00"/>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10:30"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:00"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11:30"/>
+            </LinearLayout>
 
 
-      <FrameLayout
-          android:layout_gravity="center"
-          android:layout_marginLeft="10dp"
-          android:id="@+id/res_container"
-          android:layout_width="match_parent"
-          android:layout_height="200dp"
-          />
+        <TextView
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오후"/>
 
 
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:00"/>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:00"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:30"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2:00"/>
+        </LinearLayout>
 
 
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2:30"/>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3:00"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4:30"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5:00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5:30"/>
+
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6:00"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7:30"/>
+            <TextView
+
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/click_time_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8:00"/>
+        </LinearLayout>
+       </LinearLayout>
         <View
             android:background="#B8B7B7"
             android:layout_width="wrap_content"
@@ -302,6 +505,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="6인"/>
+        </LinearLayout>
 
 
                 <TextView
@@ -374,15 +578,15 @@
                     android:text="7인"/>
 
             </LinearLayout>
-
-        </LinearLayout>
         <View
             android:layout_marginTop="10dp"
             android:background="#B8B7B7"
             android:layout_width="wrap_content"
             android:layout_height="1dp"/>
+        </LinearLayout> <!-- 스크롤 안쪽 큰 리니어!-->
 
-    </LinearLayout>
+
+
 
 
 

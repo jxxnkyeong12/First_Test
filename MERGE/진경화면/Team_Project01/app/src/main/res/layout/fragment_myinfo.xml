@@ -12,8 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="250dp">
 
-
-
         <de.hdodenhof.circleimageview.CircleImageView
             xmlns:app="http://schemas.android.com/apk/res-auto"
 
@@ -64,13 +62,14 @@
             android:layout_height="130dp"
             android:background="#F25C05"
             android:orientation="vertical">
-         <ImageView
 
-             android:layout_margin="15dp"
-             android:layout_gravity="right"
-             android:layout_width="25dp"
-             android:layout_height="25dp"
-             android:src="@drawable/shopping"/>
+            <ImageView
+
+                android:layout_width="29dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_margin="15dp"
+                android:src="@drawable/shopping" />
 
         </LinearLayout>
 
@@ -198,7 +197,6 @@
         android:background="#E4E4E4" />
 
     <LinearLayout
-        android:id="@+id/myinfo_modify"
         android:gravity="center"
         android:layout_margin="15dp"
         android:layout_width="wrap_content"
