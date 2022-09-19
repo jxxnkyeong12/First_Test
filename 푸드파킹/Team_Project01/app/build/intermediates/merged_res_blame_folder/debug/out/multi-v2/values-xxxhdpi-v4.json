@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Study_Android\\Workspace\\Team_Project01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+            "outputFile": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hanul\\.gradle\\caches\\transforms-3\\08e57eeea418390b92239bc29c267719\\transformed\\jetified-SpaceNavigationView-1.6.0\\res\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
+                    "source": "C:\\Users\\hanul\\.gradle\\caches\\transforms-3\\ce8dc4ecb450029493cb43bf3a49e8e2\\transformed\\jetified-SpaceNavigationView-1.6.0\\res\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
