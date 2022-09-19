@@ -26,6 +26,9 @@
             android:name=".myinfo.OrderHistoryActivity"
             android:exported="true" />
         <activity
+            android:name=".myinfo.modify.ModifyActivity"
+            android:exported="true" />
+        <activity
             android:name=".MyReviewActivity"
             android:exported="true" />
         <activity

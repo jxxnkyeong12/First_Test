@@ -23,7 +23,6 @@ import java.util.Date;
 
 public class ReserveActivity extends AppCompatActivity implements View.OnClickListener {
 
-
     TextView res_timetxt,res_datetxt, res_two,res_three, res_four, res_five,res_six,res_seven
                         , res_two2, res_three2,res_four2, res_five2,res_six2,res_seven2 ;
     //DatePicker calendarView;
@@ -43,12 +42,10 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
         back = findViewById(R.id.back);
 
         res_datetxt = findViewById(R.id.res_datetxt);
-
         res_timetxt = findViewById(R.id.res_timetxt);
 
         calendarView = findViewById(R.id.calendarView);
         res_time = findViewById(R.id.res_time);
-
 
         res_up = findViewById(R.id.res_up);
         res_up2 = findViewById(R.id.res_up2);
@@ -98,10 +95,8 @@ public class ReserveActivity extends AppCompatActivity implements View.OnClickLi
         DateFormat formatter = new SimpleDateFormat("M월dd일");
         Date date = new Date(calendarView.getDate());
         res_datetxt.setText(formatter.format(date));
-
         calendarView.setMinDate(System.currentTimeMillis() -1000 ); //오늘기준 이전날짜 선택불가능하게
         
-
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
