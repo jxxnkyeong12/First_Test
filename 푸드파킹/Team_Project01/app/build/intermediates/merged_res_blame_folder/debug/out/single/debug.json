@@ -72,10 +72,6 @@
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\activity_store.xml"
     },
     {
-        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_item_searach.xml.flat",
-        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\item_searach.xml"
-    },
-    {
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\menu_menu_store.xml.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\menu\\menu_store.xml"
     },
@@ -114,6 +110,10 @@
     {
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\layout_item_search_list.xml.flat",
+        "source": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\src\\main\\res\\layout\\item_search_list.xml"
     },
     {
         "merged": "D:\\Study_Android\\WorkSpace\\Team_Project01\\app\\build\\intermediates\\merged_res\\debug\\drawable_bookmark.png.flat",

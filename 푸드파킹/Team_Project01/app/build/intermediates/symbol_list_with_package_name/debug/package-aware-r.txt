@@ -3009,6 +3009,7 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
+id search_listview
 id search_mag_icon
 id search_plate
 id search_src_text
@@ -3278,9 +3279,13 @@ layout item_category
 layout item_like_history
 layout item_list_recv
 layout item_more_recv
+<<<<<<< HEAD
 layout item_order_history
 layout item_searach
+=======
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 layout item_search
+layout item_search_list
 layout item_store_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

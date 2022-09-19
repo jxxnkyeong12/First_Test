@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
@@ -18,7 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[011711288b352501]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\hanul\.android\avd\Pixel_4_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -58,7 +58,12 @@
       <recent name="com.example.team_project01.basket" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\drawable" />
+=======
+      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\res\layout" />
+      <recent name="D:\Study_Android\WorkSpace\Team_Project01\app\src\main\java\com\example\team_project01\search" />
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\layout" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable" />
       <recent name="D:\Study_Android\Workspace\Team_Project01\app\src\main\res\drawable-v24" />

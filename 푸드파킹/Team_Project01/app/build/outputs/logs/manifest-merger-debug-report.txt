@@ -1,10 +1,18 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\ce8dc4ecb450029493cb43bf3a49e8e2\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
+=======
+ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
+>>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\ae227914fedd03b5cbe7aec7e6e688fa\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
@@ -91,7 +99,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hanul\.gradle\cach
 	android:supportsRtl
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:8:9-25
 	android:roundIcon
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
@@ -156,8 +164,8 @@ uses-sdk
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml
-MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\ce8dc4ecb450029493cb43bf3a49e8e2\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\ce8dc4ecb450029493cb43bf3a49e8e2\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
