@@ -1,26 +1,12 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-41:12
-<<<<<<< HEAD
-MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\ce8dc4ecb450029493cb43bf3a49e8e2\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
-=======
-ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:2:1-40:12
-=======
 MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\hanul\.gradle\caches\transforms-3\4db0e65e8b0136ba0bdf296570634278\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\hanul\.gradle\caches\transforms-3\56442dbac01c176803152a59cf1c1ae9\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 MERGED from [com.github.armcha:SpaceNavigationView:1.6.0] C:\Users\hanul\.gradle\caches\transforms-3\7132cd9f2e117c8c11eda0b5f1546783\transformed\jetified-SpaceNavigationView-1.6.0\AndroidManifest.xml:2:1-12:12
->>>>>>> 9249714419da5f4f2a9ad7999d2e09a97f61e8a2
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\hanul\.gradle\caches\transforms-3\799e25c0219bea28c68cb1e12a86b0fc\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hanul\.gradle\caches\transforms-3\295160a3f99334458cb74baa6877e116\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\hanul\.gradle\caches\transforms-3\ae227914fedd03b5cbe7aec7e6e688fa\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
@@ -119,62 +105,29 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\hanul\.gradle\cach
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:11:9-52
-<<<<<<< HEAD
-activity#com.example.team_project01.basket.BasketActivity
-=======
 activity#com.example.team_project01.common.MapActivity
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:12:9-14:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:14:13-36
 	android:name
-<<<<<<< HEAD
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-50
-activity#com.example.team_project01.list.ListActivity
-=======
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:13:13-47
 activity#com.example.team_project01.myinfo.LikeActivity
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:15:9-17:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-<<<<<<< HEAD
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-46
-activity#com.example.team_project01.myinfo.Like_historyActivity
-=======
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:16:13-48
 activity#com.example.team_project01.myinfo.OrderHistoryActivity
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:19:13-56
-<<<<<<< HEAD
-activity#com.example.team_project01.myinfo.Order_historyActivity
-=======
 activity#com.example.team_project01.MyReviewActivity
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-<<<<<<< HEAD
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-57
-activity#com.example.team_project01.My_reviewActivity
-ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
-	android:exported
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:26:13-36
-	android:name
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:25:13-46
-activity#com.example.team_project01.store.StoreActivity
-ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:27:9-29:39
-	android:exported
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
-	android:name
-		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-48
-=======
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:22:13-45
 activity#com.example.team_project01.store.StoreActivity
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:24:9-26:39
@@ -188,7 +141,6 @@ ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifes
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
 		ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:28:13-41
->>>>>>> 95e4f0142e34009fde8bd84a5a4da3b519926899
 activity#com.example.team_project01.MainActivity
 ADDED from D:\Study_Android\WorkSpace\Team_Project01\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
